@@ -31,16 +31,14 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.1/angular-messages.min.js"></script> 
 	
 	
-	
-    <script src="js/main.js"></script>	
+	<script src="js/main.js"></script>	
 	<script src="js/main.controller.js"></script>	
 	<script src="js/login.controller.js"></script>
 	<script src="js/appt.controller.js"></script>
 	<script src="js/attd.controller.js"></script>
 	<script src="js/score.controller.js"></script>
 	<script src="js/nav.controller.js"></script>
-	
-	
+
 	
 	
 </head>
@@ -230,7 +228,7 @@
                             </div>
                         </div>				
 						
-                        <a href="#controls" class="portfolio-link" data-toggle="" ng-click="clickScore()">
+                        <a href="#controls.html" class="portfolio-link" data-toggle="" ng-click="clickScore()">
 								
                         <!-- <img src="img/portfolio/cabin.png" class="img-responsive" alt="Cabin"> -->
 						<div class="col-lg-12 text-center">
@@ -240,7 +238,73 @@
 						</a>
                     <!-- </a> -->
                 </div>
-                
+				<!-- HIDE -->
+				<div ng-if="about">
+				<div class="col-sm-4 portfolio-item">
+                    <!-- <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal"> -->
+						
+						<div class="caption">
+                            <div class="caption-content">
+                                <!-- <i class="fa fa-search-plus fa-3x"></i> -->
+								<div class="col-lg-12 text-center">
+									<h3>Schedule</h3>
+								</div>
+                            </div>
+                        </div>				
+						
+                        <a href="#controls" class="portfolio-link" data-toggle="" ng-click="clickAttd()">
+								
+                        <!-- <img src="img/portfolio/cabin.png" class="img-responsive" alt="Cabin"> -->
+						<div class="col-lg-12 text-center">
+						<i class="fa fa-calendar fa-4x" ></i>
+						</div>
+						</a>
+                    <!-- </a> -->
+                </div>
+				<div class="col-sm-4 portfolio-item">
+                    <!-- <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal"> -->
+						
+						<div class="caption">
+                            <div class="caption-content">
+                                <!-- <i class="fa fa-search-plus fa-3x"></i> -->
+								<div class="col-lg-12 text-center">
+									<h3>Birthdays</h3>
+								</div>
+                            </div>
+                        </div>				
+						
+                        <a href="#controls" class="portfolio-link" data-toggle="" ng-click="clickAttd()">
+								
+                        <!-- <img src="img/portfolio/cabin.png" class="img-responsive" alt="Cabin"> -->
+						<div class="col-lg-12 text-center">
+						<i class="fa fa-birthday-cake fa-4x" ></i>
+						</div>
+						</a>
+                    <!-- </a> -->
+                </div>
+				<div class="col-sm-4 portfolio-item">
+                    <!-- <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal"> -->
+						
+						<div class="caption">
+                            <div class="caption-content">
+                                <!-- <i class="fa fa-search-plus fa-3x"></i> -->
+								<div class="col-lg-12 text-center">
+									<h3>Profile</h3>
+								</div>
+                            </div>
+                        </div>				
+						
+                        <a href="#controls" class="portfolio-link" data-toggle="" ng-click="clickAttd()">
+								
+                        <!-- <img src="img/portfolio/cabin.png" class="img-responsive" alt="Cabin"> -->
+						<div class="col-lg-12 text-center">
+						<i class="fa fa-user fa-4x" ></i>
+						</div>
+						</a>
+                    <!-- </a> -->
+                </div>
+                </div>
+				<!-- HIDE -->
             </div>
 			
 			<div class="row">
@@ -579,6 +643,12 @@
 				<div class="col-lg-12" class="table-responsive">
 				
 					<table class="table">
+					
+					<tr>					
+					<td><p><strong>NAME</strong></p></td>	
+					<td><p><strong>PRESENT</strong></p></td>					
+					<tr>
+					
 					<tr  ng-repeat="member in attendance.members">
 					
 					<td><p>{{member.name}}</p></td>					
@@ -719,7 +789,7 @@
 			<div class="row">		
 				<div id="attendance" class="portfolio-link">
 					<div class="col-lg-12 text-center">
-						<h4>Viewing attendance for Group {{attendance.number}} for {{apptDate |  date :  "fullDate"}} meetings</h4>
+						<h4>Viewing attendance for Group {{attendance.number}} for {{attendance.date |  date :  "fullDate"}} meetings</h4>
 					</div>										
 				</div>			
 			</div>
@@ -732,17 +802,14 @@
 					
 					<tr>					
 					<td><p><strong>NAME</strong></p></td>	
-					<td><p><strong>ATTENDANCE %</strong></p></td>					
+					<td><p><strong>PRESENT</strong></p></td>					
 					<tr>
 
-					<tr  ng-repeat="member in attendance.members">
-					
+					<tr  ng-repeat="member in attendance.members">					
 					<td><p>{{member.name}}</p></td>	
-					<td><p>{{member.score}}</p></td>					
-					
-					
-					
-					<tr>					
+					<td ng-if="member.present"><i  style="color:green" class="fa fa-check" ></i></td>
+					<td  ng-if="!member.present" ><i style="color:red" class="fa fa-times" ></i></td>	
+					<tr>
 					</table>
 
 

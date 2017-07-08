@@ -99,24 +99,23 @@ function($scope,$filter,$http){
 	
 	$scope.attendance={
 		
-		'number':'',		
+		'number':'',
+		'date':'',
 		'members':[]
-		
 	}
 	
 	$scope.viewAttdFor=function(number){
-		$scope.total=6;
-		success(number);
+		
+		//success(number);
 		
 		$scope.attendance.number=number.toString();
 		
 		$scope.attendance.members=[
-		{'name':'Ker','score':90},
-		{'name':'Ver','score':80},
-		{'name':'Ber','score':40}
+		{'name':'Ker','present':false},
+		{'name':'Ver','present':true},
+		{'name':'Ber','present':true}
 		
 		];
-				
 		
 		
 		
