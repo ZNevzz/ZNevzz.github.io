@@ -7,6 +7,7 @@ console.log("Welcome to main.js");
 
 // init function
 var REGULAR = 'Regular';
+
 var app=angular.module('ASA',['ngMaterial', 'ngMessages']);
 
 function success(mod){console.log("Successfully executed!! #"+mod);}
@@ -14,9 +15,9 @@ function error(mod){console.log("Oops...Something went wrong!! #"+mod);}
 function alertLogin(scope){
 	//alert(scope.loginObj.status);
 	
-	//for test env only
+	//for UI test env only
 	
-	//*
+	///*
 	return true;
 	//*/
 	
@@ -29,6 +30,21 @@ function alertLogin(scope){
 	}
 }
 
+// HTTP GET
+/* $http.get('/login').
+        then(function(response) {
+            //DO NOTHING
+			
+        });		 
+*/	
+
+// HTTP POST
+/*
+$http.post('/login/auth',  { 'username' : $scope.loginObj.username,'password': $scope.loginObj.password}).
+		then(function(response){
+			//DO NOTHING
+		});
+*/
 
 /*
 function showTimings(){
@@ -60,4 +76,6 @@ function createDropDownList(times){
     $("#mass-timings").append(combo);
 }
 */
+
+
 

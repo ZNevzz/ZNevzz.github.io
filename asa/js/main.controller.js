@@ -3,14 +3,15 @@
 'use strict';
 
 app.controller('mainCtrl',
-function($scope){
+function($scope, $rootScope){
 	
 	//$scope.sessionRole=-1;
 	
 	//global variables
-	$scope.version='1.3';
+	$scope.version='2.3';
 	$scope.mode='testing';
-	$scope.loginShow=$scope.navShow=$scope.about=$scope.navigation=$scope.addAppt=$scope.showTimingList=false;
+	$rootScope.loginShow=$rootScope.addAppt=$rootScope.evalAppt=$rootScope.addAttd=$rootScope.viewAttd=$rootScope.viewScore=$rootScope.addScore=false;
+	$scope.navShow=$scope.about=$scope.navigation=$scope.showTimingList=false;
 	
 	$scope.loginObj={'status':true,'username':'','password':''};
 	$scope.massTime={'show':false,'timeList':[],'selectedTime':'',toast:''};
@@ -24,6 +25,7 @@ function($scope){
 		$scope.addAppt=false;
 		
 	}
+
 	$scope.clickNav=function(){
 
 		if(alertLogin($scope)){
@@ -32,10 +34,6 @@ function($scope){
 		}
 	}
 	
-	$scope.clickAddAppt= function(){
-		$scope.addAppt=true;		
-		$scope.loginShow=false;
-	}
 
 }
 );

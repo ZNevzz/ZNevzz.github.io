@@ -10,17 +10,8 @@ function($scope,$http){
 	
 	$scope.authenticate=function(){
 		
-		//console.log($scope.loginObj.username+" - "+$scope.loginObj.password);
-		
-		/* $http.get('/login').
-        then(function(response) {
-            //DO NOTHING
-			
-        });		 */	
-		
-		
 		/* UI TEST */
-		///*
+		/*
 		if($scope.loginObj.username=='zn' && $scope.loginObj.password=='zz')							
 		{
 			
@@ -52,15 +43,29 @@ function($scope,$http){
 		}
 		
 		
-		//*/
+		*/
 		
-		/*
+		
+		// DEFAULT
+		
+		if($scope.loginObj.username=='zn' && $scope.loginObj.password=='zz')							
+		{						
+			$scope.loginObj.status=false;
+			$scope.error.username=$scope.error.password=false;
+			success("authentication");
+			return;
+		}		
+		
+		// HTTP POST
+		
+		///*
 		$http.post('/login/auth',  { 'username' : $scope.loginObj.username,'password': $scope.loginObj.password}).
 		then(function(response){
 			//DO 
 			
-			success(response.data['result']);
+			//success(response.data['result']);
 			
+			// USERNAME, PASSWORD CORRECT
 			if(response.data['result']=='success'){
 				
 				$scope.auth=true;
@@ -68,18 +73,21 @@ function($scope,$http){
 				$scope.error.username=$scope.error.password=false;
 				success("authentication");
 			}
+			// PASSWORD INCORRECT
 			else if(response.data['result']=='username'){
 												
 				$scope.error.username=false;
 				$scope.error.password=true;
 				error("authentication in password");
 			}
+			// USERNAME INCORRECT
 			else if(response.data['result']=='password'){
 												
 				$scope.error.password=false;
 				$scope.error.username=true;
 				error("authentication in username");
 			}
+			// BOTH INCORRECT
 			else if(response.data['result']=='failed'){
 												
 				$scope.error.username=true;

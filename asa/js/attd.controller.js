@@ -25,8 +25,8 @@ function($scope,$filter,$http){
 		
 		$scope.attendance.number=number.toString();
 		
-		var fmtDate=$filter('date')(new Date(),"dd/MM/yy");	
-		$scope.attendance.date=fmtDate.toString();
+		//var fmtDate=$filter('date')(new Date(),"dd/MM/yy");	
+		//$scope.attendance.date=fmtDate.toString();
 		
 		// ITERATE to INSERT Object into attendance.members
 		
@@ -74,6 +74,7 @@ function($scope,$filter,$http){
 					success($scope.attendance.members[i].present);
 				}
 				
+				break;
 			}
 		}				
 	}
