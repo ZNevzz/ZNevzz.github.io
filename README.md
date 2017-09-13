@@ -7,6 +7,9 @@ Github Pages wesbite
 
 - [Basics]
 - [Video playlist](https://www.youtube.com/watch?v=qseNjA-73Fw&list=PL081AC329706B2953&index=2)
+- [Use of meta](https://www.sitepoint.com/meta-tags-html-basics-best-practices/)
+- [meta attributes](https://www.sitepoint.com/meta-tags-html-basics-best-practices/)
+
 ### CSS3
 
 - [Basics]
