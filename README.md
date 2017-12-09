@@ -22,3 +22,7 @@ Github Pages wesbite
 - [Video Playlist](https://www.youtube.com/watch?v=GDwWmrpCa30&index=3&list=PL6n9fhu94yhXd4xnk-j5FGhHjUv1LsF0V)
 - [Grid View](https://getbootstrap.com/docs/3.3/examples/grid/)
 
+# Open Data
+
+- Google Trends
+- Open Government Data Platform India
