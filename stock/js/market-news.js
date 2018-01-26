@@ -14,7 +14,8 @@ $('#select-company').click(function () {
 
 		//get request to php
 		
-		$.getJSON('/Research-Platform-Stock-Market/view/php/market-news.php?cid='+company_id, function(data) {
+		$.getJSON('http://104.198.133.191/Research-Platform-Stock-Market/view/php/market-news.php?cid='+company_id, function(data) {
+		console.log("Reaching VM");
 		console.log(data);
 		console.log(data.result);
 		if(data.result=='success'){
