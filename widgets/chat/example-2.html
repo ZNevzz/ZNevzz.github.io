@@ -1,6 +1,4 @@
 <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.2.0/js/bootstrap.min.js"></script>
 
 <!------ Include the above in your HEAD tag ---------->
 
@@ -62,7 +60,7 @@
     }
 </style>
 
-<div class="container">
+<div class="container"  ng-app="chatBotApp" ng-controller="chatMessageCtrl">
     <div class="row">
         <div class="col-md-3 position-widget">
             <div class="panel panel-primary">
@@ -77,12 +75,29 @@
                 <div class="panel-collapse collapse" id="collapseOne">
                     <div class="panel-body">
                         <ul class="chat">
-                            <li class="left clearfix"><span class="chat-img pull-left">
-                                <img src="http://placehold.it/50/FA6F57/fff&text=SPARTA" alt="User Avatar" class="img-circle" />
+                            <li ng-repeat="message in messages" ng-class="{'left clearfix': isUser(message.user.type), 'right clearfix': !isUser(message.user.type)}">
+                                <span class="{'chat-img pull-left': isUser(message.user.type), 'chat-img pull-left' : !isUser(message.user.type)}">
+                                <img src="http://placehold.it/50/FA6F57/fff&text=B" alt="User Avatar" class="img-circle" />
                             </span>
                                 <div class="chat-body clearfix">
                                     <div class="header">
-                                        <strong class="primary-font">Jack Sparrow</strong> <small class="pull-right text-muted">
+                                        <strong class="primary-font">Assistant</strong> 
+                                        <small class="{'pull-right text-muted' : isUser(message.user.type), 'pull-right text-muted' : !isUser(message.user.type)}">
+                                        <span class="glyphicon glyphicon-time"></span>12 mins ago</small>
+                                    </div>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur bibendum ornare dolor, quis ullamcorper ligula sodales.
+                                    </p>
+                                </div>
+                            </li>
+                        </ul>
+                        <!-- <ul class="chat">
+                            <li class="left clearfix"><span class="chat-img pull-left">
+                                <img src="http://placehold.it/50/FA6F57/fff&text=B" alt="User Avatar" class="img-circle" />
+                            </span>
+                                <div class="chat-body clearfix">
+                                    <div class="header">
+                                        <strong class="primary-font">Assistant</strong> <small class="pull-right text-muted">
                                         <span class="glyphicon glyphicon-time"></span>12 mins ago</small>
                                     </div>
                                     <p>
@@ -91,19 +106,19 @@
                                 </div>
                             </li>
                             <li class="right clearfix"><span class="chat-img pull-right">
-                                <img src="http://placehold.it/50/FA6F57/fff&text=USER" alt="User Avatar" class="img-circle" />
+                                <img src="http://placehold.it/50/FA6F57/fff&text=U" alt="User Avatar" class="img-circle" />
                             </span>
                                 <div class="chat-body clearfix">
                                     <div class="header">
                                         <small class=" text-muted"><span class="glyphicon glyphicon-time"></span>13 mins ago</small>
-                                        <strong class="pull-right primary-font">Bhaumik Patel</strong>
+                                        <strong class="pull-right primary-font">Nevil Dsouza</strong>
                                     </div>
                                     <p>
                                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur bibendum ornare dolor, quis ullamcorper ligula sodales.
                                     </p>
                                 </div>
                             </li>
-                        </ul>
+                        </ul> -->
                     </div>
                     <div class="panel-footer">
                         <div class="input-group">
@@ -119,3 +134,33 @@
         </div>
     </div>
 </div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.2.0/js/bootstrap.min.js"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.1/angular.min.js"></script>
+
+  <script>
+      var chatBotApp = angular.module('chatBotApp', []);
+      chatBotApp.controller('chatMessageCtrl', function ($scope){
+        var isUser = function(userType){
+            return userType === 'CLIENT';
+        };
+
+        var chatMessageFactory = function(userType){
+            var messageAlignment = isUser(userType) ? 'right' : 'left';
+
+            return {
+                alignment : {
+                    clearfix : messageAlignment + ' clearfix',
+                    userImage : 'chat-img pull-' + messageAlignment,
+                    userName : 'pull-' + messageAlignment + 'primary-font'
+                },
+                user : {
+                    type : userType
+                }
+            }
+        };
+        
+        $scope.messages = [chatMessageFactory('CLIENT'), chatMessageFactory('SERVER'), chatMessageFactory('CLIENT'), chatMessageFactory('SERVER')];
+      });
+    </script>
