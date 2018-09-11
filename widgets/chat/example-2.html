@@ -75,14 +75,14 @@
                 <div class="panel-collapse collapse" id="collapseOne">
                     <div class="panel-body">
                         <ul class="chat">
-                            <li ng-repeat="message in messages" ng-class="{'left clearfix': isUser(message.user.type), 'right clearfix': !isUser(message.user.type)}">
-                                <span class="{'chat-img pull-left': isUser(message.user.type), 'chat-img pull-left' : !isUser(message.user.type)}">
+                            <li ng-repeat="message in messages" ng-class="{'right clearfix': isUser(message.user.type), 'left clearfix': !isUser(message.user.type)}">
+                                <span ng-class="{'chat-img pull-right': isUser(message.user.type), 'chat-img pull-left' : !isUser(message.user.type)}">
                                 <img src="http://placehold.it/50/FA6F57/fff&text=B" alt="User Avatar" class="img-circle" />
                             </span>
                                 <div class="chat-body clearfix">
                                     <div class="header">
-                                        <strong class="primary-font">Assistant</strong> 
-                                        <small class="{'pull-right text-muted' : isUser(message.user.type), 'pull-right text-muted' : !isUser(message.user.type)}">
+                                        <strong class="primary-font">{message.user.name}</strong> 
+                                        <small ng-class="{'pull-right text-muted' : isUser(message.user.type), 'pull-left text-muted' : !isUser(message.user.type)}">
                                         <span class="glyphicon glyphicon-time"></span>12 mins ago</small>
                                     </div>
                                     <p>
@@ -147,16 +147,13 @@
         };
 
         var chatMessageFactory = function(userType){
-            var messageAlignment = $scope.isUser(userType) ? 'right' : 'left';
+            
+            var userName = $scope.isUser(userType)? 'Nevil Dsouza' : 'Assistant';
 
             return {
-                alignment : {
-                    clearfix : messageAlignment + ' clearfix',
-                    userImage : 'chat-img pull-' + messageAlignment,
-                    userName : 'pull-' + messageAlignment + 'primary-font'
-                },
                 user : {
-                    type : userType
+                    type : userType,
+                    name : userName
                 }
             }
         };
