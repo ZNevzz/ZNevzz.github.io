@@ -147,7 +147,7 @@
         };
 
         var chatMessageFactory = function(userType){
-            var messageAlignment = isUser(userType) ? 'right' : 'left';
+            var messageAlignment = $scope.isUser(userType) ? 'right' : 'left';
 
             return {
                 alignment : {
