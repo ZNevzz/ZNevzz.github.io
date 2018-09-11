@@ -142,7 +142,7 @@
   <script>
       var chatBotApp = angular.module('chatBotApp', []);
       chatBotApp.controller('chatMessageCtrl', function ($scope){
-        var isUser = function(userType){
+        $scope.isUser = function(userType){
             return userType === 'CLIENT';
         };
 
