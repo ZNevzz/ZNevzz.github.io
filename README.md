@@ -66,11 +66,11 @@
 
 #### Java
 
--[Basic](https://stackoverflow.com/questions/5204051/how-to-calculate-the-running-time-of-my-program/5204075)
+- [Basic](https://stackoverflow.com/questions/5204051/how-to-calculate-the-running-time-of-my-program/5204075)
 
 #### R
 
--[5 WAYS](https://www.r-bloggers.com/5-ways-to-measure-running-time-of-r-code/)
+- [5 WAYS](https://www.r-bloggers.com/5-ways-to-measure-running-time-of-r-code/)
 
 ### Open Data
 
