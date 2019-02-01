@@ -76,3 +76,14 @@
 
 - Google Trends
 - Open Government Data Platform India
+
+### Open Source Software
+
+- [Facebook](https://code.fb.com)
+- [Google](https://opensource.google.com/projects/explore/featured)
+- [Spring](https://spring.io/projects)
+- [Python](https://docs.python-guide.org/)
+
+### Playgrounds
+
+- [Tensorflow](https://playground.tensorflow.org/)
