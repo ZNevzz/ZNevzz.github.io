@@ -1,6 +1,8 @@
 # ZNevzz.github.io
 
+```javascript
 > console.log(this) // my personal deploy server and quick reference for tricks, tips and more.
+```
 
 ## D e p l o y e d 
 
