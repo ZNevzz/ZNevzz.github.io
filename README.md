@@ -11,7 +11,44 @@
 - [Knowledge Series]()
 - [HTML Widgets]()
 
+## O p e n   S o u r c e
+
+### Software
+
+- [Facebook](https://code.fb.com) [facebook-repo](https://github.com/facebook) [facebookincubator-repo](https://github.com/facebookincubator)
+- [Google](https://opensource.google.com/projects/explore/featured)
+- [Spring](https://spring.io/projects)
+- [Python](https://www.python.org/) 
+- [Pandas](http://pandas.pydata.org/) [pandas-dev-repo](https://github.com/pandas-dev)
+
+### Influencers
+
+- [Raymond Hettinger](https://docs.python-guide.org/)
+- [Wes McKinney](https://github.com/wesm)
+
+### Playgrounds
+
+- [Tensorflow](https://playground.tensorflow.org/)
+
+### Open Data
+
+- Google Trends
+- Open Government Data Platform India
+
 ## R e f e r r e n c e
+
+---
+
+### DESIGN PRINCIPLES
+
+- [S](https://stackify.com/solid-design-principles/)
+- [O](https://stackify.com/solid-design-open-closed-principle/)
+- [L](https://stackify.com/solid-design-liskov-substitution-principle/)
+- [I](https://stackify.com/interface-segregation-principle/)
+- [D](https://stackify.com/dependency-inversion-principle/)
+- [Fluent API](https://dzone.com/articles/java-fluent-api-design)
+
+---
 
 ### HTML5
 
@@ -37,14 +74,6 @@
 - [Grid View](https://getbootstrap.com/docs/3.3/examples/grid/)
 
 
-### DESIGN PRINCIPLES
-
-- [S](https://stackify.com/solid-design-principles/)
-- [O](https://stackify.com/solid-design-open-closed-principle/)
-- [L](https://stackify.com/solid-design-liskov-substitution-principle/)
-- [I](https://stackify.com/interface-segregation-principle/)
-- [D](https://stackify.com/dependency-inversion-principle/)
-- [Fluent API](https://dzone.com/articles/java-fluent-api-design)
 
 ## T i p s
 
@@ -57,7 +86,7 @@
 - [Angular JS](https://google.github.io/styleguide/angularjs-google-style.html)
 
 
-### T i m e   M e a s u r e   S n i p p e t s
+### Time Measure Snippets
 
 #### Python
 
@@ -71,19 +100,3 @@
 #### R
 
 - [5 WAYS](https://www.r-bloggers.com/5-ways-to-measure-running-time-of-r-code/)
-
-### Open Data
-
-- Google Trends
-- Open Government Data Platform India
-
-### Open Source Software
-
-- [Facebook](https://code.fb.com)
-- [Google](https://opensource.google.com/projects/explore/featured)
-- [Spring](https://spring.io/projects)
-- [Python](https://docs.python-guide.org/)
-
-### Playgrounds
-
-- [Tensorflow](https://playground.tensorflow.org/)
