@@ -27,6 +27,8 @@
 
 - [Raymond Hettinger](https://docs.python-guide.org/)
 - [Wes McKinney](https://github.com/wesm)
+- [Jeff Redback](https://github.com/jreback)
+- [Josh Long](https://joshlong.com/index.html)
 
 ### Playgrounds
 
