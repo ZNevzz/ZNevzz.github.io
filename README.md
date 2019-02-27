@@ -4,16 +4,28 @@
 > console.log(this) // my personal deploy server and quick reference for tricks, tips and more.
 ```
 
-## D e p l o y e d 
+## P r o j e c t s
+
+### Invest
+
+- [Knowledge Series](https://znevzz.github.io/series/)
+- [HTML Widgets](https://znevzz.github.io/widgets/chat/example-2.html)
+
+### Enhancements
+
+- [NLTK Tutorials](https://github.com/ZNClub-PA-ML-AI/NLTK-tutorials)
+- [DataFrames](https://github.com/ZNClub-PA-ML-AI/DataFrames)
+- [BE Project](https://znevzz.github.io/stock/)
+
+### Parked
 
 - [ZNevzz Portfolio](https://znevzz.github.io/me/)
 - [ASA](https://znevzz.github.io/asa/)
 - [Supermarket](https://znevzz.github.io/churchway-demo/)
-- [BE Project](https://znevzz.github.io/stock/)
-- [Knowledge Series]()
-- [HTML Widgets]()
 
-## O p e n   S o u r c e
+
+
+## O p e n    S o u r c e
 
 ### Software
 
