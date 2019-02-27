@@ -106,7 +106,7 @@
 
 #### Python
 
-- [TimeIt](https://www.geeksforgeeks.org/timeit-python-examples/)
+- [TimeIt Module](https://www.geeksforgeeks.org/timeit-python-examples/) [JuNoPy magic](https://www.dataquest.io/blog/jupyter-notebook-tips-tricks-shortcuts/#5ipythonmagiccommands)
 - [Basic](https://pythonhow.com/measure-execution-time-python-code/)
 
 #### Java
