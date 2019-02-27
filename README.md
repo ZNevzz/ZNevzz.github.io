@@ -45,6 +45,7 @@
 ### Playgrounds
 
 - [Tensorflow](https://playground.tensorflow.org/)
+- [Kaggle](https://www.kaggle.com/znevzz)
 
 ### Open Data
 
@@ -63,6 +64,12 @@
 - [I](https://stackify.com/interface-segregation-principle/)
 - [D](https://stackify.com/dependency-inversion-principle/)
 - [Fluent API](https://dzone.com/articles/java-fluent-api-design)
+
+---
+
+### INSPIRING MODULE STRUCTURES
+
+- Pythonic [Flask](https://github.com/mitsuhiko/flask) [Diamond](https://github.com/python-diamond/Diamond) [Requests](https://github.com/kennethreitz/requests)
 
 ---
 
@@ -88,8 +95,6 @@
 - [CSS](https://bootstrapdocs.com/v3.3.6/docs/css/)
 - [Video Playlist](https://www.youtube.com/watch?v=GDwWmrpCa30&index=3&list=PL6n9fhu94yhXd4xnk-j5FGhHjUv1LsF0V)
 - [Grid View](https://getbootstrap.com/docs/3.3/examples/grid/)
-
-
 
 ## T i p s
 
