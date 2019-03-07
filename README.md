@@ -106,6 +106,9 @@
 - [JavaScript](https://google.github.io/styleguide/jsguide.html)
 - [Angular JS](https://google.github.io/styleguide/angularjs-google-style.html)
 
+### Jupyter Notebook Extensions
+
+- [install](http://tljh.jupyter.org/en/latest/howto/admin/enable-extensions.html)
 
 ### Time Measure Snippets
 
