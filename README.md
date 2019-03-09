@@ -1,4 +1,4 @@
-# ZNevzz.github.io
+# nEVIL dSOUZA | aLL-iN-oNE-bOOKMARKS
 
 ```javascript
 > console.log(this) // my personal deploy server and quick reference for tricks, tips and more.
@@ -49,8 +49,10 @@
 
 ### Open Data
 
-- Google Trends
-- Open Government Data Platform India
+- [Google Trends](https://googletrends.github.io/data/)
+- [Open Government Data Platform India](https://data.gov.in/)
+- [ml-databases](https://archive.ics.uci.edu/ml/machine-learning-databases/)
+- [Kaggle DataSets](https://www.kaggle.com/datasets)
 
 ## R e f e r r e n c e
 
