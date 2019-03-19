@@ -53,6 +53,7 @@
 - [Open Government Data Platform India](https://data.gov.in/)
 - [ml-databases](https://archive.ics.uci.edu/ml/machine-learning-databases/)
 - [Kaggle DataSets](https://www.kaggle.com/datasets)
+- [Google AI Datasets - Proxy for all datasets](https://ai.google/tools/datasets/)
 
 ## R e f e r r e n c e
 
@@ -66,6 +67,8 @@
 - [I](https://stackify.com/interface-segregation-principle/)
 - [D](https://stackify.com/dependency-inversion-principle/)
 - [Fluent API](https://dzone.com/articles/java-fluent-api-design)
+- [Refactoring](https://refactoring.guru/refactoring/)
+- [Design Patterns](https://refactoring.guru/design-patterns/)
 
 ---
 
