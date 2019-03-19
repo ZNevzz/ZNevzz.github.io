@@ -69,6 +69,7 @@
 - [Fluent API](https://dzone.com/articles/java-fluent-api-design)
 - [Refactoring](https://refactoring.guru/refactoring/)
 - [Design Patterns](https://refactoring.guru/design-patterns/)
+- [Clean Code](https://gist.github.com/wojteklu/73c6914cc446146b8b533c0988cf8d29)
 
 ---
 
