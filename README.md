@@ -78,6 +78,12 @@
 
 - Pythonic [Flask](https://github.com/mitsuhiko/flask) [Diamond](https://github.com/python-diamond/Diamond) [Requests](https://github.com/kennethreitz/requests)
 
+
+### MACHINE LEARNING
+
+- [Google](https://ai.google/education/)
+- [ML for dummies(myself)](https://vas3k.com/blog/machine_learning/)
+
 ---
 
 ### HTML5
