@@ -1,9 +1,3 @@
-# nEVIL dSOUZA | aLL-iN-oNE-bOOKMARKS
-
-```javascript
-> console.log(this) // my personal deploy server and quick reference for tricks, tips and more.
-```
-
 <pre>
 
  ███▄    █ ▓█████  ██▒   █▓ ██▓ ██▓       ▓█████▄   ██████  ▒█████   █    ██ ▒███████▒ ▄▄▄      
@@ -15,9 +9,13 @@
 ░ ░░   ░ ▒░ ░ ░  ░   ░ ░░   ▒ ░░ ░ ▒  ░    ░ ▒  ▒ ░ ░▒  ░ ░  ░ ▒ ▒░ ░░▒░ ░ ░ ░░▒ ▒ ░ ▒  ▒   ▒▒ ░
    ░   ░ ░    ░        ░░   ▒ ░  ░ ░       ░ ░  ░ ░  ░  ░  ░ ░ ░ ▒   ░░░ ░ ░ ░ ░ ░ ░ ░  ░   ▒   
          ░    ░  ░      ░   ░      ░  ░      ░          ░      ░ ░     ░       ░ ░          ░  ░
-                       ░                   ░                                 ░                  
-	
+                       ░                   ░                                 ░                  	
 </pre>
+
+```javascript
+> console.log(this) // my personal deploy server and quick reference for tricks, tips and more.
+```
+
 
 
 ## P r o j e c t s
@@ -29,6 +27,7 @@
 
 ### Enhancements
 
+- [Scrapy Spiders](https://github.com/ZNClub-PA-ML-AI/Scrapy-Spiders)
 - [NLTK Tutorials](https://github.com/ZNClub-PA-ML-AI/NLTK-tutorials)
 - [DataFrames](https://github.com/ZNClub-PA-ML-AI/DataFrames)
 - [BE Project](https://znevzz.github.io/stock/)
