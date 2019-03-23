@@ -46,6 +46,8 @@
 
 - [Tensorflow](https://playground.tensorflow.org/)
 - [Kaggle](https://www.kaggle.com/znevzz)
+- Push-notifications [Mozilla](https://serviceworke.rs/push-payload_demo.html) [GDevelopers](https://github.com/GoogleChrome/samples/tree/gh-pages/push-messaging-and-notifications) [Peter Beverloo](https://tests.peter.sh/notification-generator/)
+- [ASCII Generator]()
 
 ### Open Data
 
@@ -84,6 +86,10 @@
 - [Google](https://ai.google/education/)
 - [ML for dummies(myself)](https://vas3k.com/blog/machine_learning/)
 
+### SERVERLESS
+
+- GCP [Python](https://github.com/GoogleCloudPlatform/python-docs-samples/tree/master/functions)
+- Firebase [JavaScript](https://github.com/firebase/functions-samples)
 ---
 
 ### HTML5
