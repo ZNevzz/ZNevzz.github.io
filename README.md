@@ -129,6 +129,10 @@
 
 ## T i p s
 
+### GENERAL
+
+- Python [26 tips](http://book.pythontips.com/en/latest/)
+
 ### CODE STYLE GUIDE
 
 - [Java](https://google.github.io/styleguide/javaguide.html)
