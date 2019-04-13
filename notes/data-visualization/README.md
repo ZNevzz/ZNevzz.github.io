@@ -18,8 +18,12 @@ Y8888D' YP   YP    YP    YP   YP         YP    Y888888P `8888Y' ~Y8888P' YP   YP
 ### [Kaggle](https://www.kaggle.com/learn/data-visualization)
 
 #### Univariate Charts
-- Bar : nominal categories(Labels)
-- Line/ Area : ordinal categories(Levels), interval data
-- Histogram: Frequency distribution of interval data
+- Bar: small data, nominal categories(Labels)
+- Line/ Area: large data, ordinal categories(Levels), interval data
+- Histogram: large data, Frequency distribution of interval data
 
-#### Bivariate Charts
+#### Bivariate
+- Scatter: small data, interval + ordinal
+- Hex: large data, interval + ordinal
+- Stacked: Multivariate bar plot, less non-nominal data, precise not accurate
+- Line: Multivariate line plot, large data, accurate
