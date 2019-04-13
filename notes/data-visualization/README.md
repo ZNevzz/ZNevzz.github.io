@@ -18,6 +18,8 @@ Y8888D' YP   YP    YP    YP   YP         YP    Y888888P `8888Y' ~Y8888P' YP   YP
 ### [Kaggle](https://www.kaggle.com/learn/data-visualization)
 
 #### Univariate Charts
-- 
+- Bar : nominal categories(Labels)
+- Line/ Area : ordinal categories(Levels), interval data
+- Histogram: Frequency distribution of interval data
 
 #### Bivariate Charts
