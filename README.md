@@ -72,6 +72,8 @@
 - [ml-databases](https://archive.ics.uci.edu/ml/machine-learning-databases/)
 - [Kaggle DataSets](https://www.kaggle.com/datasets)
 - [Google AI Datasets - Proxy for all datasets](https://ai.google/tools/datasets/)
+- [Seaborn](https://github.com/mwaskom/seaborn-data)
+- [Bokeh](https://github.com/bokeh/bokeh/blob/master/bokeh/util/sampledata.py#L56)
 
 ## R e f e r r e n c e
 
