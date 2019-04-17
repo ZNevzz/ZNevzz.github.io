@@ -105,6 +105,12 @@
 - GCP [Python](https://github.com/GoogleCloudPlatform/python-docs-samples/tree/master/functions)
 - Firebase [JavaScript](https://github.com/firebase/functions-samples)
 
+### PYTHON
+
+- [magic methods](https://micropyramid.com/blog/python-special-class-methods-or-magic-methods/)
+- [26 tips](http://book.pythontips.com/en/latest/)
+
+
 ### HTML5
 
 - [Basics]
@@ -129,10 +135,6 @@
 - [Grid View](https://getbootstrap.com/docs/3.3/examples/grid/)
 
 ## T i p s
-
-### GENERAL
-
-- Python [26 tips](http://book.pythontips.com/en/latest/)
 
 ### CODE STYLE GUIDE
 
