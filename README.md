@@ -92,7 +92,7 @@
 
 ### INSPIRING MODULE STRUCTURES
 
-- Pythonic [Flask](https://github.com/mitsuhiko/flask) [Diamond](https://github.com/python-diamond/Diamond) [Requests](https://github.com/kennethreitz/requests)
+- Pythonic [Flask](https://github.com/mitsuhiko/flask) [Diamond](https://github.com/python-diamond/Diamond) [Requests](https://github.com/kennethreitz/requests) [tpot](https://github.com/EpistasisLab/tpot)
 
 
 ### MACHINE LEARNING
