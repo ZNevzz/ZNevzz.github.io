@@ -105,11 +105,15 @@
 - GCP [Python](https://github.com/GoogleCloudPlatform/python-docs-samples/tree/master/functions)
 - Firebase [JavaScript](https://github.com/firebase/functions-samples)
 
-### PYTHON
+### DISTRIBUTED COMPUTING
 
+#### Python 
+- Dask [Kaggle](https://www.kaggle.com/puneetgrover/speed-up-your-algorithms-dask) [TPOT](https://examples.dask.org/machine-learning/tpot.html)
+
+### OOPS
+
+#### Python
 - [magic methods](https://micropyramid.com/blog/python-special-class-methods-or-magic-methods/)
-- [26 tips](http://book.pythontips.com/en/latest/)
-
 
 ### HTML5
 
@@ -139,7 +143,7 @@
 ### CODE STYLE GUIDE
 
 - [Java](https://google.github.io/styleguide/javaguide.html)
-- [Python](https://github.com/google/styleguide/blob/gh-pages/pyguide.md)
+- [Python](https://github.com/google/styleguide/blob/gh-pages/pyguide.md) [26 tips](http://book.pythontips.com/en/latest/)
 - [R](https://google.github.io/styleguide/Rguide.xml)
 - [JavaScript](https://google.github.io/styleguide/jsguide.html)
 - [Angular JS](https://google.github.io/styleguide/angularjs-google-style.html)
@@ -147,6 +151,7 @@
 ### Jupyter Notebook Extensions
 
 - [install](http://tljh.jupyter.org/en/latest/howto/admin/enable-extensions.html)
+- [magic commands](https://www.dataquest.io/blog/jupyter-notebook-tips-tricks-shortcuts)
 
 ### Time Measure Snippets
 
