@@ -27,3 +27,8 @@ Y8888D' YP   YP    YP    YP   YP         YP    Y888888P `8888Y' ~Y8888P' YP   YP
 - Hex: large data, interval + ordinal
 - Stacked: Multivariate bar plot, less non-nominal data, precise not accurate
 - Line: Multivariate line plot, large data, accurate
+
+#### Libraries and Features
+- Pandas: default matplotlib plots available
+- Seaborn: advanced plots, Facet-grid
+- Bokeh: Tools, Grid Layout, Panel-Tab, Interactive, server
