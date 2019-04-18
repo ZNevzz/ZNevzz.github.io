@@ -1,5 +1,5 @@
 <style type="text/css">
-  * {
+* {
   box-sizing: border-box;
 }
 body {
@@ -8,7 +8,7 @@ body {
 .form{
   border-radius:3px;
   padding:10px 15px;
-  background-color:rgba(0,0,0,0.2);
+  background-color:rgba(239,226,226,0.2);
 }
 .textarea{
   width:100%;
@@ -16,23 +16,26 @@ body {
   padding:7px 10px;
   border-radius:2px;
   color:#fff;
-  background-color:#554c57;
-  border:none;
+  border:1px solid #7cc5bd;
+  background-color:#ffffff;
 }
 .label{
   width:100%;
   display:block;
 }
 .button{
-  width:100%;
+  width:74px;
   margin:15px 0;
-  background-color:#785580;
-  border:none;
-  color:#fff;
-  border-radius:2px;
+  border:1px dotted rgb(255, 255, 255);
+  color:#ffffff;
+  border-radius:8px 8px 8px 8px;
   padding:7px 10px;
   font-size:1em;
   cursor:pointer;
+  opacity:1;
+  background-color:#92bcd1;
+  float:left;
+  position:static;
 }
 *{
   box-sizing:border-box;
@@ -41,12 +44,12 @@ body{
   margin:0;
 }
 body{
-  background-color:#efdddd;
   background-image:url(none);
   background-repeat:repeat;
   background-position:left top;
   background-attachment:scroll;
   background-size:auto;
+  background-color:#ffffff;
 }
 .row{
   display:flex;
@@ -72,10 +75,12 @@ body{
   }
 }
 
+
 </style>
 
-<div class="row" id="itva">
-  <div class="cell" id="inml">
+<!-- --> 
+<div id="itva" class="row">
+  <div id="inml" class="cell">
     <div id="i9hg">Insert your JSON below in the format:
       <br/>
       <br/>{
@@ -102,6 +107,6 @@ body{
       </div>
     </form>
   </div>
-  <div class="cell" id="i3xc">
+  <div id="i3xc" class="cell">
   </div>
 </div>
