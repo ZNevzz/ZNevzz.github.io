@@ -1,3 +1,7 @@
+<!-- Create your own graph chart in seconds! -->
+
+<!-- style --> 
+
 <style type="text/css">
 * {
   box-sizing: border-box;
@@ -15,7 +19,7 @@ body {
   margin-bottom:15px;
   padding:7px 10px;
   border-radius:2px;
-  color:#fff;
+  color:#140a0a;
   border:1px solid #7cc5bd;
   background-color:#ffffff;
 }
@@ -78,7 +82,7 @@ body{
 
 </style>
 
-<!-- --> 
+<!-- template --> 
 <div id="itva" class="row">
   <div id="inml" class="cell">
     <div id="i9hg">Insert your JSON below in the format:
@@ -100,13 +104,107 @@ body{
       </div>
       <div class="form-group">
         <label class="label">Graph Data as JSON</label>
-        <textarea class="textarea"></textarea>
+        <textarea id="graph-input" class="textarea"></textarea>
       </div>
       <div class="form-group">
-        <button type="submit" class="button">Send</button>
+        <button type="submit" class="button" onclick="">Create</button>
       </div>
     </form>
   </div>
   <div id="i3xc" class="cell">
+    <div id="container" style="height: 400px; min-width: 310px"></div>
   </div>
 </div>
+
+<!-- script -->
+
+<script src="https://code.highcharts.com/highcharts.js"></script>
+<script src="https://code.highcharts.com/modules/networkgraph.js"></script>
+<script src="https://code.highcharts.com/modules/exporting.js"></script>
+
+<script type="text/javascript">
+
+  let processRaw = (rawData) => {
+    return rawData === null 
+    || rawData === undefined
+    || rawData.trim() === "" ? 
+    null
+    : JSON.parse(rawData);
+  }
+
+let isValid = (graphData) => {
+  return graphData !== null;
+}
+
+let getGraphData = (rawData) => {
+  const defaultGraph = [
+           /* {
+             link:'',
+            from:'',
+            to:''
+           },{
+             link:'',
+            from:'',
+            to:''
+        } */
+        {
+            link:'1 M',
+            from:'0.1M Shares',
+            to:'Nervous Fund'
+        },{
+            link:'1 M',
+            from:'Assets',
+            to:'Nervous Fund'
+        },{
+            link:'2 M -> 3 M',
+            from:'Nervous Fund',
+            to:'Happy Fund'
+        },{
+            link:'1 share = 10 $',
+            from:'10 Shares',
+            to:'0.1M Shares'
+        }
+        ];
+
+    let graphData = processRaw(rawData);
+    return isValid(graphData) ?  graphData : defaultGraph;
+};
+
+let rawGraph = document.getElementById('graph-input').innerText;
+
+let graphNodeData = getGraphData(rawGraph);
+
+Highcharts.chart('container', {
+    chart: {
+        type: 'networkgraph',
+        height: '100%'
+    },
+    title: {
+        text: 'Graph Chart'
+    },
+    subtitle: {
+        text: 'using Highcharts'
+    },
+    plotOptions: {
+        networkgraph: {
+            /* keys: ['from', 'to'], */
+            layoutAlgorithm: {
+                enableSimulation: false,
+                friction: 0
+            }
+        }
+    },
+    series: [{
+        dataLabels: {
+            enabled: true,
+            linkFormat: '{point.link}',
+            allowOverlap: true
+        },
+        marker: {
+            radius: 35
+        },
+        data: graphNodeData
+    }]
+});
+
+</script>
