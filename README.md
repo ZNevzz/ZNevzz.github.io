@@ -60,6 +60,7 @@
 ### Playgrounds
 
 - [Tensorflow](https://playground.tensorflow.org/)
+- [HTML Template](https://grapesjs.com/demo.html)
 - [Kaggle](https://www.kaggle.com/learn/overview)
 - Push-notifications [Mozilla](https://serviceworke.rs/push-payload_demo.html) [GDevelopers](https://github.com/GoogleChrome/samples/tree/gh-pages/push-messaging-and-notifications) [Peter Beverloo](https://tests.peter.sh/notification-generator/)
 - [ASCII Generator](http://patorjk.com/software/taag/)
