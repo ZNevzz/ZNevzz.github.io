@@ -104,7 +104,7 @@
 ### MONITORING
 
 - Basics - sources, collection, metrics, statistics,   
-- [AWS CloudWatch](https://searchaws.techtarget.com/definition/CloudWatch) 
+- AWS CloudWatch [What](https://searchaws.techtarget.com/definition/CloudWatch) [Intro](https://www.youtube.com/watch?v=__knpcBRLHg) 
 
 ### SERVERLESS
 
