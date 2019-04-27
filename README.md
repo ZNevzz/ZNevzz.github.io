@@ -101,6 +101,11 @@
 - [Google](https://ai.google/education/)
 - [ML for dummies(myself)](https://vas3k.com/blog/machine_learning/)
 
+### MONITORING
+
+- Basics - sources, collection, metrics, statistics,   
+- [AWS CloudWatch](https://searchaws.techtarget.com/definition/CloudWatch) 
+
 ### SERVERLESS
 
 - GCP [Python](https://github.com/GoogleCloudPlatform/python-docs-samples/tree/master/functions)
