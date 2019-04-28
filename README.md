@@ -79,16 +79,11 @@
 
 ### DESIGN PRINCIPLES
 
-- [S](https://stackify.com/solid-design-principles/)
-- [O](https://stackify.com/solid-design-open-closed-principle/)
-- [L](https://stackify.com/solid-design-liskov-substitution-principle/)
-- [I](https://stackify.com/interface-segregation-principle/)
-- [D](https://stackify.com/dependency-inversion-principle/)
-- [Fluent API](https://dzone.com/articles/java-fluent-api-design)
-- [Refactoring](https://refactoring.guru/refactoring/)
+- [S](https://stackify.com/solid-design-principles/) [O](https://stackify.com/solid-design-open-closed-principle/) [L](https://stackify.com/solid-design-liskov-substitution-principle/) [L](https://stackify.com/solid-design-liskov-substitution-principle/) [D](https://stackify.com/dependency-inversion-principle/)
+- [Fluent API](https://dzone.com/articles/java-fluent-api-design) 
+- [Refactoring](https://refactoring.guru/refactoring/) [Clean Code](https://gist.github.com/wojteklu/73c6914cc446146b8b533c0988cf8d29)
 - [Design Patterns](https://refactoring.guru/design-patterns/)
-- [Clean Code](https://gist.github.com/wojteklu/73c6914cc446146b8b533c0988cf8d29)
-- [Effective Engineer](https://gist.github.com/rondy/af1dee1d28c02e9a225ae55da2674a6f)
+- [Effective Engineer](https://gist.github.com/rondy/af1dee1d28c02e9a225ae55da2674a6f) [Effective Java](https://github.com/HugoMatilla/Effective-JAVA-Summary)
 - charlax Resources:[Programming](https://github.com/charlax/professional-programming) [Management](https://github.com/charlax/engineering-management) [Python](https://github.com/charlax/python-education)
 
 ### INSPIRING MODULE STRUCTURES
