@@ -14,9 +14,8 @@
 
 ```javascript
 > console.log(this) // my personal deploy server and quick reference for tricks, tips and more.
+> console.log(this.source) // https://github.com/ZNevzz/ZNevzz.github.io/edit/master/README.md
 ```
-
-
 
 ## P r o j e c t s
 
