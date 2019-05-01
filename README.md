@@ -14,7 +14,7 @@
 
 ```javascript
 > console.log(this) // my personal deploy server and quick reference for tricks, tips and more.
-> console.log(this.source) // https://github.com/ZNevzz/ZNevzz.github.io/edit/master/README.md
+> console.log(this.source) // [GitHub](https://github.com/ZNevzz/ZNevzz.github.io/edit/master/README.md)
 ```
 
 ## P r o j e c t s
@@ -94,6 +94,7 @@
 
 - [Google](https://ai.google/education/)
 - [ML for dummies(myself)](https://vas3k.com/blog/machine_learning/)
+- [My First Kaggle submission](https://www.kaggle.com/znevzz/binary-classification-titanic-survivors?scriptVersionId=13587837)
 
 ### MONITORING
 
