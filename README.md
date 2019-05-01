@@ -87,6 +87,7 @@
 - charlax Resources:[Programming](https://github.com/charlax/professional-programming) [Management](https://github.com/charlax/engineering-management) [Python](https://github.com/charlax/python-education)
 - [PluralSight Guides](https://www.pluralsight.com/guides)
 - [DataCamp Community](https://www.datacamp.com/community)
+- [DS cheatsheets](https://github.com/kailashahirwar/cheatsheets-ai/blob/master/All%20Cheat%20Sheets.pdf)
 
 ### INSPIRING MODULE STRUCTURES
 
