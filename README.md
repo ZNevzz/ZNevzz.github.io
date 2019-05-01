@@ -84,6 +84,7 @@
 - [Design Patterns](https://refactoring.guru/design-patterns/)
 - [Effective Engineer](https://gist.github.com/rondy/af1dee1d28c02e9a225ae55da2674a6f) [Effective Java](https://github.com/HugoMatilla/Effective-JAVA-Summary)
 - charlax Resources:[Programming](https://github.com/charlax/professional-programming) [Management](https://github.com/charlax/engineering-management) [Python](https://github.com/charlax/python-education)
+- [PluralSight Guides](https://www.pluralsight.com/guides)
 
 ### INSPIRING MODULE STRUCTURES
 
