@@ -65,6 +65,7 @@
 - [Git Explorer](https://gitexplorer.com)
 - [ASCII Generator](http://patorjk.com/software/taag/)
 - [Pixel Generator](https://color.hailpixel.com/)
+- Data Visualization [AnyCharts](https://playground.anychart.com/) [Facets](https://pair-code.github.io/facets/)
 
 ### Open Data
 
@@ -99,6 +100,11 @@
 - [Google](https://ai.google/education/)
 - [ML for dummies(myself)](https://vas3k.com/blog/machine_learning/)
 - [My First Kaggle submission](https://www.kaggle.com/znevzz/binary-classification-titanic-survivors?scriptVersionId=13587837)
+
+### DATA VISUALIZATION
+
+- Python [Bokeh](https://bokeh.pydata.org/en/latest/docs/gallery.html) [Seaborn](https://seaborn.pydata.org/examples/index.html)
+- JS [HighCharts](https://www.highcharts.com/demo)
 
 ### MONITORING
 
