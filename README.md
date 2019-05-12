@@ -37,8 +37,6 @@
 - [ASA](https://znevzz.github.io/asa/)
 - [Supermarket](https://znevzz.github.io/churchway-demo/)
 
-
-
 ## O p e n    S o u r c e
 
 ### Software
@@ -61,11 +59,11 @@
 - [Tensorflow](https://playground.tensorflow.org/)
 - [HTML Template](https://grapesjs.com/demo.html)
 - [Kaggle](https://www.kaggle.com/learn/overview)
-- Push-notifications [Mozilla](https://serviceworke.rs/push-payload_demo.html) [GDevelopers](https://github.com/GoogleChrome/samples/tree/gh-pages/push-messaging-and-notifications) [Peter Beverloo](https://tests.peter.sh/notification-generator/)
+- Push-notifications: [Mozilla](https://serviceworke.rs/push-payload_demo.html) [GDevelopers](https://github.com/GoogleChrome/samples/tree/gh-pages/push-messaging-and-notifications) [Peter Beverloo](https://tests.peter.sh/notification-generator/)
 - [Git Explorer](https://gitexplorer.com)
 - [ASCII Generator](http://patorjk.com/software/taag/)
 - [Pixel Generator](https://color.hailpixel.com/)
-- Data Visualization [AnyCharts](https://playground.anychart.com/) [Facets](https://pair-code.github.io/facets/)
+- Data Visualization: [AnyCharts](https://playground.anychart.com/) [Facets](https://pair-code.github.io/facets/)
 
 ### Open Data
 
@@ -92,29 +90,31 @@
 
 ### INSPIRING MODULE STRUCTURES
 
-- Pythonic [Flask](https://github.com/mitsuhiko/flask) [Diamond](https://github.com/python-diamond/Diamond) [Requests](https://github.com/kennethreitz/requests) [tpot](https://github.com/EpistasisLab/tpot)
-- R [ML Dashboard](https://github.com/ZNClub-PA-ML-AI/machLearn)
+- Pythonic: [Flask](https://github.com/mitsuhiko/flask) [Diamond](https://github.com/python-diamond/Diamond) [Requests](https://github.com/kennethreitz/requests) [tpot](https://github.com/EpistasisLab/tpot)
+- R: [ML Dashboard](https://github.com/ZNClub-PA-ML-AI/machLearn)
 
 ### MACHINE LEARNING
 
 - [Google](https://ai.google/education/)
 - [ML for dummies(myself)](https://vas3k.com/blog/machine_learning/)
 - [My First Kaggle submission](https://www.kaggle.com/znevzz/binary-classification-titanic-survivors?scriptVersionId=13587837)
+- Auto Feature Engineering: [featuretools](https://github.com/Featuretools/featuretools)
+- Auto Machine Learning: [tpot](https://github.com/EpistasisLab/tpot)
 
 ### DATA VISUALIZATION
 
-- Python [Bokeh](https://bokeh.pydata.org/en/latest/docs/gallery.html) [Seaborn](https://seaborn.pydata.org/examples/index.html)
-- JS [HighCharts](https://www.highcharts.com/demo)
+- Python: [Bokeh](https://bokeh.pydata.org/en/latest/docs/gallery.html) [Seaborn](https://seaborn.pydata.org/examples/index.html)
+- JS: [HighCharts](https://www.highcharts.com/demo)
 
 ### MONITORING
 
 - Basics - sources, collection, metrics, statistics,   
-- AWS CloudWatch [What](https://searchaws.techtarget.com/definition/CloudWatch) [Intro](https://www.youtube.com/watch?v=__knpcBRLHg) 
+- AWS CloudWatch: [What](https://searchaws.techtarget.com/definition/CloudWatch) [Intro](https://www.youtube.com/watch?v=__knpcBRLHg) 
 
 ### SERVERLESS
 
-- GCP [Python](https://github.com/GoogleCloudPlatform/python-docs-samples/tree/master/functions)
-- Firebase [JavaScript](https://github.com/firebase/functions-samples)
+- GCP: [Python](https://github.com/GoogleCloudPlatform/python-docs-samples/tree/master/functions)
+- Firebase: [JavaScript](https://github.com/firebase/functions-samples)
 
 ### DISTRIBUTED COMPUTING
 
@@ -142,7 +142,6 @@
 
 - [Video Playlist](https://www.youtube.com/user/learncodeacademy/playlists)
 - [JS the right way](https://jstherightway.org/) [Modern JS Tutorial](https://javascript.info/) [Modern JS](https://www.modernjs.com/)
-
 
 ### BOOTSTRAP
 
