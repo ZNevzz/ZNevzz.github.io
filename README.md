@@ -21,7 +21,7 @@
 
 ### Invest
 
-- Demystify-Buzzwords - Machine Learning [slides](https://znevzz.github.io/series/demystify-buzzwords/machine-learning/) [examples](https://nbviewer.jupyter.org/github/ZNevzz/ZNevzz.github.io/blob/master/series/demystify-buzzwords/machine-learning/ml_snippets.ipynb)
+- Demystify-Buzzwords - Machine Learning [slides](https://znevzz.github.io/series/demystify-buzzwords/machine-learning/) |  [examples](https://nbviewer.jupyter.org/github/ZNevzz/ZNevzz.github.io/blob/master/series/demystify-buzzwords/machine-learning/ml_snippets.ipynb)
 - [HTML Widgets](https://znevzz.github.io/widgets/chat/example-2.html)
 
 ### Enhancements
@@ -41,11 +41,11 @@
 
 ### Software
 
-- [Facebook](https://code.fb.com) [facebook-repo](https://github.com/facebook) [facebookincubator-repo](https://github.com/facebookincubator)
+- [Facebook](https://code.fb.com) | [facebook-repo](https://github.com/facebook) | [facebookincubator-repo](https://github.com/facebookincubator)
 - [Google](https://opensource.google.com/projects/explore/featured)
 - [Spring](https://spring.io/projects)
 - [Python](https://www.python.org/) 
-- [Pandas](http://pandas.pydata.org/) [pandas-dev-repo](https://github.com/pandas-dev)
+- [Pandas](http://pandas.pydata.org/) | [pandas-dev-repo](https://github.com/pandas-dev)
 
 ### Influencers
 
@@ -63,7 +63,7 @@
 - [Git Explorer](https://gitexplorer.com)
 - [ASCII Generator](http://patorjk.com/software/taag/)
 - [Pixel Generator](https://color.hailpixel.com/)
-- Data Visualization: [AnyCharts](https://playground.anychart.com/) [Facets](https://pair-code.github.io/facets/)
+- Data Visualization: [AnyCharts](https://playground.anychart.com/) | [Facets](https://pair-code.github.io/facets/)
 
 ### Open Data
 
@@ -72,7 +72,7 @@
 - [ml-databases](https://archive.ics.uci.edu/ml/machine-learning-databases/)
 - [Kaggle DataSets](https://www.kaggle.com/datasets)
 - [Google AI Datasets - Proxy for all datasets](https://ai.google/tools/datasets/)
-- [Scikit-learn](https://scikit-learn.org/stable/datasets/index.html) [Seaborn](https://github.com/mwaskom/seaborn-data) [Bokeh](https://github.com/bokeh/bokeh/blob/master/bokeh/util/sampledata.py#L56)
+- [Scikit-learn](https://scikit-learn.org/stable/datasets/index.html) | [Seaborn](https://github.com/mwaskom/seaborn-data) | [Bokeh](https://github.com/bokeh/bokeh/blob/master/bokeh/util/sampledata.py#L56)
 
 ## R e f e r r e n c e
 
@@ -90,26 +90,26 @@
 
 ### INSPIRING MODULE STRUCTURES
 
-- Pythonic: [Flask](https://github.com/mitsuhiko/flask) [Diamond](https://github.com/python-diamond/Diamond) [Requests](https://github.com/kennethreitz/requests) [tpot](https://github.com/EpistasisLab/tpot)
+- Pythonic: [Flask](https://github.com/mitsuhiko/flask) | [Diamond](https://github.com/python-diamond/Diamond) | [Requests](https://github.com/kennethreitz/requests) | [tpot](https://github.com/EpistasisLab/tpot)
 - R: [ML Dashboard](https://github.com/ZNClub-PA-ML-AI/machLearn)
 
 ### MACHINE LEARNING
 
 - [Google](https://ai.google/education/)
 - [ML for dummies(myself)](https://vas3k.com/blog/machine_learning/)
-- [My First Kaggle submission](https://www.kaggle.com/znevzz/binary-classification-titanic-survivors?scriptVersionId=13587837)
+- [My First Kaggle submission](https://www.kaggle.com/znevzz/binary-classification-titanic-survivors)
 - Auto Feature Engineering: [featuretools](https://github.com/Featuretools/featuretools)
 - Auto Machine Learning: [tpot](https://github.com/EpistasisLab/tpot)
 
 ### DATA VISUALIZATION
 
-- Python: [Bokeh](https://bokeh.pydata.org/en/latest/docs/gallery.html) [Seaborn](https://seaborn.pydata.org/examples/index.html)
+- Python: [Bokeh](https://bokeh.pydata.org/en/latest/docs/gallery.html) | [Seaborn](https://seaborn.pydata.org/examples/index.html)
 - JS: [HighCharts](https://www.highcharts.com/demo)
 
 ### MONITORING
 
 - Basics - sources, collection, metrics, statistics,   
-- AWS CloudWatch: [What](https://searchaws.techtarget.com/definition/CloudWatch) [Intro](https://www.youtube.com/watch?v=__knpcBRLHg) 
+- AWS CloudWatch: [What](https://searchaws.techtarget.com/definition/CloudWatch) | [Intro](https://www.youtube.com/watch?v=__knpcBRLHg) 
 
 ### SERVERLESS
 
@@ -119,7 +119,7 @@
 ### DISTRIBUTED COMPUTING
 
 #### Python 
-- Dask [Kaggle](https://www.kaggle.com/puneetgrover/speed-up-your-algorithms-dask) [TPOT](https://examples.dask.org/machine-learning/tpot.html)
+- Dask: [Kaggle](https://www.kaggle.com/puneetgrover/speed-up-your-algorithms-dask) | [TPOT](https://examples.dask.org/machine-learning/tpot.html)
 
 ### OOPS
 
@@ -141,7 +141,7 @@
 ### JS
 
 - [Video Playlist](https://www.youtube.com/user/learncodeacademy/playlists)
-- [JS the right way](https://jstherightway.org/) [Modern JS Tutorial](https://javascript.info/) [Modern JS](https://www.modernjs.com/)
+- [JS the right way](https://jstherightway.org/) | [Modern JS Tutorial](https://javascript.info/) | [Modern JS](https://www.modernjs.com/) | [Modern JS Cheatsheet](https://mbeaudru.github.io/modern-js-cheatsheet/)
 
 ### BOOTSTRAP
 
