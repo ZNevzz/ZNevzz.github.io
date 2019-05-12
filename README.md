@@ -135,12 +135,14 @@
 
 ### CSS3
 
-- [Basics]
+- [Basics](https://learn.shayhowe.com/html-css/)
+- [Layouts](https://learnlayout.com/)
 
 ### JS
 
 - [Video Playlist](https://www.youtube.com/user/learncodeacademy/playlists)
-- [Basics]
+- [JS the right way](https://jstherightway.org/) [Modern JS Tutorial](https://javascript.info/) [Modern JS](https://www.modernjs.com/)
+
 
 ### BOOTSTRAP
 
