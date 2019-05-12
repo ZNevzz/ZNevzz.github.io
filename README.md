@@ -21,7 +21,7 @@
 
 ### Invest
 
-- [Knowledge Series](https://znevzz.github.io/series/)
+- Demystify-Buzzwords - Machine Learning [slides](https://znevzz.github.io/series/demystify-buzzwords/machine-learning/) [examples](https://nbviewer.jupyter.org/github/ZNevzz/ZNevzz.github.io/blob/master/series/demystify-buzzwords/machine-learning/ml_snippets.ipynb)
 - [HTML Widgets](https://znevzz.github.io/widgets/chat/example-2.html)
 
 ### Enhancements
@@ -135,12 +135,14 @@
 
 ### CSS3
 
-- [Basics]
+- [Basics](https://learn.shayhowe.com/html-css/)
+- [Layouts](https://learnlayout.com/)
 
 ### JS
 
 - [Video Playlist](https://www.youtube.com/user/learncodeacademy/playlists)
-- [Basics]
+- [JS the right way](https://jstherightway.org/) [Modern JS Tutorial](https://javascript.info/) [Modern JS](https://www.modernjs.com/)
+
 
 ### BOOTSTRAP
 
@@ -163,6 +165,10 @@
 
 - [install](http://tljh.jupyter.org/en/latest/howto/admin/enable-extensions.html)
 - [magic commands](https://www.dataquest.io/blog/jupyter-notebook-tips-tricks-shortcuts)
+
+### Package Control
+
+- R [installer](https://www.datacamp.com/community/tutorials/r-packages-guide)
 
 ### Time Measure Snippets
 
