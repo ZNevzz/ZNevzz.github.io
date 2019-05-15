@@ -87,6 +87,7 @@
 - [PluralSight Guides](https://www.pluralsight.com/guides) [DataCamp Community](https://www.datacamp.com/community)
 - [DS cheatsheets](https://github.com/kailashahirwar/cheatsheets-ai/blob/master/All%20Cheat%20Sheets.pdf)
 - [Git Workflow](https://nvie.com/posts/a-successful-git-branching-model/)
+- AWS: [Cheatsheets](https://tutorialsdojo.com/aws-cheat-sheets/) | [Examples](https://github.com/aws-samples/) | [AWS Courses](https://www.aws.training/LearningLibrary?&search=&tab=digital_courses) | [Architectures](https://aws.amazon.com/architecture/?awsf.quickstart-architecture-page-filter=highlight%23new)
 
 ### INSPIRING MODULE STRUCTURES
 
@@ -115,6 +116,7 @@
 
 - GCP: [Python](https://github.com/GoogleCloudPlatform/python-docs-samples/tree/master/functions)
 - Firebase: [JavaScript](https://github.com/firebase/functions-samples)
+- AWS Lambda: [AWS FaaS vs CaaS](https://tutorialsdojo.com/ec2-container-service-ecs-vs-lambda/) | [Image Chatbot](https://github.com/aws-samples/lambda-refarch-image-moderation-chatbot)
 
 ### DISTRIBUTED COMPUTING
 
