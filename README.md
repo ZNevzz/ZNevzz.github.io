@@ -63,7 +63,7 @@
 - [Git Explorer](https://gitexplorer.com)
 - [ASCII Generator](http://patorjk.com/software/taag/)
 - [Pixel Generator](https://color.hailpixel.com/)
-- Data Visualization: [AnyCharts](https://playground.anychart.com/) | [Facets](https://pair-code.github.io/facets/)
+- Data Visualization: [AnyCharts](https://playground.anychart.com/) | [Facets](https://pair-code.github.io/facets/) | [QlickSense](https://demos.qlik.com/qliksense)
 
 ### Open Data
 
