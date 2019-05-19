@@ -21,8 +21,8 @@
 
 ### Invest
 
-- Demystify-Buzzwords - Machine Learning [slides](https://znevzz.github.io/series/demystify-buzzwords/machine-learning/) |  [examples](https://nbviewer.jupyter.org/github/ZNevzz/ZNevzz.github.io/blob/master/series/demystify-buzzwords/machine-learning/ml_snippets.ipynb)
-- [HTML Widgets](https://znevzz.github.io/widgets/chat/example-2.html)
+- Demystify-Buzzwords - Machine Learning | [slides](https://znevzz.github.io/series/demystify-buzzwords/machine-learning/) |  [examples](https://nbviewer.jupyter.org/github/ZNevzz/ZNevzz.github.io/blob/master/series/demystify-buzzwords/machine-learning/ml_snippets.ipynb)
+- Widgets | [Chat Widget](https://znevzz.github.io/widgets/chat/example-2.html) |
 
 ### Enhancements
 
