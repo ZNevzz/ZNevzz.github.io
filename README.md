@@ -21,8 +21,8 @@
 
 ### Invest
 
-- Demystify-Buzzwords - Machine Learning [slides](https://znevzz.github.io/series/demystify-buzzwords/machine-learning/) [examples](https://nbviewer.jupyter.org/github/ZNevzz/ZNevzz.github.io/blob/master/series/demystify-buzzwords/machine-learning/ml_snippets.ipynb)
-- [HTML Widgets](https://znevzz.github.io/widgets/chat/example-2.html)
+- Demystify-Buzzwords - Machine Learning: [slides](https://znevzz.github.io/series/demystify-buzzwords/machine-learning/) , [examples](https://nbviewer.jupyter.org/github/ZNevzz/ZNevzz.github.io/blob/master/series/demystify-buzzwords/machine-learning/ml_snippets.ipynb)
+- Widgets: [Chat Widget](https://znevzz.github.io/widgets/chat/example-2.html) ,
 
 ### Enhancements
 
@@ -37,17 +37,15 @@
 - [ASA](https://znevzz.github.io/asa/)
 - [Supermarket](https://znevzz.github.io/churchway-demo/)
 
-
-
 ## O p e n    S o u r c e
 
 ### Software
 
-- [Facebook](https://code.fb.com) [facebook-repo](https://github.com/facebook) [facebookincubator-repo](https://github.com/facebookincubator)
+- [Facebook](https://code.fb.com) , [facebook-repo](https://github.com/facebook) , [facebookincubator-repo](https://github.com/facebookincubator)
 - [Google](https://opensource.google.com/projects/explore/featured)
 - [Spring](https://spring.io/projects)
 - [Python](https://www.python.org/) 
-- [Pandas](http://pandas.pydata.org/) [pandas-dev-repo](https://github.com/pandas-dev)
+- [Pandas](http://pandas.pydata.org/) , [pandas-dev-repo](https://github.com/pandas-dev)
 
 ### Influencers
 
@@ -61,11 +59,11 @@
 - [Tensorflow](https://playground.tensorflow.org/)
 - [HTML Template](https://grapesjs.com/demo.html)
 - [Kaggle](https://www.kaggle.com/learn/overview)
-- Push-notifications [Mozilla](https://serviceworke.rs/push-payload_demo.html) [GDevelopers](https://github.com/GoogleChrome/samples/tree/gh-pages/push-messaging-and-notifications) [Peter Beverloo](https://tests.peter.sh/notification-generator/)
+- Push-notifications: [Mozilla](https://serviceworke.rs/push-payload_demo.html) [GDevelopers](https://github.com/GoogleChrome/samples/tree/gh-pages/push-messaging-and-notifications) [Peter Beverloo](https://tests.peter.sh/notification-generator/)
 - [Git Explorer](https://gitexplorer.com)
 - [ASCII Generator](http://patorjk.com/software/taag/)
 - [Pixel Generator](https://color.hailpixel.com/)
-- Data Visualization [AnyCharts](https://playground.anychart.com/) [Facets](https://pair-code.github.io/facets/)
+- Data Visualization: [AnyCharts](https://playground.anychart.com/) , [Facets](https://pair-code.github.io/facets/) , [QlickSense](https://demos.qlik.com/qliksense)
 
 ### Open Data
 
@@ -74,52 +72,56 @@
 - [ml-databases](https://archive.ics.uci.edu/ml/machine-learning-databases/)
 - [Kaggle DataSets](https://www.kaggle.com/datasets)
 - [Google AI Datasets - Proxy for all datasets](https://ai.google/tools/datasets/)
-- [Scikit-learn](https://scikit-learn.org/stable/datasets/index.html) [Seaborn](https://github.com/mwaskom/seaborn-data) [Bokeh](https://github.com/bokeh/bokeh/blob/master/bokeh/util/sampledata.py#L56)
+- [Scikit-learn](https://scikit-learn.org/stable/datasets/index.html) , [Seaborn](https://github.com/mwaskom/seaborn-data) , [Bokeh](https://github.com/bokeh/bokeh/blob/master/bokeh/util/sampledata.py#L56)
 
 ## R e f e r r e n c e
 
 ### DESIGN PRINCIPLES
 
-- [S](https://stackify.com/solid-design-principles/) [O](https://stackify.com/solid-design-open-closed-principle/) [L](https://stackify.com/solid-design-liskov-substitution-principle/) [L](https://stackify.com/solid-design-liskov-substitution-principle/) [D](https://stackify.com/dependency-inversion-principle/)
+- [S](https://stackify.com/solid-design-principles/) [O](https://stackify.com/solid-design-open-closed-principle/) [L](https://stackify.com/solid-design-liskov-substitution-principle/) [I](https://stackify.com/interface-segregation-principle/) [D](https://stackify.com/dependency-inversion-principle/)
 - [Fluent API](https://dzone.com/articles/java-fluent-api-design) 
 - [Refactoring](https://refactoring.guru/refactoring/) [Clean Code](https://gist.github.com/wojteklu/73c6914cc446146b8b533c0988cf8d29)
 - [Design Patterns](https://refactoring.guru/design-patterns/)
 - [Effective Engineer](https://gist.github.com/rondy/af1dee1d28c02e9a225ae55da2674a6f) [Effective Java](https://github.com/HugoMatilla/Effective-JAVA-Summary)
 - charlax Resources:[Programming](https://github.com/charlax/professional-programming) [Management](https://github.com/charlax/engineering-management) [Python](https://github.com/charlax/python-education)
-- [PluralSight Guides](https://www.pluralsight.com/guides)
-- [DataCamp Community](https://www.datacamp.com/community)
+- [PluralSight Guides](https://www.pluralsight.com/guides) [DataCamp Community](https://www.datacamp.com/community)
 - [DS cheatsheets](https://github.com/kailashahirwar/cheatsheets-ai/blob/master/All%20Cheat%20Sheets.pdf)
+- [Git Workflow](https://nvie.com/posts/a-successful-git-branching-model/)
+- AWS: [Cheatsheets](https://tutorialsdojo.com/aws-cheat-sheets/) , [Examples](https://github.com/aws-samples/) , [AWS Courses](https://www.aws.training/LearningLibrary?&search=&tab=digital_courses) , [Architectures](https://aws.amazon.com/architecture/?awsf.quickstart-architecture-page-filter=highlight%23new)
 
 ### INSPIRING MODULE STRUCTURES
 
-- Pythonic [Flask](https://github.com/mitsuhiko/flask) [Diamond](https://github.com/python-diamond/Diamond) [Requests](https://github.com/kennethreitz/requests) [tpot](https://github.com/EpistasisLab/tpot)
-- R [ML Dashboard](https://github.com/ZNClub-PA-ML-AI/machLearn)
+- Pythonic: [Flask](https://github.com/mitsuhiko/flask) , [Diamond](https://github.com/python-diamond/Diamond) , [Requests](https://github.com/kennethreitz/requests) , [tpot](https://github.com/EpistasisLab/tpot)
+- R: [ML Dashboard](https://github.com/ZNClub-PA-ML-AI/machLearn)
 
 ### MACHINE LEARNING
 
 - [Google](https://ai.google/education/)
 - [ML for dummies(myself)](https://vas3k.com/blog/machine_learning/)
-- [My First Kaggle submission](https://www.kaggle.com/znevzz/binary-classification-titanic-survivors?scriptVersionId=13587837)
+- [My First Kaggle submission](https://www.kaggle.com/znevzz/binary-classification-titanic-survivors)
+- Auto Feature Engineering: [featuretools](https://github.com/Featuretools/featuretools)
+- Auto Machine Learning: [tpot](https://github.com/EpistasisLab/tpot)
 
 ### DATA VISUALIZATION
 
-- Python [Bokeh](https://bokeh.pydata.org/en/latest/docs/gallery.html) [Seaborn](https://seaborn.pydata.org/examples/index.html)
-- JS [HighCharts](https://www.highcharts.com/demo)
+- Python: [Bokeh](https://bokeh.pydata.org/en/latest/docs/gallery.html) , [Seaborn](https://seaborn.pydata.org/examples/index.html)
+- JS: [HighCharts](https://www.highcharts.com/demo)
 
 ### MONITORING
 
 - Basics - sources, collection, metrics, statistics,   
-- AWS CloudWatch [What](https://searchaws.techtarget.com/definition/CloudWatch) [Intro](https://www.youtube.com/watch?v=__knpcBRLHg) 
+- AWS CloudWatch: [What](https://searchaws.techtarget.com/definition/CloudWatch) , [Intro](https://www.youtube.com/watch?v=__knpcBRLHg) 
 
 ### SERVERLESS
 
-- GCP [Python](https://github.com/GoogleCloudPlatform/python-docs-samples/tree/master/functions)
-- Firebase [JavaScript](https://github.com/firebase/functions-samples)
+- GCP: [Python](https://github.com/GoogleCloudPlatform/python-docs-samples/tree/master/functions)
+- Firebase: [JavaScript](https://github.com/firebase/functions-samples)
+- AWS Lambda: [AWS FaaS vs CaaS](https://tutorialsdojo.com/ec2-container-service-ecs-vs-lambda/) , [Image Chatbot](https://github.com/aws-samples/lambda-refarch-image-moderation-chatbot)
 
 ### DISTRIBUTED COMPUTING
 
 #### Python 
-- Dask [Kaggle](https://www.kaggle.com/puneetgrover/speed-up-your-algorithms-dask) [TPOT](https://examples.dask.org/machine-learning/tpot.html)
+- Dask: [Kaggle](https://www.kaggle.com/puneetgrover/speed-up-your-algorithms-dask) , [TPOT](https://examples.dask.org/machine-learning/tpot.html)
 
 ### OOPS
 
@@ -141,8 +143,7 @@
 ### JS
 
 - [Video Playlist](https://www.youtube.com/user/learncodeacademy/playlists)
-- [JS the right way](https://jstherightway.org/) [Modern JS Tutorial](https://javascript.info/) [Modern JS](https://www.modernjs.com/)
-
+- [JS the right way](https://jstherightway.org/) , [Modern JS Tutorial](https://javascript.info/) , [Modern JS](https://www.modernjs.com/) , [Modern JS Cheatsheet](https://mbeaudru.github.io/modern-js-cheatsheet/)
 
 ### BOOTSTRAP
 
