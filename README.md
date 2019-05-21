@@ -106,6 +106,7 @@
 
 - Python: [Bokeh](https://bokeh.pydata.org/en/latest/docs/gallery.html) , [Seaborn](https://seaborn.pydata.org/examples/index.html)
 - JS: [HighCharts](https://www.highcharts.com/demo)
+- R: [ggplot2](https://rkabacoff.github.io/datavis/)
 
 ### MONITORING
 
@@ -170,6 +171,7 @@
 ### Package Control
 
 - R [installer](https://www.datacamp.com/community/tutorials/r-packages-guide)
+- Python [conda](https://github.com/ZNClub-PA-ML-AI/Scrapy-Spiders)
 
 ### Time Measure Snippets
 
