@@ -101,12 +101,20 @@
 - [My First Kaggle submission](https://www.kaggle.com/znevzz/binary-classification-titanic-survivors)
 - Auto Feature Engineering: [featuretools](https://github.com/Featuretools/featuretools)
 - Auto Machine Learning: [tpot](https://github.com/EpistasisLab/tpot)
+- [Tensorflow Models](https://github.com/tensorflow/models)
 
 ### DATA VISUALIZATION
 
 - Python: [Bokeh](https://bokeh.pydata.org/en/latest/docs/gallery.html) , [Seaborn](https://seaborn.pydata.org/examples/index.html)
 - JS: [HighCharts](https://www.highcharts.com/demo)
 - R: [ggplot2](https://rkabacoff.github.io/datavis/)
+
+### NLP - NLU - NLG
+
+- [NLP vs NLU]() [NLP vs NLG]()
+- AWS Lex: [Intro](https://aws.amazon.com/lex/features/) 
+- Spacy: [Comparison of features](https://spacy.io/usage/facts-figures) []()
+- Tensorflow: [Pretrained SyntaxNet](https://github.com/tensorflow/models/tree/master/research/syntaxnet) [with GCP](https://github.com/tensorflow/models/blob/master/research/syntaxnet/g3doc/CLOUD.md)
 
 ### MONITORING
 
