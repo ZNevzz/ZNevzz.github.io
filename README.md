@@ -60,6 +60,7 @@
 - [Wes McKinney](https://github.com/wesm)
 - [Jeff Redback](https://github.com/jreback)
 - [Josh Long](https://joshlong.com/index.html)
+- [Paul](https://paulvanderlaken.com)
 
 ### Playgrounds
 
