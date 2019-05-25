@@ -17,6 +17,13 @@
 > console.log(this.source) // https://github.com/ZNevzz/ZNevzz.github.io/blob/master/README.md
 ```
 
+## F i n d   M e
+
+- Portfolio: [LinkedIn](https://www.linkedin.com/in/nevildsouza/) , [WordPress](https://nevildsouza.wordpress.com/)
+- Courses: [PluralSight](https://app.pluralsight.com/profile/znevzz) , [DataCamp](https://www.datacamp.com/profile/znevzz)
+- Codes: [GitHub](https://github.com/ZNevzz) , [Kaggle](https://www.kaggle.com/znevzz) , [Hackerrank](https://www.hackerrank.com/ZNevzz)
+- Social: [Pinterest](https://www.pinterest.com/ZNevzz/) , [Instagram](https://www.instagram.com/znevzz/) , [devRant](https://devrant.com/users/ZNevzz)
+
 ## P r o j e c t s
 
 ### Invest
@@ -59,7 +66,7 @@
 - [Tensorflow](https://playground.tensorflow.org/)
 - [HTML Template](https://grapesjs.com/demo.html)
 - [Kaggle](https://www.kaggle.com/learn/overview)
-- Push-notifications: [Mozilla](https://serviceworke.rs/push-payload_demo.html) [GDevelopers](https://github.com/GoogleChrome/samples/tree/gh-pages/push-messaging-and-notifications) [Peter Beverloo](https://tests.peter.sh/notification-generator/)
+- Push-notifications: [Mozilla](https://serviceworke.rs/push-payload_demo.html) [GDevelopers] ,  (https://github.com/GoogleChrome/samples/tree/gh-pages/push-messaging-and-notifications) , [Peter Beverloo](https://tests.peter.sh/notification-generator/)
 - [Git Explorer](https://gitexplorer.com)
 - [ASCII Generator](http://patorjk.com/software/taag/)
 - [Pixel Generator](https://color.hailpixel.com/)
@@ -80,11 +87,11 @@
 
 - [S](https://stackify.com/solid-design-principles/) [O](https://stackify.com/solid-design-open-closed-principle/) [L](https://stackify.com/solid-design-liskov-substitution-principle/) [I](https://stackify.com/interface-segregation-principle/) [D](https://stackify.com/dependency-inversion-principle/)
 - [Fluent API](https://dzone.com/articles/java-fluent-api-design) 
-- [Refactoring](https://refactoring.guru/refactoring/) [Clean Code](https://gist.github.com/wojteklu/73c6914cc446146b8b533c0988cf8d29)
+- [Refactoring](https://refactoring.guru/refactoring/) , [Clean Code](https://gist.github.com/wojteklu/73c6914cc446146b8b533c0988cf8d29)
 - [Design Patterns](https://refactoring.guru/design-patterns/)
-- [Effective Engineer](https://gist.github.com/rondy/af1dee1d28c02e9a225ae55da2674a6f) [Effective Java](https://github.com/HugoMatilla/Effective-JAVA-Summary)
-- charlax Resources:[Programming](https://github.com/charlax/professional-programming) [Management](https://github.com/charlax/engineering-management) [Python](https://github.com/charlax/python-education)
-- [PluralSight Guides](https://www.pluralsight.com/guides) [DataCamp Community](https://www.datacamp.com/community)
+- [Effective Engineer](https://gist.github.com/rondy/af1dee1d28c02e9a225ae55da2674a6f) , [Effective Java](https://github.com/HugoMatilla/Effective-JAVA-Summary)
+- charlax Resources:[Programming](https://github.com/charlax/professional-programming) , [Management](https://github.com/charlax/engineering-management) , [Python](https://github.com/charlax/python-education)
+- [PluralSight Guides](https://www.pluralsight.com/guides) , [DataCamp Community](https://www.datacamp.com/community) , [Toptal](https://www.toptal.com/blog)
 - [DS cheatsheets](https://github.com/kailashahirwar/cheatsheets-ai/blob/master/All%20Cheat%20Sheets.pdf)
 - [Git Workflow](https://nvie.com/posts/a-successful-git-branching-model/)
 - AWS: [Cheatsheets](https://tutorialsdojo.com/aws-cheat-sheets/) , [Examples](https://github.com/aws-samples/) , [AWS Courses](https://www.aws.training/LearningLibrary?&search=&tab=digital_courses) , [Architectures](https://aws.amazon.com/architecture/?awsf.quickstart-architecture-page-filter=highlight%23new)
