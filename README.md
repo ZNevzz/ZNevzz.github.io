@@ -121,8 +121,13 @@
 
 - [NLP vs NLU]() [NLP vs NLG]()
 - AWS Lex: [Intro](https://aws.amazon.com/lex/features/) 
-- Spacy: [Comparison of features](https://spacy.io/usage/facts-figures) []()
-- Tensorflow: [Pretrained SyntaxNet](https://github.com/tensorflow/models/tree/master/research/syntaxnet) [with GCP](https://github.com/tensorflow/models/blob/master/research/syntaxnet/g3doc/CLOUD.md)
+- Spacy: [Comparison of features](https://spacy.io/usage/facts-figures) , [Kaggle](https://www.kaggle.com/znevzz/spacy-101)
+- Tensorflow: [Pretrained SyntaxNet](https://github.com/tensorflow/models/tree/master/research/syntaxnet) , [with GCP](https://github.com/tensorflow/models/blob/master/research/syntaxnet/g3doc/CLOUD.md)
+
+### Speech Diarization
+
+- Cloud based: [AWS]() , [Azure]() , [GCP]()
+- Blog: [G-AI](https://ai.googleblog.com/2018/11/accurate-online-speaker-diarization.html) , 
 
 ### MONITORING
 
