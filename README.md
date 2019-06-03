@@ -105,7 +105,7 @@
 ### MACHINE LEARNING
 
 - [Google](https://ai.google/education/)
-- Blogs: [ML for dummies(myself)](https://vas3k.com/blog/machine_learning/) , [amueller's intro to ML](https://github.com/amueller/introduction_to_ml_with_python)
+- Blogs: [ML for dummies(myself)](https://vas3k.com/blog/machine_learning/) , [amueller's intro to ML](https://github.com/amueller/introduction_to_ml_with_python) , [Handbook](https://jakevdp.github.io/PythonDataScienceHandbook/index.html)
 - Code: [My First Kaggle submission](https://www.kaggle.com/znevzz/binary-classification-titanic-survivors)
 - Auto Feature Engineering: [featuretools](https://github.com/Featuretools/featuretools)
 - Auto Machine Learning: [tpot](https://github.com/EpistasisLab/tpot)
