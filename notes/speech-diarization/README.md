@@ -17,6 +17,18 @@
 
 ### Blogs/ Papers
 
+#### LSTM
+
+- [concepts](https://in.pinterest.com/ZNevzz/speaker-diarization-with-uis-rnn/)
+- [lecture](https://www.youtube.com/watch?v=pjxGPZQeeO4)
+- [paper](https://arxiv.org/pdf/1710.10468.pdf)
+- [demo](https://www.youtube.com/watch?v=pGkqwRPzx9U)
+
+#### UIS-RNN
+
+- [lecture](https://www.youtube.com/watch?v=pGkqwRPzx9U)
+- [paper](https://arxiv.org/pdf/1810.04719.pdf)
+
 ### DataSets
 
 #### [YouTube](https://www.youtube.com) and [Converter](https://www.onlinevideoconverter.com/mp3-converter)
