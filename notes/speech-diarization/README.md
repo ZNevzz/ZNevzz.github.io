@@ -23,6 +23,7 @@
 - [lecture](https://www.youtube.com/watch?v=pjxGPZQeeO4)
 - [paper](https://arxiv.org/pdf/1710.10468.pdf)
 - [demo](https://www.youtube.com/watch?v=pGkqwRPzx9U)
+- [poster](https://github.com/google/speaker-id/blob/master/publications/LstmDiarization/resources/icassp2018_diarization_poster.pdf)
 
 #### UIS-RNN
 
