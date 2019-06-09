@@ -110,6 +110,7 @@
 - Auto Feature Engineering: [featuretools](https://github.com/Featuretools/featuretools)
 - Auto Machine Learning: [tpot](https://github.com/EpistasisLab/tpot)
 - [Tensorflow Models](https://github.com/tensorflow/models)
+- Splunk ML Toolkit: [cheatsheet](https://docs.splunk.com/images/2/20/Machine-learning-quick-ref-guide.pdf) , [tutorials](https://www.youtube.com/playlist?list=PLxkFdMSHYh3Q1jwpgJJ0ZSnRzZIx2c_KM) , [blog](https://www.splunk.com/blog/category/machine-learning.html)
 
 ### DATA VISUALIZATION
 
