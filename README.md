@@ -105,11 +105,12 @@
 ### MACHINE LEARNING
 
 - [Google](https://ai.google/education/)
-- Blogs: [ML for dummies(myself)](https://vas3k.com/blog/machine_learning/) , [amueller's intro to ML](https://github.com/amueller/introduction_to_ml_with_python)
+- Blogs: [ML for dummies(myself)](https://vas3k.com/blog/machine_learning/) , [amueller's intro to ML](https://github.com/amueller/introduction_to_ml_with_python) , [Handbook](https://jakevdp.github.io/PythonDataScienceHandbook/index.html)
 - Code: [My First Kaggle submission](https://www.kaggle.com/znevzz/binary-classification-titanic-survivors)
 - Auto Feature Engineering: [featuretools](https://github.com/Featuretools/featuretools)
 - Auto Machine Learning: [tpot](https://github.com/EpistasisLab/tpot)
 - [Tensorflow Models](https://github.com/tensorflow/models)
+- Splunk ML Toolkit: [cheatsheet](https://docs.splunk.com/images/2/20/Machine-learning-quick-ref-guide.pdf) , [tutorials](https://www.youtube.com/playlist?list=PLxkFdMSHYh3Q1jwpgJJ0ZSnRzZIx2c_KM) , [blog](https://www.splunk.com/blog/category/machine-learning.html)
 
 ### DATA VISUALIZATION
 
@@ -121,8 +122,13 @@
 
 - [NLP vs NLU]() [NLP vs NLG]()
 - AWS Lex: [Intro](https://aws.amazon.com/lex/features/) 
-- Spacy: [Comparison of features](https://spacy.io/usage/facts-figures) []()
-- Tensorflow: [Pretrained SyntaxNet](https://github.com/tensorflow/models/tree/master/research/syntaxnet) [with GCP](https://github.com/tensorflow/models/blob/master/research/syntaxnet/g3doc/CLOUD.md)
+- Spacy: [Comparison of features](https://spacy.io/usage/facts-figures) , [Kaggle](https://www.kaggle.com/znevzz/spacy-101)
+- Tensorflow: [Pretrained SyntaxNet](https://github.com/tensorflow/models/tree/master/research/syntaxnet) , [with GCP](https://github.com/tensorflow/models/blob/master/research/syntaxnet/g3doc/CLOUD.md)
+
+### Speech Diarization
+
+- Cloud based: [AWS]() , [Azure]() , [GCP]()
+- Blog: [G-AI](https://ai.googleblog.com/2018/11/accurate-online-speaker-diarization.html) , 
 
 ### MONITORING
 
