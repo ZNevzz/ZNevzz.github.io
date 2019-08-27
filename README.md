@@ -107,7 +107,7 @@
 - [Git Workflow](https://nvie.com/posts/a-successful-git-branching-model/)
 
 #### CLOUD-BASED TECH
-- AWS: [Cheatsheets](https://tutorialsdojo.com/aws-cheat-sheets/) , [Examples](https://github.com/aws-samples/) , [AWS Courses](https://www.aws.training/LearningLibrary?&search=&tab=digital_courses) , [Architectures](https://aws.amazon.com/architecture/?awsf.quickstart-architecture-page-filter=highlight%23new)
+- AWS: [Cheatsheets](https://tutorialsdojo.com/aws-cheat-sheets/) , [Examples](https://github.com/aws-samples/) , [AWS Courses](https://www.aws.training/LearningLibrary?&search=&tab=digital_courses) , [Architectures](https://aws.amazon.com/architecture/?awsf.quickstart-architecture-page-filter=highlight%23new) , [Best Practices](https://d1.awsstatic.com/whitepapers/AWS_Cloud_Best_Practices.pdf)
 
 ### INSPIRING MODULE STRUCTURES
 
