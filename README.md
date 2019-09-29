@@ -72,6 +72,7 @@
 - [ASCII Generator](http://patorjk.com/software/taag/)
 - [Pixel Generator](https://color.hailpixel.com/)
 - Data Visualization: [AnyCharts](https://playground.anychart.com/) , [Facets](https://pair-code.github.io/facets/) , [QlickSense](https://demos.qlik.com/qliksense)
+- [GraphQL](https://graphqlbin.com/v2/6RQ6TM) 
 
 ### Open Data
 
@@ -91,11 +92,22 @@
 - [Refactoring](https://refactoring.guru/refactoring/) , [Clean Code](https://gist.github.com/wojteklu/73c6914cc446146b8b533c0988cf8d29)
 - [Design Patterns](https://refactoring.guru/design-patterns/)
 - [Effective Engineer](https://gist.github.com/rondy/af1dee1d28c02e9a225ae55da2674a6f) , [Effective Java](https://github.com/HugoMatilla/Effective-JAVA-Summary)
+- [GraphQL Course](https://www.howtographql.com/) , [GraphQL Good vs Bad](https://scotch.io/tutorials/graphql-the-good-and-the-bad)
+
+#### PYTHON
 - charlax Resources:[Programming](https://github.com/charlax/professional-programming) , [Management](https://github.com/charlax/engineering-management) , [Python](https://github.com/charlax/python-education)
+
+#### MISCENLLANEOUS
 - [PluralSight Guides](https://www.pluralsight.com/guides) , [DataCamp Community](https://www.datacamp.com/community) , [Toptal](https://www.toptal.com/blog)
+
+#### DATA STRUCTURES & ALGORITHMS
 - [DS cheatsheets](https://github.com/kailashahirwar/cheatsheets-ai/blob/master/All%20Cheat%20Sheets.pdf)
+
+#### CI/CD
 - [Git Workflow](https://nvie.com/posts/a-successful-git-branching-model/)
-- AWS: [Cheatsheets](https://tutorialsdojo.com/aws-cheat-sheets/) , [Examples](https://github.com/aws-samples/) , [AWS Courses](https://www.aws.training/LearningLibrary?&search=&tab=digital_courses) , [Architectures](https://aws.amazon.com/architecture/?awsf.quickstart-architecture-page-filter=highlight%23new)
+
+#### CLOUD-BASED TECH
+- AWS: [Cheatsheets](https://tutorialsdojo.com/aws-cheat-sheets/) , [Examples](https://github.com/aws-samples/) , [AWS Courses](https://www.aws.training/LearningLibrary?&search=&tab=digital_courses) , [Architectures](https://aws.amazon.com/architecture/?awsf.quickstart-architecture-page-filter=highlight%23new) , [Best Practices](https://d1.awsstatic.com/whitepapers/AWS_Cloud_Best_Practices.pdf)
 
 ### INSPIRING MODULE STRUCTURES
 
