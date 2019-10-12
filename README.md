@@ -181,7 +181,7 @@
 ### JS
 
 - [Video Playlist](https://www.youtube.com/user/learncodeacademy/playlists)
-- [JS the right way](https://jstherightway.org/) , [Modern JS Tutorial](https://javascript.info/) , [Modern JS](https://www.modernjs.com/) , [Modern JS Cheatsheet](https://mbeaudru.github.io/modern-js-cheatsheet/)
+- [JS the right way](https://jstherightway.org/) , [Modern JS Tutorial](https://javascript.info/) , [Modern JS](https://www.modernjs.com/) , [Modern JS Cheatsheet](https://mbeaudru.github.io/modern-js-cheatsheet/), [JS Libraries Wiki](https://www.javascripting.com/)
 
 ### BOOTSTRAP
 
