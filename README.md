@@ -54,6 +54,7 @@
 - [Python](https://www.python.org/) 
 - [Pandas](http://pandas.pydata.org/) , [pandas-dev-repo](https://github.com/pandas-dev)
 
+
 ### Influencers
 
 - [Raymond Hettinger](https://docs.python-guide.org/)
@@ -74,6 +75,7 @@
 - Data Visualization: [AnyCharts](https://playground.anychart.com/) , [Facets](https://pair-code.github.io/facets/) , [QlickSense](https://demos.qlik.com/qliksense)
 - [GraphQL](https://graphqlbin.com/v2/6RQ6TM) 
 - [Experiments](https://experiments.withgoogle.com/)
+- TradingView [Ideas](https://www.tradingview.com/ideas/) [Widgets](https://www.tradingview.com/widget/) [Technical](https://www.tradingview.com/symbols/INRUSD/technicals/)
 
 ### Open Data
 
