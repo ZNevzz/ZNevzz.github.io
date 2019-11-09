@@ -30,6 +30,8 @@
 
 - AnalystPrep [videos](https://www.youtube.com/channel/UCIPPYQzghDlcSj0Fn56HOGg/playlists) [blog](https://analystprep.com/blog)
 - TheBalance [All Categories](https://www.thebalance.com/investing-for-beginners-4074004)
+- FinancialRatios [blog](https://www.investopedia.com/financial-ratios-4689817) [CheatSheet](https://analystprep.com/Ratio_Sheet.pdf)
+
 
 ## Miscellaneous
 
