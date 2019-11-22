@@ -158,71 +158,45 @@
 
 ### DISTRIBUTED COMPUTING
 
-#### Python 
-- Dask: [Kaggle](https://www.kaggle.com/puneetgrover/speed-up-your-algorithms-dask) , [TPOT](https://examples.dask.org/machine-learning/tpot.html)
+####  
+- Python [DASK on Kaggle](https://www.kaggle.com/puneetgrover/speed-up-your-algorithms-dask) , [DASK with TPOT](https://examples.dask.org/machine-learning/tpot.html)
+- Spark [PluralSight](https://www.pluralsight.com/courses/apache-spark-fundamentals)
+
+### Statistics
+
+- R [Elementary](http://www.r-tutor.com/elementary-statistics)
 
 ### OOPS
 
-#### Python
-- [magic methods](https://micropyramid.com/blog/python-special-class-methods-or-magic-methods/)
-#### Java
-- [Object Builder](https://github.com/google/CallBuilder)
-
-### HTML5
-
-- [Basics]
-- [Video playlist](https://www.youtube.com/watch?v=qseNjA-73Fw&list=PL081AC329706B2953&index=2)
-- [Use of meta](https://www.sitepoint.com/meta-tags-html-basics-best-practices/)
-- [meta attributes](https://www.sitepoint.com/meta-tags-html-basics-best-practices/)
-
-### CSS3
-
-- [Basics](https://learn.shayhowe.com/html-css/)
-- [Layouts](https://learnlayout.com/)
-
-### JS
-
-- [Video Playlist](https://www.youtube.com/user/learncodeacademy/playlists)
-- [JS the right way](https://jstherightway.org/) , [Modern JS Tutorial](https://javascript.info/) , [Modern JS](https://www.modernjs.com/) , [Modern JS Cheatsheet](https://mbeaudru.github.io/modern-js-cheatsheet/), [JS Libraries Wiki](https://www.javascripting.com/)
-
-### BOOTSTRAP
-
-- [Basics]
-- [CSS](https://bootstrapdocs.com/v3.3.6/docs/css/)
-- [Video Playlist](https://www.youtube.com/watch?v=GDwWmrpCa30&index=3&list=PL6n9fhu94yhXd4xnk-j5FGhHjUv1LsF0V)
-- [Grid View](https://getbootstrap.com/docs/3.3/examples/grid/)
+- Python [magic methods](https://micropyramid.com/blog/python-special-class-methods-or-magic-methods/)
+- Java [Object Builder](https://github.com/google/CallBuilder)
 
 ## T i p s
 
 ### CODE STYLE GUIDE
 
 - [Java](https://google.github.io/styleguide/javaguide.html)
-- [Python](https://github.com/google/styleguide/blob/gh-pages/pyguide.md) [26 tips](http://book.pythontips.com/en/latest/)
+- [Python](https://github.com/google/styleguide/blob/gh-pages/pyguide.md) , [26 tips](http://book.pythontips.com/en/latest/)
 - [R](https://google.github.io/styleguide/Rguide.xml)
-- [JavaScript](https://google.github.io/styleguide/jsguide.html)
+- [JavaScript](https://google.github.io/styleguide/jsguide.html) , JS [Video Playlist](https://www.youtube.com/user/learncodeacademy/playlists) , [JS the right way](https://jstherightway.org/) , [Modern JS Tutorial](https://javascript.info/) , [Modern JS](https://www.modernjs.com/) , [Modern JS Cheatsheet](https://mbeaudru.github.io/modern-js-cheatsheet/), [JS Libraries Wiki](https://www.javascripting.com/)
 - [Angular JS](https://google.github.io/styleguide/angularjs-google-style.html)
+- CSS3 [Basics](https://learn.shayhowe.com/html-css/) , [Layouts](https://learnlayout.com/)
+- BOOTSTRAP [CSS](https://bootstrapdocs.com/v3.3.6/docs/css/) , [Video Playlist](https://www.youtube.com/watch?v=GDwWmrpCa30&index=3&list=PL6n9fhu94yhXd4xnk-j5FGhHjUv1LsF0V) , [Grid View](https://getbootstrap.com/docs/3.3/examples/grid/)
+- HTML5 [Video playlist](https://www.youtube.com/watch?v=qseNjA-73Fw&list=PL081AC329706B2953&index=2) , [Use of meta](https://www.sitepoint.com/meta-tags-html-basics-best-practices/),  [meta attributes](https://www.sitepoint.com/meta-tags-html-basics-best-practices/)
 
 ### Jupyter Notebook Extensions
 
 - [install](http://tljh.jupyter.org/en/latest/howto/admin/enable-extensions.html)
 - [magic commands](https://www.dataquest.io/blog/jupyter-notebook-tips-tricks-shortcuts)
 
-### Package Control
+### Environments and Package Control
 
 - R [installer](https://www.datacamp.com/community/tutorials/r-packages-guide)
 - Python [conda](https://github.com/ZNClub-PA-ML-AI/Scrapy-Spiders)
 
 ### Time Measure Snippets
 
-#### Python
-
-- [TimeIt Module](https://www.geeksforgeeks.org/timeit-python-examples/) [JuNoPy magic](https://www.dataquest.io/blog/jupyter-notebook-tips-tricks-shortcuts/#5ipythonmagiccommands)
+- Python [TimeIt Module](https://www.geeksforgeeks.org/timeit-python-examples/) , [JuNoPy magic](https://www.dataquest.io/blog/jupyter-notebook-tips-tricks-shortcuts/#5ipythonmagiccommands)
 - [Basic](https://pythonhow.com/measure-execution-time-python-code/)
-
-#### Java
-
-- [Basic](https://stackoverflow.com/questions/5204051/how-to-calculate-the-running-time-of-my-program/5204075)
-
-#### R
-
-- [5 WAYS](https://www.r-bloggers.com/5-ways-to-measure-running-time-of-r-code/)
+- Java [Basic](https://stackoverflow.com/questions/5204051/how-to-calculate-the-running-time-of-my-program/5204075)
+- R[5 WAYS](https://www.r-bloggers.com/5-ways-to-measure-running-time-of-r-code/)
