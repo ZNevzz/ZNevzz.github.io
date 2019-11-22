@@ -8,6 +8,7 @@
 ## Libraries
 
 - [FinMath](https://github.com/finmath/finmath-lib)
+- [Finance Train in R](https://financetrain.com/series/)
 
 ## Asset Management
 
