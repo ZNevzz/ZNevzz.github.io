@@ -109,8 +109,9 @@
 #### CI/CD
 - [Git Workflow](https://nvie.com/posts/a-successful-git-branching-model/)
 
-#### CLOUD-BASED TECH
+#### CLOUD
 - AWS: [Cheatsheets](https://tutorialsdojo.com/aws-cheat-sheets/) , [Examples](https://github.com/aws-samples/) , [AWS Courses](https://www.aws.training/LearningLibrary?&search=&tab=digital_courses) , [Architectures](https://aws.amazon.com/architecture/?awsf.quickstart-architecture-page-filter=highlight%23new) , [Best Practices](https://d1.awsstatic.com/whitepapers/AWS_Cloud_Best_Practices.pdf), [Blog](https://aws.amazon.com/blogs/) , [Knowledge Center](https://aws.amazon.com/premiumsupport/knowledge-center/) , [Docs](https://docs.aws.amazon.com/index.html)
+- General: [CloudAcademy](https://cloudacademy.com/blog) , CloudGuru [News](https://info.acloud.guru/resources) [Blog](https://read.acloud.guru/)
 
 ### INSPIRING MODULE STRUCTURES
 
