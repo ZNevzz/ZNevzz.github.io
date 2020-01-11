@@ -1,4 +1,9 @@
-
+# LINUX
+```bash
+ls -la # all files
+mv name1.txt name2.txt # rename
+head -n 100 file.txt # read 100 lines
+```
 # WINDOWS
 
 ## Setup path variables
@@ -6,9 +11,12 @@
 
 
 ## Find programs running on port number
-- netstat -a -o -n | findstr port_number
+```bash
+netstat -a -o -n | findstr port_number
+```
 
 ## Kill task using PID
-- taskkill /F /PID 6136
-
+```bash
+taskkill /F /PID 6136
+```
 
