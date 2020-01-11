@@ -193,7 +193,7 @@
 ### Environments and Package Control
 
 - R [installer](https://www.datacamp.com/community/tutorials/r-packages-guide)
-- Python [conda](https://github.com/ZNClub-PA-ML-AI/Scrapy-Spiders)
+- Python [conda](https://github.com/ZNevzz/ZNevzz.github.io/tree/master/notes/commands/conda)
 
 ### Time Measure Snippets
 
