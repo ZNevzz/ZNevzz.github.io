@@ -155,11 +155,10 @@
 
 - GCP: [Python](https://github.com/GoogleCloudPlatform/python-docs-samples/tree/master/functions)
 - Firebase: [JavaScript](https://github.com/firebase/functions-samples)
-- AWS Lambda: [AWS FaaS vs CaaS](https://tutorialsdojo.com/ec2-container-service-ecs-vs-lambda/) , [Image Chatbot](https://github.com/aws-samples/lambda-refarch-image-moderation-chatbot)
+- AWS Lambda: [AWS FaaS vs CaaS](https://tutorialsdojo.com/ec2-container-service-ecs-vs-lambda/) , [Image Chatbot](https://github.com/aws-samples/lambda-refarch-image-moderation-chatbot) , [Cheatsheet](https://github.com/srcecde/aws-lambda-cheatsheet)
 
 ### DISTRIBUTED COMPUTING
 
-####  
 - Python [DASK on Kaggle](https://www.kaggle.com/puneetgrover/speed-up-your-algorithms-dask) , [DASK with TPOT](https://examples.dask.org/machine-learning/tpot.html)
 - Spark [PluralSight](https://www.pluralsight.com/courses/apache-spark-fundamentals)
 
@@ -171,6 +170,10 @@
 
 - Python [magic methods](https://micropyramid.com/blog/python-special-class-methods-or-magic-methods/)
 - Java [Object Builder](https://github.com/google/CallBuilder)
+
+### GARBAGE COLLECTION
+
+- Java [Types](https://blogs.oracle.com/javamagazine/understanding-garbage-collectors) 
 
 ## T i p s
 
