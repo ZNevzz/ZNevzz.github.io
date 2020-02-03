@@ -1,11 +1,11 @@
 # AWS
 
 ## Links
-(Glossary)[https://docs.aws.amazon.com/general/latest/gr/glos-chap.html]
-(Solutions)[https://aws.amazon.com/solutions]
-(Whitepapers)[http://aws.amazon.com/whitepapers]
-(Knowledge Centre)[https://aws.amazon.com/premiumsupport/knowledge-center/]
-(RampUp)[https://d1.awsstatic.com/training-and-certification/Learning_Paths/RampUp_Architect_102019_final.pdf]
+[Glossary](https://docs.aws.amazon.com/general/latest/gr/glos-chap.html) |
+[Solutions](https://aws.amazon.com/solutions) |
+[Whitepapers](http://aws.amazon.com/whitepapers) |
+[Knowledge Centre](https://aws.amazon.com/premiumsupport/knowledge-center/) |
+[RampUp](https://d1.awsstatic.com/training-and-certification/Learning_Paths/RampUp_Architect_102019_final.pdf)
 
 ## Introduction
 - component = code, configuration and AWS Resources that together deliver against a requirement
@@ -15,10 +15,10 @@
 - technology portfolio = collection of workloads that are required for the business to operate
 
 ### Pillars of the AWS Well-Architected Framework
-[https://d1.awsstatic.com/whitepapers/architecture/AWS_Well-Architected_Framework.pdf]
+[Read more](https://d1.awsstatic.com/whitepapers/architecture/AWS_Well-Architected_Framework.pdf)
 
 #### Security
-[https://d0.awsstatic.com/whitepapers/architecture/AWS-Security-Pillar.pdf?ref=wellarchitected-wp]
+[Read more](https://d0.awsstatic.com/whitepapers/architecture/AWS-Security-Pillar.pdf?ref=wellarchitected-wp)
 
 	- The ability to protect information, systems, and assets while delivering business value
 through risk assessments and mitigation strategies.
@@ -42,10 +42,10 @@ Protect data in transit and at rest
 Prepare for security events
 	
 #### Reliability
-[https://d1.awsstatic.com/whitepapers/architecture/AWS-Reliability-Pillar.pdf]
+[Read more](https://d1.awsstatic.com/whitepapers/architecture/AWS-Reliability-Pillar.pdf)
 -  ability of a system to recover from infrastructure or service disruptions, dynamically acquire computing resources to meet demand, and mitigate disruptions such as misconfigurations or transient network issues
 	- CloudWatch, IAM, VPC, AWS Trusted Advisor, AWS Shield, CloudTrail, Config, Auto Scaling, CloudWatch,Glacier CloudFormation, KMS
-- Service limits [http://docs.aws.amazon.com/general/latest/gr/aws_service_limits.html?ref=wellarchitected-wp]	
+- Service limits (http://docs.aws.amazon.com/general/latest/gr/aws_service_limits.html?ref=wellarchitected-wp)
 	- Design Principles
 
 Test recovery procedures
@@ -55,7 +55,7 @@ Stop guessing capacity
 Manage change in automation
 
 #### Performance Efficiency
-[https://d0.awsstatic.com/whitepapers/architecture/AWS-Performance-Efficiency-Pillar.pdf?ref=wellarchitected-wp]
+[Read more](https://d0.awsstatic.com/whitepapers/architecture/AWS-Performance-Efficiency-Pillar.pdf?ref=wellarchitected-wp)
 - ability to use computing resources efficiently to meet system requirements and to maintain that efficiency as demand changes and technologies evolve
 - CloudWatch, Auto Scaling, EBS, S3, RDS, DynamoDB, Route53, VPC, AWS Direct Connect, AWS Blog, AWS Lambda, ElastiCache, CloudFront, Snowball 
 	- Design Principles
@@ -67,7 +67,7 @@ Experiment more often
 Mechanical sympathy
 
 #### Cost Optimization
-[https://d0.awsstatic.com/whitepapers/architecture/AWS-Cost-Optimization-Pillar.pdf?ref=wellarchitected-wp]
+[Read more](https://d0.awsstatic.com/whitepapers/architecture/AWS-Cost-Optimization-Pillar.pdf?ref=wellarchitected-wp)
 - ability to avoid or eliminate unneeded cost or suboptimal resources.
 -  Cost Explorer, CloudWatch, Trusted Advisor, Aurora, RDS, Direct Connect, CloudFront, Auto Scaling a, 
 
@@ -80,7 +80,7 @@ Analyze and attribute expenditure
 Use managed services to reduce cost of ownership
 
 #### Operational Excellence
-[https://d0.awsstatic.com/whitepapers/architecture/AWS-Operational-Excellence-Pillar.pdf?ref=wellarchitected-wp]
+[Read more](https://d0.awsstatic.com/whitepapers/architecture/AWS-Operational-Excellence-Pillar.pdf?ref=wellarchitected-wp)
 - ability to run and monitor systems to deliver business value and to continually improve supporting processes and procedures
 	- AWS CloudFormation = provision resources in an orderly and consistent fashion from your development through production environments
 	- AWS Config
@@ -98,7 +98,7 @@ Learn from all operational failures
 
 
 ### Global Infrastructure
-[https://aws.amazon.com/about-aws/global-infrastructure/?p=ngi&loc=0]
+[Read more](https://aws.amazon.com/about-aws/global-infrastructure/?p=ngi&loc=0)
 
 #### Region vs AZ vs ELocation
 
@@ -124,25 +124,25 @@ Learn from all operational failures
 
 EC2: VM aaS
 
-Batch: 
+Batch: Batch Jobs
 
-ECR
+ECR: fully-managed Docker container registry
 
-ECS
+ECS: fully managed container orchestration service
 
-EKS
+EKS: Kubernetes on AWS
 
-Elastic Beanstalk
+Elastic Beanstalk: Deploy & manage web applications
 
-EC2 Image Builder
+EC2 Image Builder: creation, maintenance, validation, sharing, and deployment of Linux or Windows Server image
 
-Lambda
+Lambda: run code without provisioning or managing servers.
 
-Launch Wizard
+Launch Wizard:  SQL Server offers you a guided way of sizing, configuring, and deploying self-managed high availability SQL Server
 
-Lightsail
+Lightsail: Offers you everything needed to build an application or website, plus a cost-effective, monthly plan.
 
-Outposts
+Outposts: fully managed service that extends AWS infrastructure, AWS services, APIs, and tools to virtually any datacenter, co-location space
 
 ParallelCluster
 
