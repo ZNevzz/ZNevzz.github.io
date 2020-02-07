@@ -6,6 +6,7 @@
 [Whitepapers](http://aws.amazon.com/whitepapers) |
 [Knowledge Centre](https://aws.amazon.com/premiumsupport/knowledge-center/) |
 [RampUp](https://d1.awsstatic.com/training-and-certification/Learning_Paths/RampUp_Architect_102019_final.pdf)
+[FAQs](https://aws.amazon.com/faqs/)
 
 ## Introduction
 - component = code, configuration and AWS Resources that together deliver against a requirement
