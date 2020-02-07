@@ -14,6 +14,11 @@
 - Architecture = being how components work together in a workload.
 - technology portfolio = collection of workloads that are required for the business to operate
 
+## AWS Facts
+
+- cheapest EC2 instance type: t2.nano
+- expensive regions: EU,HK
+
 ### Pillars of the AWS Well-Architected Framework
 [Read more](https://d1.awsstatic.com/whitepapers/architecture/AWS_Well-Architected_Framework.pdf)
 
@@ -78,6 +83,9 @@ Measure overall efficiency
 Stop spending money on data center operations
 Analyze and attribute expenditure
 Use managed services to reduce cost of ownership
+
+- Drivers of cost with AWS: compute(hourly), storage(per GB), outbound data transfer(per GB)
+- Japanese Consumption Tax
 
 #### Operational Excellence
 [Read more](https://d0.awsstatic.com/whitepapers/architecture/AWS-Operational-Excellence-Pillar.pdf?ref=wellarchitected-wp)
@@ -366,28 +374,32 @@ X-Ray
 			- Size: 10 TB vs 16 GB
 			- States: running,terminated vs running,stopped,terminated
 			- Data: deleted vs persisted even after instance deletion
-	- Types of virtualization:
-		- PV
-		- HVM
+	- [Types of virtualization](https://cloudacademy.com/blog/aws-ami-hvm-vs-pv-paravirtual-amazon/)
+		- PV: provides near native speed, requires some modification
+		- HVM: not aware that they are sharing processing time 
 	- HVM and EBS combination is recommended
 
 - Instance Types: 
 	- ECU, vCPU, Processor & Architecture, ClockSpeed, Memory, Storage, EBS, Network, IPv6, AES-NI, AVX, Turbo Boost
 	- Micro: low traffic websites
-	- General: Small apps ex: T-,M-
+	- General: Small apps ex: A-,T-,M- 
 	- Compute: Highest performance for video,batch,web processing ex: C-
 	- Memory: In memory processing like real time processing, SharePoint ex: R-, Z-, X-
 	- Storage low latency, high IOPS, NOSQL DB, Data File systems, log processing ex: H-, I-, D-
 	- GPU: Graphics optimized EX: G-, P-, F-
 	- FPGA: Customize FPGA to perform hardware acceleration
 	
+	- Notes:
+		- T3 instances start in *Unlimited mode* by default, giving users the ability to sustain high CPU performance over any desired time frame while keeping cost as low as possible.
+		
 
 - Instance purchasing options:
 	- based on PRICE by price desc
-		- on-demand: , max 20
-		- reserved: long-term, max 20
-		- spot: bid demand-supply, max limit depends on price if increased by 10 dollars
-		- dedicated: ?
+		- on-demand: time based, max 20
+		- reserved: long-term, up to 75% discount, 1 or 3 year, max 20
+		- spot: low compute prices, bid demand-supply, max limit depends on price if increased by 10 dollars
+		- dedicated: physical EC2 server,reduce costs by using your existing server-bound software licenses
+		- savings plan:  $/hour for a 1 or 3 year term
 
 	- based on FUNCTION
 		- burstable: fixed CPU, autoscale to 100%
