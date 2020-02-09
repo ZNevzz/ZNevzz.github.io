@@ -54,6 +54,7 @@
 - [Python](https://www.python.org/) 
 - [Pandas](http://pandas.pydata.org/) , [pandas-dev-repo](https://github.com/pandas-dev)
 
+
 ### Influencers
 
 - [Raymond Hettinger](https://docs.python-guide.org/)
@@ -69,10 +70,12 @@
 - [Kaggle](https://www.kaggle.com/learn/overview)
 - Push-notifications: [Mozilla](https://serviceworke.rs/push-payload_demo.html) [GDevelopers] ,  (https://github.com/GoogleChrome/samples/tree/gh-pages/push-messaging-and-notifications) , [Peter Beverloo](https://tests.peter.sh/notification-generator/)
 - [Git Explorer](https://gitexplorer.com)
-- [ASCII Generator](http://patorjk.com/software/taag/)
-- [Pixel Generator](https://color.hailpixel.com/)
+- Generators [ASCII](http://patorjk.com/software/taag/) , [Pixel](https://color.hailpixel.com/) , [Java Class](http://www.jsonschema2pojo.org/) , [Table](http://www.tablesgenerator.com) , [Labelled Image](http://placehold.it/1000/FA6F57/fff&text=SPARTA)_
+- Databases [MySQL](https://www.db4free.net) [Relational Schema](https://www.dbdesigner.net/)
 - Data Visualization: [AnyCharts](https://playground.anychart.com/) , [Facets](https://pair-code.github.io/facets/) , [QlickSense](https://demos.qlik.com/qliksense)
 - [GraphQL](https://graphqlbin.com/v2/6RQ6TM) 
+- [Experiments](https://experiments.withgoogle.com/)
+- TradingView [Ideas](https://www.tradingview.com/ideas/) [Widgets](https://www.tradingview.com/widget/) [Technical](https://www.tradingview.com/symbols/INRUSD/technicals/)
 
 ### Open Data
 
@@ -106,8 +109,9 @@
 #### CI/CD
 - [Git Workflow](https://nvie.com/posts/a-successful-git-branching-model/)
 
-#### CLOUD-BASED TECH
-- AWS: [Cheatsheets](https://tutorialsdojo.com/aws-cheat-sheets/) , [Examples](https://github.com/aws-samples/) , [AWS Courses](https://www.aws.training/LearningLibrary?&search=&tab=digital_courses) , [Architectures](https://aws.amazon.com/architecture/?awsf.quickstart-architecture-page-filter=highlight%23new) , [Best Practices](https://d1.awsstatic.com/whitepapers/AWS_Cloud_Best_Practices.pdf)
+#### CLOUD
+- AWS: [Cheatsheets](https://tutorialsdojo.com/aws-cheat-sheets/) , [Examples](https://github.com/aws-samples/) , [AWS Courses](https://www.aws.training/LearningLibrary?&search=&tab=digital_courses) , [Architectures](https://aws.amazon.com/architecture/?awsf.quickstart-architecture-page-filter=highlight%23new) , [Best Practices](https://d1.awsstatic.com/whitepapers/AWS_Cloud_Best_Practices.pdf), [Blog](https://aws.amazon.com/blogs/) , [Knowledge Center](https://aws.amazon.com/premiumsupport/knowledge-center/) , [Docs](https://docs.aws.amazon.com/index.html)
+- General: [CloudAcademy](https://cloudacademy.com/blog) , CloudGuru [News](https://info.acloud.guru/resources) [Blog](https://read.acloud.guru/)
 
 ### INSPIRING MODULE STRUCTURES
 
@@ -116,13 +120,14 @@
 
 ### MACHINE LEARNING
 
-- [Google](https://ai.google/education/)
+- [Google](https://ai.google/education/) 
 - Blogs: [ML for dummies(myself)](https://vas3k.com/blog/machine_learning/) , [amueller's intro to ML](https://github.com/amueller/introduction_to_ml_with_python) , [Handbook](https://jakevdp.github.io/PythonDataScienceHandbook/index.html)
 - Code: [My First Kaggle submission](https://www.kaggle.com/znevzz/binary-classification-titanic-survivors)
 - Auto Feature Engineering: [featuretools](https://github.com/Featuretools/featuretools)
 - Auto Machine Learning: [tpot](https://github.com/EpistasisLab/tpot)
 - [Tensorflow Models](https://github.com/tensorflow/models)
 - Splunk ML Toolkit: [cheatsheet](https://docs.splunk.com/images/2/20/Machine-learning-quick-ref-guide.pdf) , [tutorials](https://www.youtube.com/playlist?list=PLxkFdMSHYh3Q1jwpgJJ0ZSnRzZIx2c_KM) , [blog](https://www.splunk.com/blog/category/machine-learning.html)
+- Concepts [Bias Variance Tradeoff](https://towardsdatascience.com/the-bias-variance-trade-off-explanation-and-demo-8f462f8d6326)
 
 ### DATA VISUALIZATION
 
@@ -151,73 +156,52 @@
 
 - GCP: [Python](https://github.com/GoogleCloudPlatform/python-docs-samples/tree/master/functions)
 - Firebase: [JavaScript](https://github.com/firebase/functions-samples)
-- AWS Lambda: [AWS FaaS vs CaaS](https://tutorialsdojo.com/ec2-container-service-ecs-vs-lambda/) , [Image Chatbot](https://github.com/aws-samples/lambda-refarch-image-moderation-chatbot)
+- AWS Lambda: [AWS FaaS vs CaaS](https://tutorialsdojo.com/ec2-container-service-ecs-vs-lambda/) , [Image Chatbot](https://github.com/aws-samples/lambda-refarch-image-moderation-chatbot) , [Cheatsheet](https://github.com/srcecde/aws-lambda-cheatsheet)
 
 ### DISTRIBUTED COMPUTING
 
-#### Python 
-- Dask: [Kaggle](https://www.kaggle.com/puneetgrover/speed-up-your-algorithms-dask) , [TPOT](https://examples.dask.org/machine-learning/tpot.html)
+- Python [DASK on Kaggle](https://www.kaggle.com/puneetgrover/speed-up-your-algorithms-dask) , [DASK with TPOT](https://examples.dask.org/machine-learning/tpot.html)
+- Spark [PluralSight](https://www.pluralsight.com/courses/apache-spark-fundamentals)
+
+### Statistics
+
+- R [Elementary](http://www.r-tutor.com/elementary-statistics)
 
 ### OOPS
 
-#### Python
-- [magic methods](https://micropyramid.com/blog/python-special-class-methods-or-magic-methods/)
+- Python [magic methods](https://micropyramid.com/blog/python-special-class-methods-or-magic-methods/)
+- Java [Object Builder](https://github.com/google/CallBuilder)
 
-### HTML5
+### GARBAGE COLLECTION
 
-- [Basics]
-- [Video playlist](https://www.youtube.com/watch?v=qseNjA-73Fw&list=PL081AC329706B2953&index=2)
-- [Use of meta](https://www.sitepoint.com/meta-tags-html-basics-best-practices/)
-- [meta attributes](https://www.sitepoint.com/meta-tags-html-basics-best-practices/)
-
-### CSS3
-
-- [Basics](https://learn.shayhowe.com/html-css/)
-- [Layouts](https://learnlayout.com/)
-
-### JS
-
-- [Video Playlist](https://www.youtube.com/user/learncodeacademy/playlists)
-- [JS the right way](https://jstherightway.org/) , [Modern JS Tutorial](https://javascript.info/) , [Modern JS](https://www.modernjs.com/) , [Modern JS Cheatsheet](https://mbeaudru.github.io/modern-js-cheatsheet/)
-
-### BOOTSTRAP
-
-- [Basics]
-- [CSS](https://bootstrapdocs.com/v3.3.6/docs/css/)
-- [Video Playlist](https://www.youtube.com/watch?v=GDwWmrpCa30&index=3&list=PL6n9fhu94yhXd4xnk-j5FGhHjUv1LsF0V)
-- [Grid View](https://getbootstrap.com/docs/3.3/examples/grid/)
+- Java [Types](https://blogs.oracle.com/javamagazine/understanding-garbage-collectors) 
 
 ## T i p s
 
 ### CODE STYLE GUIDE
 
 - [Java](https://google.github.io/styleguide/javaguide.html)
-- [Python](https://github.com/google/styleguide/blob/gh-pages/pyguide.md) [26 tips](http://book.pythontips.com/en/latest/)
+- [Python](https://github.com/google/styleguide/blob/gh-pages/pyguide.md) , [26 tips](http://book.pythontips.com/en/latest/)
 - [R](https://google.github.io/styleguide/Rguide.xml)
-- [JavaScript](https://google.github.io/styleguide/jsguide.html)
+- [JavaScript](https://google.github.io/styleguide/jsguide.html) , JS [Video Playlist](https://www.youtube.com/user/learncodeacademy/playlists) , [JS the right way](https://jstherightway.org/) , [Modern JS Tutorial](https://javascript.info/) , [Modern JS](https://www.modernjs.com/) , [Modern JS Cheatsheet](https://mbeaudru.github.io/modern-js-cheatsheet/), [JS Libraries Wiki](https://www.javascripting.com/)
 - [Angular JS](https://google.github.io/styleguide/angularjs-google-style.html)
+- CSS3 [Basics](https://learn.shayhowe.com/html-css/) , [Layouts](https://learnlayout.com/)
+- BOOTSTRAP [CSS](https://bootstrapdocs.com/v3.3.6/docs/css/) , [Video Playlist](https://www.youtube.com/watch?v=GDwWmrpCa30&index=3&list=PL6n9fhu94yhXd4xnk-j5FGhHjUv1LsF0V) , [Grid View](https://getbootstrap.com/docs/3.3/examples/grid/)
+- HTML5 [Video playlist](https://www.youtube.com/watch?v=qseNjA-73Fw&list=PL081AC329706B2953&index=2) , [Use of meta](https://www.sitepoint.com/meta-tags-html-basics-best-practices/),  [meta attributes](https://www.sitepoint.com/meta-tags-html-basics-best-practices/)
 
 ### Jupyter Notebook Extensions
 
 - [install](http://tljh.jupyter.org/en/latest/howto/admin/enable-extensions.html)
 - [magic commands](https://www.dataquest.io/blog/jupyter-notebook-tips-tricks-shortcuts)
 
-### Package Control
+### Environments and Package Control
 
 - R [installer](https://www.datacamp.com/community/tutorials/r-packages-guide)
-- Python [conda](https://github.com/ZNClub-PA-ML-AI/Scrapy-Spiders)
+- Python [conda](https://github.com/ZNevzz/ZNevzz.github.io/tree/master/notes/commands/conda)
 
 ### Time Measure Snippets
 
-#### Python
-
-- [TimeIt Module](https://www.geeksforgeeks.org/timeit-python-examples/) [JuNoPy magic](https://www.dataquest.io/blog/jupyter-notebook-tips-tricks-shortcuts/#5ipythonmagiccommands)
+- Python [TimeIt Module](https://www.geeksforgeeks.org/timeit-python-examples/) , [JuNoPy magic](https://www.dataquest.io/blog/jupyter-notebook-tips-tricks-shortcuts/#5ipythonmagiccommands)
 - [Basic](https://pythonhow.com/measure-execution-time-python-code/)
-
-#### Java
-
-- [Basic](https://stackoverflow.com/questions/5204051/how-to-calculate-the-running-time-of-my-program/5204075)
-
-#### R
-
-- [5 WAYS](https://www.r-bloggers.com/5-ways-to-measure-running-time-of-r-code/)
+- Java [Basic](https://stackoverflow.com/questions/5204051/how-to-calculate-the-running-time-of-my-program/5204075)
+- R[5 WAYS](https://www.r-bloggers.com/5-ways-to-measure-running-time-of-r-code/)
