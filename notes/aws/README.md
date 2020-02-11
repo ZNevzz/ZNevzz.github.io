@@ -421,7 +421,7 @@ X-Ray
 	- Available: multi AZ
 	- Durable: multi Region	
 	- Cost Optimized: low cost storage
-	- Secure: SSL Certificate, IAM, Encryption
+	- Secure: SSL Certificate, IAM, Encryption, Policies, ACL
 	- Scalable: elastic nature
 	- Notifications: Lambda,SNS,SQS
 	- High Performance: Multipart upload using n/w, Acceleration using Edge Location
@@ -429,15 +429,36 @@ X-Ray
 	- Distribution: Directly or source to CloudFront Edge Location
 	- Static website hosting
 	- Disaster Recovery: Auto replication in multi AZ, manual copy to Regions
+	- Best practice: secure access permissions, Cross-Region Replication, versioning, functioning, regularly tested backup
+
+- Charges
+	- Storage,Access,Transfer,Replication,Management
+	- location of your bucket
+	- Data transferred via a COPY request: within region FREE, across regions CHARGED
+	- Data transferred b/w EC2 and S3: within region FREE, across regions CHARGED
+	- Free Tier: 5 GB of Amazon S3 Standard storage, 20,000 Get Requests, 2,000 Put Requests, 15GB of data transfer in, and 15GB of data transfer out each month for one year
+	- every version of an object stored or requested
+
+- Security
+	- Access: IAM policies, bucket policies, ACLs, Query String Authentication
+	- Audit: CloudTrail
+	- Encryption: SSE-S3, SSE-C, SSE-KMS(PCI-DSS, HIPAA/HITECH, and FedRAMP industry requirements)
+	- Amazon Macie helps you prevent data loss by automatically discovering, classifying, and protecting sensitive data stored, delivers alerts when it detects risk of unauthorized access or inadvertent data leaks
+	- Content-MD5 checksums and cyclic redundancy checks (CRCs) to detect data corruption
+	- Access Points: create hundreds of access points per bucket, representing a new way of provisioning access to shared data set, decompose one large bucket policy into separate,
+	- create a Service Control Policy (SCP) and require that all access points be restricted to a Virtual Private Cloud (VPC), firewalling your data to within your private networks. Using access points, you can easily test new access control policies before migrating applications to the access point, or copying the policy to an existing access point
 
 - Consistency
 	- RAW for PUTS in all regions
-	- Eventual for overwrite PUTS + DELETES 
+	- Eventual for overwrite PUTS + DELETES
+	- objects > 100 MB, consider using the Multipart Upload
 
 - Buckets
 	- Folder where objects can be read,write,delete
 	- Max size of object = 5TB, Max Buckets = 100
 	- Naming convention: 3-63 characters,1+ labels, (.) separator, lowercase+numbers+hyphens(not at the beginning)
+	- If an object key name consists of a single period (.), or two periods (..), you can’t download the object using the Amazon S3 console
+	- S3 Object Tagging to organize your data across all of your S3 buckets and/or prefixes
 	
 - Storage Classes
 	- Standard
@@ -447,7 +468,19 @@ X-Ray
 
 	- Standard Infrequent Access
 		- less frequent, rapid access, low cost storage, retreival fee
-		- database backups
+		- database backups, disaster recovery, long-term
+		- If an object is less than 128 KB, Amazon S3 charges you for 128 KB. 
+
+	- One Zone-IA
+		- less availability, resilience
+		- 20% less cost
+		
+	- Intelligent-Tiering
+		- 2 tier storage:frequent access + lower-cost
+		- mall monthly monitoring and automation fee per object(min size=128kb)
+		- moves objects after observing for 30 days
+		- not suitable for <128kb as charges are applied as standard
+		- If you delete an object before the end of the 30-day minimum storage duration period, you are charged for 30 days
 		
 	- Reduced Redundancy Storage
 		-	non critical data, lower durabiltiy availabiltity
@@ -457,7 +490,19 @@ X-Ray
 		- archiving rarely accessed data, secure volt feature, lowest cost availability
 		- database backups, audit, compliance
 		- set rules to migrate from s3 after 120 days
- ----
+		- minimum storage duration period of 90 days
+		- before the 90-day minimum, you are charged for 90 days
+		- all other interactions with S3 Glacier require that you use the AWS CLI or code
+	
+	- Glacier Deep Archive
+		- Ideal alternative to magnetic tape libraries
+		- 7-10 years storage
+		- 12 hours retreival
+		- minimum storage duration period of 180 days
+		- before the 180-day minimum, you are charged for 180 days
+		
+		
+
  ||S3 Standard|S3 Intelligent-Tiering*|S3 Standard-IA|S3 One Zone-IA†|S3 Glacier|S3 Glacier Deep Archive|
 |--- |--- |--- |--- |--- |--- |--- |
 |Designed for durability|99.999999999% (11 9’s)|99.999999999% (11 9’s)|99.999999999% (11 9’s)|99.999999999% (11 9’s)|99.999999999% (11 9’s)|99.999999999% (11 9’s)|
@@ -471,8 +516,30 @@ X-Ray
 |Storage type|Object|Object|Object|Object|Object|Object|
 |Lifecycle transitions|Yes|Yes|Yes|Yes|Yes|Yes|
 
- ----
 - Retrieval Options
 	- Expedited: 1-5 mins, charge per request per GB
 	- Standard: 3-5 hours, charge per 1k request, lower charge per GB 
 	- Bulk: 5-8 hours, lowest charge per 1k+ requests, lowest charge per GB
+
+- Provisioned Capacity
+	- Guarantees that your retrieval capacity for Expedited retrievals will be available when you need it
+	- at least 3 expedited retrievals can be performed every 5 minutes and provides up to 150MB/s of retrieval throughput
+	- Each unit of provisioned capacity costs $100 per month from the date of purchase
+	
+- Versioning
+	- preserve, retrieve, restore using ID for each object Key
+	- bucket states: unversioned, v-enabled, v-suspended
+
+- Cross Region Replication
+	- automatic asynchronous
+
+- MFA delete option
+
+- Life Cycle Management
+	- move across storage classes based on rules
+	- max 1k rules per bucket, whole or subject of objects inside a bucket
+	- Standard --> IA: 128kb, 30 days
+
+#### Amazon CloudFront: 
+
+
