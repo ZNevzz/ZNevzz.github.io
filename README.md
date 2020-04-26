@@ -194,6 +194,7 @@
 - Block scopes [Scopes](https://jscomplete.com/playground/scopes)
 - Arrow functions [=>](https://jscomplete.com/playground/arrow-functions) , [Compare](https://jscomplete.com/playground/arrow-vs-regular-functions]
 - Classes [class](https://jscomplete.com/playground/classes]
+- Promises [using Async Await](https://jscomplete.com/playground/promises]
 - Syntatic sugar [Object literals](https://jscomplete.com/playground/object-literals) , [Destructuring](https://jscomplete.com/playground/destructuring) ,  [Template Strings](https://jscomplete.com/playground/template-strings)
 
 ### Jupyter Notebook Extensions
