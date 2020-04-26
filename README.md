@@ -189,6 +189,13 @@
 - BOOTSTRAP [CSS](https://bootstrapdocs.com/v3.3.6/docs/css/) , [Video Playlist](https://www.youtube.com/watch?v=GDwWmrpCa30&index=3&list=PL6n9fhu94yhXd4xnk-j5FGhHjUv1LsF0V) , [Grid View](https://getbootstrap.com/docs/3.3/examples/grid/)
 - HTML5 [Video playlist](https://www.youtube.com/watch?v=qseNjA-73Fw&list=PL081AC329706B2953&index=2) , [Use of meta](https://www.sitepoint.com/meta-tags-html-basics-best-practices/),  [meta attributes](https://www.sitepoint.com/meta-tags-html-basics-best-practices/)
 
+### ES6
+
+- Block scopes [Scopes](https://jscomplete.com/playground/scopes)
+- Arrow functions [=>](https://jscomplete.com/playground/arrow-functions) , [Compare](https://jscomplete.com/playground/arrow-vs-regular-functions]
+- Classes [class](https://jscomplete.com/playground/classes]
+- Syntatic sugar [Object literals](https://jscomplete.com/playground/object-literals) , [Destructuring](https://jscomplete.com/playground/destructuring) ,  [Template Strings](https://jscomplete.com/playground/template-strings)
+
 ### Jupyter Notebook Extensions
 
 - [install](http://tljh.jupyter.org/en/latest/howto/admin/enable-extensions.html)
