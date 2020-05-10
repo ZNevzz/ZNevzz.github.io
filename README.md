@@ -197,6 +197,16 @@
 - Promises [using Async Await](https://jscomplete.com/playground/promises]
 - Syntatic sugar [Object literals](https://jscomplete.com/playground/object-literals) , [Destructuring](https://jscomplete.com/playground/destructuring) ,  [Template Strings](https://jscomplete.com/playground/template-strings)
 
+### Kubernetes
+- [9 steps](https://docs.google.com/presentation/d/1QeDOfgnJO5vCftBFsA8iU3xP1FUTRXYfeVCuY_ZJTdo/mobilepresent?slide=id.g3e7ff8d655_0_327)
+
+### Project Reactor
+- Documentation 
+- Talks [DOs and DONTs - Sergei Egorov](https://www.youtube.com/watch?v=0rnMIueRKNU) ,
+ [Flight of the Flux - Simon Baslé](https://www.youtube.com/watch?v=sNgTTcG-fEU) ,
+ [TDD for Web Flux](https://www.youtube.com/watch?v=KrxXdnCxiFg)
+- Blogs [Sergie Egorov](https://bsideup.github.io/posts/)
+
 ### Jupyter Notebook Extensions
 
 - [install](http://tljh.jupyter.org/en/latest/howto/admin/enable-extensions.html)
