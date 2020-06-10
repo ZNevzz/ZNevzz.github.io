@@ -204,7 +204,8 @@
 - Documentation 
 - Talks [DOs and DONTs - Sergei Egorov](https://www.youtube.com/watch?v=0rnMIueRKNU) ,
  [Flight of the Flux - Simon Baslé](https://www.youtube.com/watch?v=sNgTTcG-fEU) ,
- [TDD for Web Flux](https://www.youtube.com/watch?v=KrxXdnCxiFg)
+ [TDD for Web Flux](https://www.youtube.com/watch?v=KrxXdnCxiFg) ,
+ [JUnit 4 vs 5](https://www.baeldung.com/junit-5-migration)
 - Blogs [Sergie Egorov](https://bsideup.github.io/posts/)
 
 ### Jupyter Notebook Extensions
