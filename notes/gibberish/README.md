@@ -6,14 +6,19 @@
 
 ### Trial Round
 Nevil Dsouza=Naeisvou zDl
+
 Ritesh Sail=eaitiRS shl
 
 ### Start Round
 
 Jimy Maniar=maMiyiJarn
+
 Shirish Beeraka=Seisreh hkaariB
+
 Bing Zhang=gahin ZgBn
+
 Sanjeev Shetye=etene aSeShyvj
+
 Harsh Bhattacharya=trhthByraa cHaahas
 
 ## Food
@@ -21,9 +26,13 @@ Harsh Bhattacharya=trhthByraa cHaahas
 - Hint: Initials are capital + Starter/ Main Course
 
 Neer Dosa=eaNro eDs
+
 Macaroni=orcanMia
+
 Spinach Cottage Cheese(palak paneer)=Chopth aseitCe Segeanc
+
 Triple Schezwan Fried Rice=edlRT  zaeeiS phencriFriwc
+
 Tandoori Butter Naan=adana ritTe uoNtBnro
 
 ## Things
