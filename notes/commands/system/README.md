@@ -3,6 +3,12 @@
 ls -la # all files
 mv name1.txt name2.txt # rename
 head -n 100 file.txt # read 100 lines
+lsb_release -a  
+uname -r
+lscpu
+ps
+service --status-all
+KILL -9 <PID>
 ```
 # WINDOWS
 
