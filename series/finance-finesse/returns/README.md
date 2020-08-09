@@ -18,10 +18,14 @@
 ## Terms
 
 - [Systematic Risk]
-- [Market Risk]
-- [Credit Risk]
-- [Default Risk]
-- [Interest rate Risk]
+ - Macroeconomic, non-diversifiable
+ - [Inflation Risk]
+ - [Interest rate Risk]
+ - [Market Risk]
+ - [Credit Risk](https://www.investopedia.com/terms/c/creditrisk.asp) : lender may not receive the owed principal and interest in timely manner
+ - [Default Risk](https://www.investopedia.com/terms/d/defaultrisk.asp) : borrower won’t be able to make required debt payments
+ [Credit Vs Default](https://www.quora.com/What-is-the-difference-between-credit-risk-and-default-risk)
+ 
 
 
 ### Systematic Risk
@@ -41,8 +45,15 @@ nonsystematic risk, specific risk, diversifiable risk, residual risk
 
 ### MONEY WEIGHTED
 
-- [POSTIVE FLOWS = NEGATIVE FLOWS](IRR)
-- [1+R = MARGIN / B+C/2](SIMPLE DIETZ)
+- IRR
+ - POSTIVE FLOWS = NEGATIVE FLOWS
+ - E = B x (1+IRR) + C x (1+IRR)^Wi
+
+
+ 
+ - [First order approximation](https://math.stackexchange.com/questions/2477599/how-do-i-find-a-first-order-approximation) applied to IRR
+ - [1+R = MARGIN / B+C/2]
+
 - [1+R = MARGIN / B + Ct*Wt](MODIFIED DIETZ) 
 - [PERIOD-DAYS - TRANSACTION-DATE-IN-PERIOD / PERIOD-DAYS](Wt)
 
