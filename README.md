@@ -28,8 +28,8 @@
 
 ### Invest
 
-- Demystify-Buzzwords - Machine Learning: [slides](https://znevzz.github.io/series/demystify-buzzwords/machine-learning/) , [examples](https://nbviewer.jupyter.org/github/ZNevzz/ZNevzz.github.io/blob/master/series/demystify-buzzwords/machine-learning/ml_snippets.ipynb)
-- Widgets: [Chat Widget](https://znevzz.github.io/widgets/chat/example-2.html) ,
+- [OctoPy](https://github.com/ZNClub-PA-ML-AI/OctoPy-Predictor)
+- [DataVisuals](https://github.com/ZNClub-PA-ML-AI/DataVisuals)
 
 ### Enhancements
 
@@ -43,6 +43,16 @@
 - [ZNevzz Portfolio](https://znevzz.github.io/me/)
 - [ASA](https://znevzz.github.io/asa/)
 - [Supermarket](https://znevzz.github.io/churchway-demo/)
+- Demystify-Buzzwords - Machine Learning: [slides](https://znevzz.github.io/series/demystify-buzzwords/machine-learning/) , [examples](https://nbviewer.jupyter.org/github/ZNevzz/ZNevzz.github.io/blob/master/series/demystify-buzzwords/machine-learning/ml_snippets.ipynb)
+- Widgets: [Chat Widget](https://znevzz.github.io/widgets/chat/example-2.html) ,
+
+## N o t e s
+
+- Technical [AWS](https://github.com/ZNevzz/ZNevzz.github.io/tree/master/notes/aws) , [OS shell](https://github.com/ZNevzz/ZNevzz.github.io/tree/master/notes/commands/system) , [Anaconda](https://github.com/ZNevzz/ZNevzz.github.io/tree/master/notes/commands/conda) ,
+
+- Financial [Must Read](https://github.com/ZNevzz/ZNevzz.github.io/tree/master/series/finance-finesse/resources) , [Funds and Shareclasses](https://github.com/ZNevzz/ZNevzz.github.io/tree/master/series/finance-finesse/funds/analysis) , [Risk & Return](https://github.com/ZNevzz/ZNevzz.github.io/tree/master/series/finance-finesse/returns)
+
+- Computer Science [Data Analysis](https://github.com/ZNevzz/ZNevzz.github.io/tree/master/notes/data-analysis) , [Data Visualization](https://github.com/ZNevzz/ZNevzz.github.io/tree/master/notes/data-visualization) , [Neural Networks](https://github.com/ZNevzz/ZNevzz.github.io/tree/master/notes/neural-networks) , [Speech Diarization](https://github.com/ZNevzz/ZNevzz.github.io/tree/master/notes/speech-diarization) 
 
 ## O p e n    S o u r c e
 
@@ -62,6 +72,7 @@
 - [Jeff Redback](https://github.com/jreback)
 - [Josh Long](https://joshlong.com/index.html)
 - [Paul](https://paulvanderlaken.com)
+- [John Lerk](https://johnlekberg.com)
 
 ### Playgrounds
 
