@@ -61,7 +61,7 @@
 - [Facebook](https://code.fb.com) , [facebook-repo](https://github.com/facebook) , [facebookincubator-repo](https://github.com/facebookincubator)
 - [Google](https://opensource.google.com/projects/explore/featured)
 - [Spring](https://spring.io/projects)
-- [Python](https://www.python.org/) 
+- [Python](https://www.python.org/) [PyWeekly](https://pycoders.com/)
 - [Pandas](http://pandas.pydata.org/) , [pandas-dev-repo](https://github.com/pandas-dev)
 
 
