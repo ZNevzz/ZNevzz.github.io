@@ -24,67 +24,73 @@
 [Read more](https://d1.awsstatic.com/whitepapers/architecture/AWS_Well-Architected_Framework.pdf)
 
 #### Security
-[Read more](https://d0.awsstatic.com/whitepapers/architecture/AWS-Security-Pillar.pdf?ref=wellarchitected-wp)
+[Read more](https://d0.awsstatic.com/whitepapers/architecture/AWS-Security-Pillar.pdf)
 
-	- The ability to protect information, systems, and assets while delivering business value
+- The ability to protect information, systems, and assets while delivering business value
 through risk assessments and mitigation strategies.
 
-	#AWS shared responsibility model
+- AWS shared responsibility model
 	- Security ‘in’ the Cloud - Customer app,data,firewall config
 	- Security ‘of’ the cloud - AWS is responsible for protecting the infrastructure 
-	- Data Protection
-		- Encrypt and manage data: IAM MFA, KMS, AWS Organizations
-		- Perform detailed logging, monitoring, alert: CloudTrail,CloudWatch
-		- Resilient storage, versioning, life cycle management: S3, ELB, EBS, RDS
-		- Amazon VPC, Amazon CloudFront, AWS Shield, AWS WAF
+- Products
+    - Identity Management: MFA, IAM, SSO, Organizations, Directory Service, Cognito,  Systems Manager, Config, Secrets Manager
+    - Permissions Management: SCP Organizations, ABAC, Access Analyzer, Resouce Access Manager
+    - Configure: CloudTrail, Config, GuardDuty, Security Hub, VPC Flow logs, CloudWatch Logs Insights, S3 Object Lock
+    - Investigate: GuardDuty, EventBridge, Config events
+    - Protecting Networks: Transit Gateway, ACL SUB
+    - Encrypt and manage data: IAM, MFA, KMS, Organizations
+    - Perform detailed logging, monitoring, alert: ,CloudWatch
+    - Perform detailed logging, monitoring, alert: CloudTrail,CloudWatch
+    - Resilient storage, versioning, life cycle management: S3, ELB, EBS, RDS
+    - VPC, CloudFront, Shield, WAF
 
-	- Design Principles
-
-Implement a strong identity foundation
-Enable traceability
-Apply security at all layers
-Automate security best practices
-Protect data in transit and at rest
-Prepare for security events
+- Design Principles
+	- Implement a strong identity foundation
+	- Enable traceability
+	- Apply security at all layers
+	- Automate security best practices
+	- Protect data in transit and at rest
+	- Keep people away from data
+	- Prepare for security events
 	
 #### Reliability
 [Read more](https://d1.awsstatic.com/whitepapers/architecture/AWS-Reliability-Pillar.pdf)
--  ability of a system to recover from infrastructure or service disruptions, dynamically acquire computing resources to meet demand, and mitigate disruptions such as misconfigurations or transient network issues
-	- CloudWatch, IAM, VPC, AWS Trusted Advisor, AWS Shield, CloudTrail, Config, Auto Scaling, CloudWatch,Glacier CloudFormation, KMS
+-  ability of a system to recover from infrastructure or service disruptions, dynamically acquire computing resources to
+ meet demand, and mitigate disruptions such as misconfigurations or transient network issues
+- Products
+	- CloudWatch, IAM, VPC, AWS Trusted Advisor, AWS Shield, CloudTrail, Config, Auto Scaling, CloudWatch,Glacier, CloudFormation, KMS
 - Service limits (http://docs.aws.amazon.com/general/latest/gr/aws_service_limits.html?ref=wellarchitected-wp)
-	- Design Principles
-
-Test recovery procedures
-Automatically recover from failure
-Scale horizontally to increase aggregate system availability
-Stop guessing capacity
-Manage change in automation
+- Design Principles
+	- Test recovery procedures
+	- Automatically recover from failure
+	- Scale horizontally to increase aggregate system availability
+	- Stop guessing capacity
+	- Manage change in automation
 
 #### Performance Efficiency
 [Read more](https://d0.awsstatic.com/whitepapers/architecture/AWS-Performance-Efficiency-Pillar.pdf?ref=wellarchitected-wp)
 - ability to use computing resources efficiently to meet system requirements and to maintain that efficiency as demand changes and technologies evolve
-- CloudWatch, Auto Scaling, EBS, S3, RDS, DynamoDB, Route53, VPC, AWS Direct Connect, AWS Blog, AWS Lambda, ElastiCache, CloudFront, Snowball 
-	- Design Principles
+- Products
+	- CloudWatch, Auto Scaling, EBS, S3, RDS, DynamoDB, Route53, VPC, AWS Direct Connect, AWS Blog, AWS Lambda, ElastiCache, CloudFront, Snowball 
+- Design Principles
 
-Democratize advanced technologies
-Go global in minutes
-Use serverless architectures
-Experiment more often
-Mechanical sympathy
+	- Democratize advanced technologies
+	- Go global in minutes
+	- Use serverless architectures
+	- Experiment more often
+	- Mechanical sympathy
 
 #### Cost Optimization
 [Read more](https://d0.awsstatic.com/whitepapers/architecture/AWS-Cost-Optimization-Pillar.pdf?ref=wellarchitected-wp)
 - ability to avoid or eliminate unneeded cost or suboptimal resources.
--  Cost Explorer, CloudWatch, Trusted Advisor, Aurora, RDS, Direct Connect, CloudFront, Auto Scaling a, 
-
-	- Design Principles
-	
-Adopt a consumption model
-Measure overall efficiency
-Stop spending money on data center operations
-Analyze and attribute expenditure
-Use managed services to reduce cost of ownership
-
+- Products
+	-  Cost Explorer, CloudWatch, Trusted Advisor, Aurora, RDS, Direct Connect, CloudFront, Auto Scaling a, 
+- Design Principles
+	- Adopt a consumption model
+	- Measure overall efficiency
+	- Stop spending money on data center operations
+	- Analyze and attribute expenditure
+	- Use managed services to reduce cost of ownership
 - Drivers of cost with AWS: compute(hourly), storage(per GB), outbound data transfer(per GB)
 - Japanese Consumption Tax
 
@@ -95,15 +101,13 @@ Use managed services to reduce cost of ownership
 	- AWS Config
 	- Amazon CloudWatch
 	- Amazon Elasticsearch Service (Amazon ES)
-	
 	- Design Principles
-
-Perform operations as code
-Annotate documentation
-Make frequent, small, reversible changes
-Refine operations procedures frequently
-Anticipate failure
-Learn from all operational failures
+		- Perform operations as code
+		- Annotate documentation
+		- Make frequent, small, reversible changes
+		- Refine operations procedures frequently
+		- Anticipate failure
+		- Learn from all operational failures
 
 
 ### Global Infrastructure
@@ -115,9 +119,9 @@ Learn from all operational failures
 - AZ: 1+ data centers with redundant power, networking, and connectivity in an AWS Region;Within region, atleast 2 zones connected with low latency; fault tolerant
 - Edge Location: CloudFront n/w to deliver content with low latency
 - Local Zones: compute, storage, database, and other select AWS services closer to end-users
-- Wavelength: deliver single-digit millisecond latencies to mobile devices and end-users;5G network;reduces the extra network hops
-- Outposts: AWS services, infrastructure, and operating models to virtually any data center, co-location space, or on-premises facility
-- stats:
+- Wavelength: deliver single-digit millisecond latencies to mobile devices and end-users; 5G network; reduces the extra network hops
+- Outposts: AWS services, infras, operating models to any data center, co-location space, on-premises facility
+- FACTS	:
 	- Regions = 22(launched) + 4 (announced)
 	- AZs = 69
 	- LZs = 1
@@ -417,6 +421,19 @@ X-Ray
 
 #### S3: provides cloud storage
 
+- Topics
+
+Storage Classes
+Security 
+Data Consistency
+Cross-Region Replication
+Versioning
+Lifecycle Management
+
+Presigned URLs
+MFA Delete
+Bucket Policies
+
 - Features
 	- Available: multi AZ
 	- Durable: multi Region	
@@ -424,20 +441,40 @@ X-Ray
 	- Secure: SSL Certificate, IAM, Encryption, Policies, ACL
 	- Scalable: elastic nature
 	- Notifications: Lambda,SNS,SQS
-	- High Performance: Multipart upload using n/w, Acceleration using Edge Location
-	- Archive:
+	- High Performance: Multipart upload using n/w, Transfer Acceleration using Edge Location
+	- Archive: Glacier, Deep Archive
 	- Distribution: Directly or source to CloudFront Edge Location
 	- Static website hosting
 	- Disaster Recovery: Auto replication in multi AZ, manual copy to Regions
 	- Best practice: secure access permissions, Cross-Region Replication, versioning, functioning, regularly tested backup
+	
+- Requests types:
+
+	- PUT
+	- COPY
+	- POST
+	- LIST
+	- GET
+	- SELECT
+	- Lifecycle Transition
 
 - Charges
-	- Storage,Access,Transfer,Replication,Management
+	- Storage
+		- Standard and Intelligent storage class=data is stored within a single month. Price is reduced as you add more and more data within the same month.
+		- Intelligent-tiering= Above + fee for monitoring and automating lifecycle
+	Access,,,
+	- Management: 
+		- Amazon S3 inventory: priced per million objects, auditing and reporting for replication and encryption actions
+		- Analytics: priced per million objects monitored per month, analyze access patterns
+		- Object tagging: priced per 10K tags applied per month, categorize your storage
 	- location of your bucket
-	- Data transferred via a COPY request: within region FREE, across regions CHARGED
-	- Data transferred b/w EC2 and S3: within region FREE, across regions CHARGED
+	- Transfer
+		- INTO  S3 From the internet, OUT to  CloudFront: FREE
+		- Data transferred via a COPY request: within region FREE, across regions CHARGED
+		- Data transferred b/w EC2 and S3: within region FREE, across regions CHARGED
 	- Free Tier: 5 GB of Amazon S3 Standard storage, 20,000 Get Requests, 2,000 Put Requests, 15GB of data transfer in, and 15GB of data transfer out each month for one year
 	- every version of an object stored or requested
+	-
 
 - Security
 	- Access: IAM policies, bucket policies, ACLs, Query String Authentication
@@ -449,8 +486,8 @@ X-Ray
 	- create a Service Control Policy (SCP) and require that all access points be restricted to a Virtual Private Cloud (VPC), firewalling your data to within your private networks. Using access points, you can easily test new access control policies before migrating applications to the access point, or copying the policy to an existing access point
 
 - Consistency
-	- RAW for PUTS in all regions
-	- Eventual for overwrite PUTS + DELETES
+	- RAW: PUTS in all regions
+	- Eventual for overwrite PUTS + DELETES (multi AZ)
 	- objects > 100 MB, consider using the Multipart Upload
 
 - Buckets
@@ -464,28 +501,23 @@ X-Ray
 	- Standard
 		- frequent access,high throughput availability durability, low latency, 99.9%
 		- apps, real time access, uploads, storage
-		- DURABILITY AVAILABILTIY 11 and 4 9s
 
 	- Standard Infrequent Access
 		- less frequent, rapid access, low cost storage, retreival fee
 		- database backups, disaster recovery, long-term
 		- If an object is less than 128 KB, Amazon S3 charges you for 128 KB. 
-
-	- One Zone-IA
-		- less availability, resilience
-		- 20% less cost
-		
+	
 	- Intelligent-Tiering
-		- 2 tier storage:frequent access + lower-cost
+		- 2 tier storage: frequent access + lower-cost
 		- mall monthly monitoring and automation fee per object(min size=128kb)
 		- moves objects after observing for 30 days
 		- not suitable for <128kb as charges are applied as standard
 		- If you delete an object before the end of the 30-day minimum storage duration period, you are charged for 30 days
 		
-	- Reduced Redundancy Storage
-		-	non critical data, lower durabiltiy availabiltity
-		- thumbnails, transcoded media, reproducible data
-		
+	- One Zone-IA
+		- less availability, resilience
+		- 20% less cost
+			
 	- Glacier
 		- archiving rarely accessed data, secure volt feature, lowest cost availability
 		- database backups, audit, compliance
@@ -517,14 +549,14 @@ X-Ray
 |Lifecycle transitions|Yes|Yes|Yes|Yes|Yes|Yes|
 
 - Retrieval Options
-	- Expedited: 1-5 mins, charge per request per GB
+	- Expedited: 1-5 mins, charge per request per GB, request has to less than 250 MB
 	- Standard: 3-5 hours, charge per 1k request, lower charge per GB 
 	- Bulk: 5-8 hours, lowest charge per 1k+ requests, lowest charge per GB
-
-- Provisioned Capacity
-	- Guarantees that your retrieval capacity for Expedited retrievals will be available when you need it
-	- at least 3 expedited retrievals can be performed every 5 minutes and provides up to 150MB/s of retrieval throughput
-	- Each unit of provisioned capacity costs $100 per month from the date of purchase
+	- Provisioned Capacity Unit: 
+		- upfront fee within a month at a fixed cost to use Expedited 
+		- Guarantees that your retrieval capacity for Expedited retrievals will be available when you need it
+		- at least 3 expedited retrievals can be performed every 5 minutes and provides up to 150MB/s of retrieval throughput
+		- Each unit of provisioned capacity costs $100 per month from the date of purchase
 	
 - Versioning
 	- preserve, retrieve, restore using ID for each object Key
@@ -542,4 +574,35 @@ X-Ray
 
 #### Amazon CloudFront: 
 
+
+## MUST Read
+
+- [Overview](https://d1.awsstatic.com/whitepapers/aws-overview.pdf)
+- [Pricing](https://d1.awsstatic.com/whitepapers/aws_pricing_overview.pdf)
+- [Security](https://d1.awsstatic.com/whitepapers/aws-security-whitepaper.pdf)
+- [Well Architected](https://d1.awsstatic.com/whitepapers/architecture/AWS_Well-Architected_Framework.pdf)
+- [DDoS](https://d1.awsstatic.com/whitepapers/Security/DDoS_White_Paper.pdf)
+
+## BEST PRACTICES
+
+### GENERALIZED
+
+- Enable SSE for data at rest
+- Implement least-privilege access
+	- SNS: Administrators, Publishers, Subscribers
+- Enforce encryption for data in transit using connections over HTTPS (TLS) using the aws:SecureTransport condition in the topic policy to force requests to use SSL
+
+
+
+- SQS: least privilege access permissions for SQS queue, Deploy DLQ, Enable SSE using KMS, Encrypt in transit
+- Lambda: Least privilege access IAM role, Enable X-Ray, Enable reusing connections with Keep-Alive for NodeJs
+
+
+### SNS
+- Ensure topics aren't publicly accessible by:
+	- Avoid creating policies with Principal set to ""
+	- 
+- IAM role to manage temporary credentials for applications or services that need to access Amazon SNS
+- Consider using VPC endpoints to access Amazon SNS
+ 
 
