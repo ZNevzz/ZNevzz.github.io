@@ -605,4 +605,50 @@ Bucket Policies
 - IAM role to manage temporary credentials for applications or services that need to access Amazon SNS
 - Consider using VPC endpoints to access Amazon SNS
  
+ 
+ 
+## EXAM SAA CO2
+
+ ----
+ 
+Design Resilient Architectures
+
+1.1 Design a multi-tier architecture solution
+1.2 Design highly available and/or fault-tolerant architectures
+1.3 Design decoupling mechanisms using AWS services
+1.4 Choose appropriate resilient storage
+
+You need to understand the various block, file and object storage technologies such as Amazon EBS, Instance Store, Amazon EFS and Amazon S3, and know their use cases.
+multi-tier application architectures
+decouple application components using technologies such as Amazon SQS and Amazon SWF.
+implementing high availability and fault tolerance.
+Amazon Elastic Load Balancing, Amazon Route 53, Amazon RDS Read Replicas and Multi-AZ, AWS Global Accelerator and Amazon CloudFront.
+AWS Global Infrastructure in order to determine how to design application stacks to best use the underlying infrastructure architecture
+
+
+Design High-Performing Architectures
+
+This domain makes up 28% of the exam and includes the following 4 objectives:
+2.1 Identify elastic and scalable compute solutions for a workload
+2.2 Select high-performing and scalable storage solutions for a workload
+2.3 Select high-performing networking solutions for a workload
+2.4 Choose high-performing database solutions for a workload
+
+best storage and database services
+to increase performance include a caching layer -Amazon ElastiCache, Amazon DynamoDB DAX, or Amazon CloudFront
+implement elasticity and scalability to your application architectures.
+Elasticity and scalability services at the application, storage, and database layers
+
+Design Secure Applications and Architectures
+
+3.1 Design secure access to AWS resources
+3.2 Design secure application tiers
+3.3 Select appropriate data security options
+
+authentication, authorization, and access and applying encryption to data.
+design isolation and separation through AWS service architecture, Amazon EC2 instance deployment options and Amazon VPC configuration.
+creating users, groups, and roles using AWS IAM, multi-factor authentication, AWS Directory Services at a high-level and when to use them.
+DDoS mitigation include AWS Auto Scaling, Amazon CloudFront, and Amazon Route 53.
+CloudWatch, CloudTrail, when and what penetration testing you are allowed to perform within the AWS cloud and what compliance programs AWS comply with.
+Amazon VPC, AWS KMS, AWS CloudHSM, AWS IAM, Amazon Cognito, and AWS Directory Services.
 
