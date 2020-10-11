@@ -15,6 +15,14 @@ tail -n 100 file.txt # read 100 lines
 mv name1.txt name2.txt # rename
 ?scp
 
+
+lsb_release -a  
+uname -r
+lscpu
+ps
+service --status-all
+KILL -9 <PID>
+
 ```
 # WINDOWS
 

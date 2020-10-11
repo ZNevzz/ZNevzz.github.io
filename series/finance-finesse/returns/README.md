@@ -17,55 +17,74 @@
 
 ## Terms
 
-- [Systematic Risk]
-- [Market Risk]
-- [Credit Risk]
-- [Default Risk]
-- [Interest rate Risk]
+- [Systematic Risk](https://www.wallstreetmojo.com/systematic-risk) : risk inherent to the entire market
+ - Macroeconomic; non-diversifiable; alias: undiversifiable risk, volatility, market risk;
+ - [Inflation Risk]
+ - [Interest rate Risk]
+ - [Market Risk]
+ - [Credit Risk](https://www.investopedia.com/terms/c/creditrisk.asp) : lender may not receive the owed principal and interest in timely manner
+ - [Default Risk](https://www.investopedia.com/terms/d/defaultrisk.asp) : borrower won’t be able to make required debt payments
+  - [Credit Vs Default](https://www.quora.com/What-is-the-difference-between-credit-risk-and-default-risk)
+ 
+- Unystematic Risk : risk is unique to a specific company or industry
+ - Microeconomic; alias: nonsystematic risk, specific risk, diversifiable risk, residual risk;
+ - Financial Risk
+ - Business Risk
 
-
-### Systematic Risk
-#### Simple Defintion
-risk inherent to the entire market
-#### Alias
-undiversifiable risk, volatility, market risk
-
-### Unystematic Risk
-#### Simple Defintion
-risk is unique to a specific company or industry
-#### Alias
-nonsystematic risk, specific risk, diversifiable risk, residual risk
 
 
 ## RETURNS
 
+### WEALTH RATIO
+- E / B
+ - E: ENDING VALUATION, B: BEGINNING VALUATION
+- Equation: 1+R = E/B
+
 ### MONEY WEIGHTED
 
-- [POSTIVE FLOWS = NEGATIVE FLOWS](IRR)
-- [1+R = MARGIN / B+C/2](SIMPLE DIETZ)
-- [1+R = MARGIN / B + Ct*Wt](MODIFIED DIETZ) 
-- [PERIOD-DAYS - TRANSACTION-DATE-IN-PERIOD / PERIOD-DAYS](Wt)
+- IRR
+ - POSTIVE FLOWS = NEGATIVE FLOWS
+ - [E = B x (1+IRR) + C x (1+IRR)^Wi]
+ 
+- DIETZ
+ - SIMPLE
+  - [First order approximation](https://math.stackexchange.com/questions/2477599/how-do-i-find-a-first-order-approximation) applied to IRR
+  - [1+R = MARGIN / B+C/2]
+   - R:Return, MARGIN: Gain/ Loss, B: BEGINNING VALUATION, C: CASHFLOW
+ - MODIFIED
+  - B + C/2 is converted to [B + Ct x Wt]
+   - Ct: CASHFLOW on period t
+   - Wt: Weightage for period t [Wt = TOTAL - t / TOTAL]  
 
 ### TIME WEIGHTED
 
-- [NAV RETURN](1+R = 1+r1*1+r2*... ^ 1/PERIOD)
+- alias: Classical, True
+- [1+R] = (E1/B1) x (E2/E1) x .. (En/En-1) = [En / B1]
 
 ### HYBRID 
 
+
 ## RISK METRICS
+
+### STATISTICS
+
+- [ (X-Xmean) * (X-Xmean) / N-1  or N] VAR(x)
+ - N: All observations
+ - The reason dividing by n-1 corrects the bias is because we are using the *sample mean*, instead of the *population mean*, to calculate the variance. More at [Khan Academy](https://www.khanacademy.org/math/ap-statistics/summarizing-quantitative-data-ap/more-standard-deviation/v/another-simulation-giving-evidence-that-n-1-gives-us-an-unbiased-estimate-of-variance)
+- [ (X-Xmean) * (X-Xmean) / N-1  or N] VAR(x)
 
 ### ANNUALIZED
 
-- [1+R = (1+Rn)^1/n](ANNUALIZED R)
-- [SQRT(R)](STANDARD DEVIATION)
-- [SUM(R)/n](ARITHMETIC MEAN)
-- [PRODUCT(R)^1/n](GEOM MEAN)
+- [1+R = (1+Rn)^1/n] ANNUALIZED R
+- [SQRT(R)] STANDARD DEVIATION
+- [SUM(R)/n] ARITHMETIC MEAN
+- [PRODUCT(R)^1/n] GEOM MEAN
 
 ### REGRESSION
 
-- [AVG(P) = BETA*AVG(B) + ALPHA](REGRESSION LINE) P:Rp, B: Rb
-- [AVG(P) - BETA*AVG(B) ](ALPHA)
-- [COV(P,B) / VAR(B)](BETA)
+- [AVG(P) = BETA*AVG(B) + ALPHA] REGRESSION LINE P:Rp, B: Rb
+- [AVG(P) - BETA*AVG(B) ] ALPHA
+- [COV(P,B) / VAR(B)]BETA 
 
 
 ### RISK ADJUSTED MEASURES
