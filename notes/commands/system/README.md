@@ -1,8 +1,20 @@
 # LINUX
 ```bash
+
+uname --all
+lsb_release -a
+lscpu
+
 ls -la # all files
-mv name1.txt name2.txt # rename
+ls -lrt # all files sorted by time
+ls -lS # all files sorted by size
+
 head -n 100 file.txt # read 100 lines
+tail -n 100 file.txt # read 100 lines
+
+mv name1.txt name2.txt # rename
+?scp
+
 ```
 # WINDOWS
 

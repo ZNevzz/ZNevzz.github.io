@@ -76,6 +76,7 @@
 - [GraphQL](https://graphqlbin.com/v2/6RQ6TM) 
 - [Experiments](https://experiments.withgoogle.com/)
 - TradingView [Ideas](https://www.tradingview.com/ideas/) [Widgets](https://www.tradingview.com/widget/) [Technical](https://www.tradingview.com/symbols/INRUSD/technicals/)
+- Web ID Fed [AWS](https://web-identity-federation-playground.s3.amazonaws.com/index.html)
 
 ### Open Data
 
