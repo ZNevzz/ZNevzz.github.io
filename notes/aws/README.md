@@ -572,8 +572,36 @@ Bucket Policies
 	- max 1k rules per bucket, whole or subject of objects inside a bucket
 	- Standard --> IA: 128kb, 30 days
 
+- Presigned URLs
+
+- Transfer Acceleration
+	- Upload using Edge,
+	- Does not support:
+		- list buckets
+		- create buckets
+		- Delete bucket
+		- Cross Region Put Object copy
+
+
 #### Amazon CloudFront: 
 
+
+#### EC2
+
+- Modes
+	- Stop and start your instance (if it has an Amazon EBS volume as its root device) Starting the stopped instance migrates it to new hardware.
+	- Hibernate: saves the contents from the instance memory (RAM) to your Amazon EBS root volume (only if it's enabled for hibernation and it meets the hibernation prerequisites)
+	- Reboot: we perform a hard reboot if the instance does not cleanly shut down within a few minutes, schedule your instance for a reboot for necessary maintenance, such as to apply updates that require a reboot
+	- Retire: AWS detects irreparable failure of the underlying hardware that hosts the instance, stopped/ terminated
+	- Terminate: delete your instance
+	- Recover: loudWatch alarm that monitors an Amazon EC2 instance and automatically recovers the instance if it becomes impaired due to an underlying hardware failure or a problem that requires AWS involvement to repair
+
+- Placement groups
+	- to minimize correlated failures, instances are spread out across underlying hardware
+	- Types
+		- Cluster: together inside an Availability Zone, achieve the low-latency network for HPC applications
+		- Partition: logical partitions,  large distributed and replicated workloads, such as Hadoop, Cassandra, and Kafka
+		- Spread: default
 
 ## MUST Read
 
@@ -582,21 +610,95 @@ Bucket Policies
 - [Security](https://d1.awsstatic.com/whitepapers/aws-security-whitepaper.pdf)
 - [Well Architected](https://d1.awsstatic.com/whitepapers/architecture/AWS_Well-Architected_Framework.pdf)
 - [DDoS](https://d1.awsstatic.com/whitepapers/Security/DDoS_White_Paper.pdf)
+- [Management Tools](https://workshop.aws-management.tools/)
 
 ## BEST PRACTICES
 
 ### GENERALIZED
 
 - Enable SSE for data at rest
+- Enforce encryption for data in transit using connections over HTTPS (TLS)
+- Manage access to AWS resources and APIs using identity federation, IAM users, and IAM roles
 - Implement least-privilege access
-	- SNS: Administrators, Publishers, Subscribers
-- Enforce encryption for data in transit using connections over HTTPS (TLS) using the aws:SecureTransport condition in the topic policy to force requests to use SSL
+	- SNS: IAM Roles like Administrators, Publishers, Subscribers
+	- EC2: [Security Group rules](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-security-groups.html#security-group-rules)
+- Tags to track and identify your AWS resources
+
+ 
+### IAM
+
+- Lock away your AWS account *root user access keys*
+- Create individual IAM users
+- Use groups to assign *permissions* to IAM users
+- Grant least privilege
+- Get started using permissions with *AWS managed policies*
+- Use customer managed policies *instead of inline policies*
+- Use *access levels* to review IAM permissions
+- Configure a strong password policy for your users
+- Enable MFA
+- Use roles for applications that run on Amazon EC2 instances
+- Use roles to delegate permissions
+- Do not share access keys
+- Rotate credentials regularly
+- Remove unnecessary credentials
+- Use *policy conditions* for extra security
+- Monitor activity in your AWS account
+ 
+
+### EC2
+
+- Regularly patch, update, and secure
+- root device type for data persistence, backup, and recovery.
+- Use separate Amazon EBS volumes for the operating system versus your data. 
+- Ensure that the volume with your data [persists after instance termination](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/terminating-instances.html#preserving-volumes-on-termination)
+- Use the instance store available for your instance to store temporary data
+- If you use instance store for database storage, ensure that you have a cluster with a replication factor that ensures fault tolerance.
+- Regularly back up your EBS volumes
+- create an Amazon Machine Image (AMI) to save the configuration as a ASG template
+- multiple Availability Zones, and replicate your data appropriately
+- Design your applications to handle dynamic IP addressing
+- to handle failover, ttach a network interface or Elastic IP address to a replacement instance OR use Amazon EC2 Auto Scaling
+- Set the time-to-live (TTL) value for your applications to 255, for IPv4 and IPv6. If you use a smaller value, there is a risk that the TTL will expire while application traffic is in transit, causing reachability issues for your instances.
+
+
+### RDS
+
+- Scale up your DB instance when you are approaching storage capacity limits. You should have some buffer in storage and memory to accommodate unforeseen increases in demand from your applications.
+- Enable automatic backups and set the backup window to occur during the daily low in write IOPS. That's when a backup is least disruptive to your database usage.
+- If your database workload requires more I/O
+	- Migrate to a different DB instance class with high I/O capacity.
+	- Convert from magnetic storage to either General Purpose or Provisioned IOPS storage.  make sure you also use a DB instance class that is optimized for Provisioned IOPS. 
+	- provision additional throughput capacity.
+- If your client application is caching the Domain Name Service (DNS) data of your DB instances, set a time-to-live (TTL) value of less than 30 seconds
+- Evaluate performance metrics
+	- Performance Insights
+		- DB load: average number of active sessions (AAS) viz connection that has submitted work to the DB engine and is waiting for a response
+		- Maximum CPU: 
+		- Wait events: A wait event causes a SQL statement to wait for a specific event to happen before it can continue running
+		- Top SQL:  which queries are contributing the most to DB load.
+	- CPU Utilization: Percentage of computer processing capacity used.
+	- Memory
+		- Freeable Memory: How much RAM is available
+		- Swap Usage: How much swap space is used
+	- Free Storage Space: How much disk space is not currently being used
+	- Input/output operations
+		- IOPS: The average number of disk read or write operations per second
+		- Latency: The average time for a read or write operation in milliseconds
+		- Throughput: The average number of megabytes read from or written to disk per second
+		- Queue Depth: The number of I/O operations that are waiting to be written to or read from disk.
+	- Transmit Throughput – The rate of network traffic to and from the DB instance in megabytes per second.
+	- DB Connections – The number of client sessions that are connected to the DB instance.
 
 
 
-- SQS: least privilege access permissions for SQS queue, Deploy DLQ, Enable SSE using KMS, Encrypt in transit
-- Lambda: Least privilege access IAM role, Enable X-Ray, Enable reusing connections with Keep-Alive for NodeJs
+### Lambda
+- Enable X-Ray
+- Enable reusing connections with Keep-Alive for NodeJs
 
+
+
+### SQS
+- Deplot DLQ
 
 ### SNS
 - Ensure topics aren't publicly accessible by:
@@ -604,8 +706,7 @@ Bucket Policies
 	- 
 - IAM role to manage temporary credentials for applications or services that need to access Amazon SNS
 - Consider using VPC endpoints to access Amazon SNS
- 
- 
+- using the aws:SecureTransport condition in the topic policy to force requests to use SSL
  
 ## EXAM SAA CO2
 
