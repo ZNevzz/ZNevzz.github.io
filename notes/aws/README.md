@@ -612,6 +612,65 @@ Bucket Policies
 - [DDoS](https://d1.awsstatic.com/whitepapers/Security/DDoS_White_Paper.pdf)
 - [Management Tools](https://workshop.aws-management.tools/)
 
+
+## PRICING
+
+### Pricing models
+
+- ON DEMAND
+	- pay for compute capacity by the hour, No longer-term commitments or upfront payments
+	- Applications with short-term, spiky, or unpredictable workloads that cannot be interrupted
+	- Applications being developed or tested on Amazon EC2 for the first time
+- Spot instances
+	- request spare Amazon EC2 computing capacity for up to 90% off the On-Demand price
+	- If your maximum bid exceeds the current Spot price, your bid request is fulfilled, and your instances will run until either you choose to terminate them or the Spot
+price exceeds your maximum bid, whichever comes first.
+	- Applications that have flexible start and end times
+	- Applications that are only feasible at very low compute prices
+	- Users with urgent computing needs for large amounts of additional capacity
+- Savings Plans 
+	- low prices on EC2 and Fargate usage, measured in $/hour, 1 or 3 year term
+- Reserved Instances 
+	- Applications with steady state usage
+	- Applications that may require reserved capacity
+	- Customers that can commit to using EC2 over a 1 or 3 year term to reduce their total computing costs
+		- Amazon EC2 Reserved Instances
+		- Amazon DynamoDB Reserved Capacity
+		- Amazon ElastiCache Reserved Nodes
+		- Amazon Relational Database Service Reserved Instances
+		- Amazon Redshift Reserved Nodes
+		
+### Pricing Factors
+
+
+#### GENERALIZED
+- DURATION
+	- EC2, LAMBDA, RDS
+- REQUEST
+	- Lambda, S3, CF, RDS
+- PRICING MODEL
+	- EC2, RDS, Redshift
+- INSTANCE/ STORAGE TYPE
+	- EC2, RDS, S3, 
+- DATA TRANSFER
+	- EBS(Outbound only), Lambda, CF
+- BACKUP
+	- EBS(Snapshots), RDS
+- MULTI AZ
+	- RDS, S3
+
+#### EC2
+- Instances, ELB, EIP, AutoScaling
+
+#### RDS
+- Instances, database engine, size, memory class,
+
+#### DynamoDB
+- WCU, RCU, rWCUs of GlobalTables
+
+#### CF
+- edge location through which your content is served
+
 ## BEST PRACTICES
 
 ### GENERALIZED
