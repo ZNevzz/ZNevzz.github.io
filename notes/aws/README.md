@@ -639,7 +639,11 @@ price exceeds your maximum bid, whichever comes first.
 		- Amazon ElastiCache Reserved Nodes
 		- Amazon Relational Database Service Reserved Instances
 		- Amazon Redshift Reserved Nodes
-		
+- Dedicated Host
+	- physical EC2 server dedicated for your use
+	- reduce costs by allowing you to use your existing server-bound software licenses
+	- meet compliance requirements
+
 ### Pricing Factors
 
 
@@ -767,6 +771,24 @@ price exceeds your maximum bid, whichever comes first.
 - Consider using VPC endpoints to access Amazon SNS
 - using the aws:SecureTransport condition in the topic policy to force requests to use SSL
  
+### DMS
+
+- configure a network that connects your source and target databases to a AWS DMS replication instance as SOURCE and TARGET
+- AWS DMS doesn't perform schema or code conversion. You can use tools such as Oracle SQL Developer, MySQL Workbench, or pgAdmin III to convert your schema. For heterogenous, use AWS Schema Conversion Tool
+- AWS DMS loads eight tables at a time
+- Disable backups and transaction logging
+- using multiple tasks for a single migration can improve performance for  sets of tables that don't participate in common transactions
+- Migrating large binary objects (LOBs) All LOB columns on the target table must be nullable. AWS DMS creates the target tables, it sets LOB columns to nullable by default
+- 
+
+Ongoing replication
+Improving performance when migrating large tables
+Using your own on-premises name server
+Changing the user and schema for an Oracle target
+Changing table and index tablespaces for an Oracle target
+ 
+ 
+ 
 ## EXAM SAA CO2
 
  ----
@@ -811,4 +833,47 @@ creating users, groups, and roles using AWS IAM, multi-factor authentication, AW
 DDoS mitigation include AWS Auto Scaling, Amazon CloudFront, and Amazon Route 53.
 CloudWatch, CloudTrail, when and what penetration testing you are allowed to perform within the AWS cloud and what compliance programs AWS comply with.
 Amazon VPC, AWS KMS, AWS CloudHSM, AWS IAM, Amazon Cognito, and AWS Directory Services.
+
+## Themes
+
+- AuthN options
+	- S3: IAM, Bucket, QueryString
+- Precedence of rules for NACL, SG, Permissions, etc
+	- SG: Combine with most privilege
+- VPN
+	- S2S VPN Architectures, CloudHub
+- Security testing
+- Autoscaling
+	- EC2:
+	- ElastiCache:
+	- Database:
+	- CF
+- Free Tier limits
+	- 12M
+		- EC2(750 hrs /month),
+		- RDS(750 hrs /month, 20G storage, 20G backup)
+		- S3(5G storage /month, 20K GET, 2K PUT)
+		- EFS(5G storage)
+		- EBS(
+		- CF(50G transfer, 2M requests)
+	- ALWAYS
+		- SNS(1M Publishes, 100K HTTP/S Deliveries, 1K Email Deliveries) , SQS
+		- DynamoDB(25G storage, 25 WCU, 25 RCU, 200M requests)
+		- Lambda(1M requests /month, 3.2M seconds /month) 
+		- Cognito(50K MAU)
+	- EBS
+	- 
+	- RDS
+- Fix Issues
+	- AutoScaling
+		- Frequent Scale in and out:
+			- increase scale in threshold
+			- lifecycle hook
+			- cooldown period
+- Licenses
+	- RDS: Oracle(1 primary + 1 standby)
+- Default networking
+	- NACL: allows ALL IN And OUT	
+
+
 
