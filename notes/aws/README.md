@@ -582,9 +582,33 @@ Bucket Policies
 		- Delete bucket
 		- Cross Region Put Object copy
 
+- Security
+	- Granting Permissions to Multiple Accounts with Added Conditions
+	- Granting Read-Only Permission to an Anonymous User
+	- Limiting Access to Specific IP Addresses
+	- Restricting Access to a Specific HTTP Referer
+	- Granting Permission to an Amazon CloudFront OAI
+	- Adding a Bucket Policy to Require MFA
+	- Granting Cross-Account Permissions to Upload Objects While Ensuring the Bucket Owner Has Full Control
+	- Granting Permissions for Amazon S3 Inventory and Amazon S3 Analytics
+	- Bucket Policies for VPC Endpoints for Amazon S3
 
 #### Amazon CloudFront: 
 
+#### IAM
+
+#### PRINCIPAL sends request for AUTHORIZATION to execute ACTION/OPERATION on RESOURCES
+
+### PRINCIPAL: IAM User, IAM Role, Federated User, Application
+
+### AUTHORIZATION: Policies
+
+- identity policy to provide your users with permissions
+- resource policy for granting cross-account access
+
+### ACTION/OPERATION: Console vs API/ CLI
+
+### RESOURCES: AWS Service
 
 #### EC2
 
@@ -630,7 +654,7 @@ price exceeds your maximum bid, whichever comes first.
 	- Users with urgent computing needs for large amounts of additional capacity
 - Savings Plans 
 	- low prices on EC2 and Fargate usage, measured in $/hour, 1 or 3 year term
-- Reserved Instances 
+- Reserved Instances (schedule supported)
 	- Applications with steady state usage
 	- Applications that may require reserved capacity
 	- Customers that can commit to using EC2 over a 1 or 3 year term to reduce their total computing costs
@@ -840,14 +864,29 @@ Amazon VPC, AWS KMS, AWS CloudHSM, AWS IAM, Amazon Cognito, and AWS Directory Se
 	- S3: IAM, Bucket, QueryString
 - Precedence of rules for NACL, SG, Permissions, etc
 	- SG: Combine with most privilege
+	- S3: AuthZ follows in below ascending order
+		1. User context (IAM, Parent, Root)
+		2. Bucket context (Bucket policy, ACL)
+		3. Object context (object ACL)
+- Global services: IAM, CF, R53, WAF, Firewall Manager, VPC Peering
+- Limits
+	- SG: MAX 5 to an instance
+- Default
+	- SG: allows ALL OUT, allows same SG IN
+	- 
 - VPN
-	- S2S VPN Architectures, CloudHub
+	- S2S VPN Architectures, CloudHub uses Internet while rest use DX(gateway+...)
 - Security testing
 - Autoscaling
-	- EC2:
+	- EC2: 3 policies(step, simple, target), SQS queue size, EC2/ ELB health based
 	- ElastiCache:
 	- Database:
 	- CF
+- Integration
+	- ELB
+		- NO: RDS
+		- MANUAL: EC2, EC2 ASG, ECS, EKS, Lambda, IP Addresses
+		- MANAGED: EB
 - Free Tier limits
 	- 12M
 		- EC2(750 hrs /month),
@@ -864,6 +903,18 @@ Amazon VPC, AWS KMS, AWS CloudHSM, AWS IAM, Amazon Cognito, and AWS Directory Se
 	- EBS
 	- 
 	- RDS
+- Limits
+	- ELB
+		- Load balancers per Region: 50
+		- Target groups per Region: 3000
+		- Security groups per load balancer: 5
+		- Subnets per Availability Zone per load balancer: 1
+		- [More at](https://docs.aws.amazon.com/elasticloadbalancing/latest/application/load-balancer-limits.html)
+		
+
+
+
+
 - Fix Issues
 	- AutoScaling
 		- Frequent Scale in and out:
@@ -874,6 +925,7 @@ Amazon VPC, AWS KMS, AWS CloudHSM, AWS IAM, Amazon Cognito, and AWS Directory Se
 	- RDS: Oracle(1 primary + 1 standby)
 - Default networking
 	- NACL: allows ALL IN And OUT	
+	- SG: allows ALL OUT only
 
 
 
