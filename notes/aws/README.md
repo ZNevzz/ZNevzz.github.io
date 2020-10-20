@@ -870,10 +870,26 @@ Amazon VPC, AWS KMS, AWS CloudHSM, AWS IAM, Amazon Cognito, and AWS Directory Se
 		3. Object context (object ACL)
 - Global services: IAM, CF, R53, WAF, Firewall Manager, VPC Peering
 - Limits
-	- SG: MAX 5 to an instance
+	- SG/instance=5
+	- [VPC](https://docs.aws.amazon.com/vpc/latest/userguide/amazon-vpc-limits.html)
+		- VPC or IG or NG/Region=5
+		- Subnets/VPC=200
+		- IPv4 CIDR blocks/VPC=5
+		- IPv6 CIDR blocks/VPC=1
+		- NACLs/VPC=200
+		- Rules/NACL=20
+		- RT/VPC=200
+		- Routes/RT=50
+	- [ELB](https://docs.aws.amazon.com/elasticloadbalancing/latest/application/load-balancer-limits.html)
+		- Load balancers/Region=50
+		- Target groups/Region=3000
+		- Security groups/ELBr=5
+		- Subnets/AZ/ELB=1
+
 - Default
-	- SG: allows ALL OUT, allows same SG IN
-	- 
+ 	- NACL: allows ALL IN And OUT	
+	- SG: allows ALL OUT only, allows same SG IN
+	- RT: contains only a local route
 - VPN
 	- S2S VPN Architectures, CloudHub uses Internet while rest use DX(gateway+...)
 - Security testing
@@ -903,18 +919,10 @@ Amazon VPC, AWS KMS, AWS CloudHSM, AWS IAM, Amazon Cognito, and AWS Directory Se
 	- EBS
 	- 
 	- RDS
-- Limits
-	- ELB
-		- Load balancers per Region: 50
-		- Target groups per Region: 3000
-		- Security groups per load balancer: 5
-		- Subnets per Availability Zone per load balancer: 1
-		- [More at](https://docs.aws.amazon.com/elasticloadbalancing/latest/application/load-balancer-limits.html)
-		
 
 
-
-
+	- EIP, SG: 5
+	- 
 - Fix Issues
 	- AutoScaling
 		- Frequent Scale in and out:
@@ -923,9 +931,7 @@ Amazon VPC, AWS KMS, AWS CloudHSM, AWS IAM, Amazon Cognito, and AWS Directory Se
 			- cooldown period
 - Licenses
 	- RDS: Oracle(1 primary + 1 standby)
-- Default networking
-	- NACL: allows ALL IN And OUT	
-	- SG: allows ALL OUT only
+
 
 
 
