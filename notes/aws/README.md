@@ -868,6 +868,9 @@ Amazon VPC, AWS KMS, AWS CloudHSM, AWS IAM, Amazon Cognito, and AWS Directory Se
 		1. User context (IAM, Parent, Root)
 		2. Bucket context (Bucket policy, ACL)
 		3. Object context (object ACL)
+	- NACL: Ascending order
+	- IAM: least privilege
+	- ASG: most favourable for availability
 - Global services: IAM, CF, R53, WAF, Firewall Manager, VPC Peering
 - Limits
 	- SG/instance=5
