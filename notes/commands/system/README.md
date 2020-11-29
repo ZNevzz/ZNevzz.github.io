@@ -23,6 +23,14 @@ ps
 service --status-all
 KILL -9 <PID>
 
+
+#ssh agent forwarding
+
+chmod 400 private.pem
+ssh-add -k private.pem
+ssh -A user@ip
+
+
 ```
 # WINDOWS
 

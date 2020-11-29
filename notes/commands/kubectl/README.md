@@ -8,14 +8,18 @@
 
 ### CREATE
 
+- kubectl create | -f filename.yaml | pod/deployment --image=image-name:image-tag | --dry-run
+
 ### APPLY
+
+kubectl set image deployment web-server httpd=httpd:2.4.38-alpine --record
 
 ### QUERY
 
 - kubectl get pods --show-labels
 - kubectl get pods --selector=app=nginx
 - kubectl get pod my-pod -o yaml                # Get a pod's YAML
-- kubectl logs -l name=myLabel                        # dump pod logs, with label name=myLabel (stdout)
+- kubectl logs -l name=myLabel                  # dump pod logs, with label name=myLabel (stdout)
 
 
 ## DEBUGGING
@@ -70,6 +74,10 @@ kubectl get po --selector=app=ngingx -o jsonpath="{.items[0].metadata.name}"
 
 
 #### NAMESPACE
+
+##### Set namespace as the default for the current context
+- kubectl create namespace name-of-ns
+- kubectl config set-context $(kubectl config current-context) --namespace=name-of-ns
 
 #### POD
 
