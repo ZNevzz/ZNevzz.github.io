@@ -76,37 +76,26 @@
  - N: All observations
  - The reason dividing by n-1 corrects the bias is because we are using the *sample mean*, instead of the *population mean*, to calculate the variance. More at [Khan Academy](https://www.khanacademy.org/math/ap-statistics/summarizing-quantitative-data-ap/more-standard-deviation/v/another-simulation-giving-evidence-that-n-1-gives-us-an-unbiased-estimate-of-variance)
 - [ (X-Xmean) * (X-Xmean) / N-1  or N] VAR(x)
-
-### ANNUALIZED
-
-- [1+R = (1+Rn)^1/n] ANNUALIZED R
 - [SQRT(R)] STANDARD DEVIATION
 - [SUM(R)/n] ARITHMETIC MEAN
 - [PRODUCT(R)^1/n] GEOM MEAN
+- [1+R = (1+Rn)^1/n] ANNUALIZED R
 
 ### REGRESSION
 
 - [AVG(P) = BETA*AVG(B) + ALPHA] REGRESSION LINE P:Rp, B: Rb
 - [AVG(P) - BETA*AVG(B) ] ALPHA
-- [COV(P,B) / VAR(B)]BETA 
+- [COV(P,B) / VAR(B)] BETA 
 - [COV(P,B) / SD(P)*SD(B)] CORRELATION COEFFICIENT
 - [SQRT(R2)] CORRELATION COEFFICIENT
 
 ### RISK ADJUSTED MEASURES
 
-- RISK FREE RATE BASED: SHARPE
-- BENCHMARK BASED: SORITINO
-
 - [P-B]ARITHMETIC EXCESS
 - [P/B]GEOMETRIC EXCESS
-- [SD(ARITHMETIC_EXCESS)]TRACKING ERROR
-- [EXCESS(P) / SD(P)]SHARPE
-- [EXCESS(P) / BETA(P)]TREYNOR
-- [EXCESS(P) / TE(P)]INFORMATION
-- [EXCESS(P) / DRAWDOWN]SORTINO
-- [EXCESS(P) - BETA*EXCESS(B)](JENSEN)
-- 
-
-
-
-
+- [SD(ARITHMETIC_EXCESS)] TRACKING ERROR
+- [EXCESS(P) / SD(P)] SHARPE - RISK FREE RATE
+- [EXCESS(P) / BETA(P)] TREYNOR - RISK FREE RATE
+- [EXCESS(P) / TE(P)] INFORMATION - BENCHMARK
+- [EXCESS(P) / DRAWDOWN] SORTINO - BENCHMARK
+- [EXCESS(P) - BETA*EXCESS(B)] JENSEN - RISK FREE RATE
