@@ -60,6 +60,7 @@
 
 - alias: Classical, True
 - [1+R] = (E1/B1) x (E2/E1) x .. (En/En-1) = [En / B1]
+- [1+R] = (1+r1)x(1+r2)x .. (1+rn)
 
 ### HYBRID 
 
