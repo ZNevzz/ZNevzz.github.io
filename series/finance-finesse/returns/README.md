@@ -55,6 +55,9 @@
   - B + C/2 is converted to [B + Ct x Wt]
    - Ct: CASHFLOW on period t
    - Wt: Weightage for period t [Wt = TOTAL - t / TOTAL]  
+ - CF time factor
+  - BMV, CF: [1+R=MARGIN/B+C/2]
+  - EMV, CF: [1+R=MARGIN/B]
 
 ### TIME WEIGHTED
 
