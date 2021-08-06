@@ -88,6 +88,7 @@
 - [Experiments](https://experiments.withgoogle.com/)
 - TradingView [Ideas](https://www.tradingview.com/ideas/) [Widgets](https://www.tradingview.com/widget/) [Technical](https://www.tradingview.com/symbols/INRUSD/technicals/)
 - Web ID Fed [AWS](https://web-identity-federation-playground.s3.amazonaws.com/index.html)
+- Smart Links [WhatsApp](https://api.whatsapp.com/send?phone=9167956674&text=Hi)
 
 ### Open Data
 
