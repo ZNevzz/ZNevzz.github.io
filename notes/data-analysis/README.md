@@ -20,3 +20,4 @@ Model Predictions: Requires the use of estimation statistics such as prediction 
 
 # Links
 - Descriptive Stats [https://support.minitab.com/en-us/minitab-express/1/help-and-how-to/basic-statistics/summary-statistics/descriptive-statistics/interpret-the-results/all-statistics-and-graphs/](MiniTab)
+- Compare [https://stats.stackexchange.com/questions/32596/what-is-the-difference-between-coefficient-of-determination-and-mean-squared](R2 vs RMSE)
