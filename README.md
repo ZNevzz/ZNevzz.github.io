@@ -239,4 +239,8 @@
 - R[5 WAYS](https://www.r-bloggers.com/5-ways-to-measure-running-time-of-r-code/)
 
 ### Storage
+#### Types
 - Parquet [No CSV](https://towardsdatascience.com/csv-files-for-storage-no-thanks-theres-a-better-option-72c78a414d1d) , 
+
+#### Serialization
+- Java [How](https://stackoverflow.com/questions/34149780/writing-serializable-subclass) [Tips](https://github.com/HugoMatilla/Effective-JAVA-Summary#11-serialization)
