@@ -51,9 +51,13 @@ kubectl set image deployment web-server httpd=httpd:2.4.38-alpine --record
 #### katacoda
 
 #### labs.play-with-k8s
+```bash
+kubeadm config images pull;kubeadm init --apiserver-advertise-address $(hostname -i) --pod-network-cidr 10.5.0.0/16;kubectl apply -f https://raw.githubusercontent.com/cloudnativelabs/kube-router/master/daemonset/kubeadm-kuberouter.yaml;echo "source <(kubectl completion bash)" >> ~/.bashrc; echo "Completed..."
+  ```
 
-- kubeadm config images pull;kubeadm init --apiserver-advertise-address $(hostname -i) --pod-network-cidr 10.5.0.0/16;kubectl apply -f https://raw.githubusercontent.com/cloudnativelabs/kube-router/master/daemonset/kubeadm-kuberouter.yaml;echo "source <(kubectl completion bash)" >> ~/.bashrc; echo "Completed..."
+#### kodekloud
 
+- Resources [Jekyll](https://github.com/BretFisher/jekyll-serve) , [Redis 1](https://redis.io/topics/cluster-tutorial), [Redis2](https://rancher.com/blog/2019/deploying-redis-cluster/), [VotingApp](https://github.com/dockersamples/example-voting-app), [FileServer](https://github.com/halverneus/static-file-server)
 
 ##### Quickstart images
 
