@@ -1,5 +1,5 @@
 ## Revise
-- (Types)[https://www.javainterviewpoint.com/types-of-inheritance-in-java-singlemultiplemultilevelhierarchical-hybrid/]: 
+- [Types](https://www.javainterviewpoint.com/types-of-inheritance-in-java-singlemultiplemultilevelhierarchical-hybrid/): 
   - using extends=single(Parent), multilevel(Grandparent), hierachial(Grandchildren)
   - using implements=multiple(Dad&Mom), hybrid(Batsman+Bowler)
 
