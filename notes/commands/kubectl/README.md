@@ -40,7 +40,7 @@ kubectl set image deployment web-server httpd=httpd:2.4.38-alpine --record
 - kubectl logs -f my-pod my-container
 
 ### EXEC
-- 
+- kubectl exec readiness-http -- pkill httpd
 - kubectl cp my-pod:file-inside-container.extension file-inside-local-disk.extension
   
 ## QUICKIES
