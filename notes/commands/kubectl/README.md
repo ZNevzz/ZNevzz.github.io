@@ -8,7 +8,7 @@
 
 ### CREATE
 
-- kubectl create | -f filename.yaml | pod/deployment --image=image-name:image-tag | --dry-run
+- kubectl create | -f filename.yaml | pod/deployment --image=image-name:image-tag | --dry-run=client|server|none
 
 ### APPLY
 
