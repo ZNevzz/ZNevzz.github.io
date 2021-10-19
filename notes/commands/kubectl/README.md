@@ -17,7 +17,8 @@ kubectl set image deployment web-server httpd=httpd:2.4.38-alpine --record
 ### QUERY
 
 - kubectl get pods --show-labels
-- kubectl get pods --selector=app=nginx
+- kubectl get pods -L my-label-1,my-label-2 # --label-columns my-label-1
+- kubectl get pods -l app=nginx # --selector=app=nginx
 - kubectl get pod my-pod -o yaml                # Get a pod's YAML
 
 
