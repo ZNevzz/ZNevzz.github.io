@@ -20,13 +20,14 @@ kubectl set image deployment web-server httpd=httpd:2.4.38-alpine --record
 - kubectl get pods -L my-label-1,my-label-2 # --label-columns my-label-1
 - kubectl get pods -l app=nginx # --selector=app=nginx and operators are: =, != , 'in ()'
 - kubectl get pod my-pod -o yaml                # Get a pod's YAML
-
+- kubectl rollout status deployment web-server
+- kubectl rollout history deployment web-server
 
 ## DEBUGGING
 
 - kubectl get events --selector=app=nginx
-- kubectl get events --sort-by='.lastTimestamp'
-
+- kubectl get events --sort-by='metadata.creationTimestamp'
+- kubectl edit deployment web-server --record
 
 
 ### 0/1 Node available. Taint present
@@ -72,7 +73,7 @@ kubeadm config images pull;kubeadm init --apiserver-advertise-address $(hostname
 - kubectl apply -f https://k8s.io/examples/application/guestbook/redis-master-deployment.yaml
 - kubectl create deployment first-deployment --image=katacoda/docker-http-server
 - kubectl apply -f /opt/kubernetes-dashboard.yaml
-
+- kubectl expose deployment web-server --type=LoadBalancer --port=80
 
 
 ### VARIABLES
