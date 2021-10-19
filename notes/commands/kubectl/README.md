@@ -24,6 +24,9 @@ kubectl set image deployment web-server httpd=httpd:2.4.38-alpine --record
 ## DEBUGGING
 
 - kubectl get events --selector=app=nginx
+- kubectl get events --sort-by='.lastTimestamp'
+
+
 
 ### 0/1 Node available. Taint present
 
