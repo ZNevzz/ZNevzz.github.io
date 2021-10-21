@@ -59,7 +59,7 @@ kubectl set image deployment web-server httpd=httpd:2.4.38-alpine --record
 #### labs.play-with-k8s
 ```bash
 kubeadm config images pull;kubeadm init --apiserver-advertise-address $(hostname -i) --pod-network-cidr 10.5.0.0/16;kubectl apply -f https://raw.githubusercontent.com/cloudnativelabs/kube-router/master/daemonset/kubeadm-kuberouter.yaml;echo "source <(kubectl completion bash)" >> ~/.bashrc; echo "Completed..."
-  ```
+```
 
 #### kodekloud
 
@@ -100,3 +100,19 @@ kubectl get po --selector=app=ngingx -o jsonpath="{.items[0].metadata.name}"
 kubectl get pods -o 
 )
 - kubectl get po POD
+
+
+### Editors
+
+#### cat
+```
+cat << EOF > filename.yaml
+apiVersion: v1
+EOF
+```bash
+  
+```
+cat <<EOF | kubectl apply -f 
+apiVersion: v1
+EOF
+```bash
