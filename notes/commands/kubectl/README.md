@@ -42,7 +42,7 @@ kubectl set image deployment web-server httpd=httpd:2.4.38-alpine --record
 - kubectl logs -l name=myLabel                  # dump pod logs, with label name=myLabel (stdout)
 - kubectl logs --timestamp my-pod my-container
 - kubectl logs --tail=100 my-pod my-container
-- kubectl logs -f my-pod my-container
+- kubectl logs -f my-pod my-container  # follow logs
 
 ### EXEC
 - kubectl exec readiness-http -- pkill httpd
