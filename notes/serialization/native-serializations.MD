@@ -1,7 +1,7 @@
 # Native Serializations within Platform
 - [Java](##-JAVA)
-- Python
-- R
+- [Python](##-PYTHON)
+- [R](##-R)
 
 ## JAVA
 
