@@ -18,4 +18,5 @@
 
 ## References
 - https://www.youtube.com/watch?v=MbslvX0AMVE
+- https://nvoulgaris.com/designing-a-restful-shopping-cart/
 
