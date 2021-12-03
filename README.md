@@ -109,7 +109,7 @@
 - [Design Patterns](https://refactoring.guru/design-patterns/)
 - [Effective Engineer](https://gist.github.com/rondy/af1dee1d28c02e9a225ae55da2674a6f) , [Effective Java](https://github.com/HugoMatilla/Effective-JAVA-Summary)
 - [GraphQL Course](https://www.howtographql.com/) , [GraphQL Good vs Bad](https://scotch.io/tutorials/graphql-the-good-and-the-bad)
-- Systems [Hussein Nasser](https://www.youtube.com/watch?v=iHNovZUZM3A) [Engineering with Utsav](https://www.youtube.com/watch?v=XxB1BCuvu9A), [Web Scalability](https://github.com/mgtz505/web_scalability) , [Awesome Scalability](https://github.com/binhnguyennus/awesome-scalability)
+- Systems [Hussein Nasser](https://www.youtube.com/watch?v=iHNovZUZM3A) , [Engineering with Utsav](https://www.youtube.com/watch?v=XxB1BCuvu9A), [Web Scalability](https://github.com/mgtz505/web_scalability) , [Awesome Scalability](https://github.com/binhnguyennus/awesome-scalability) , [Designing-Data-Intensive-Applications](https://github.com/search?o=desc&q=data+designing+intensive+applications&s=updated&type=Repositories)
 
 #### PYTHON
 - charlax Resources:[Programming](https://github.com/charlax/professional-programming) , [Management](https://github.com/charlax/engineering-management) , [Python](https://github.com/charlax/python-education)
