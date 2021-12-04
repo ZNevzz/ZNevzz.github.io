@@ -28,23 +28,16 @@
 
 ### Invest
 
-- [OctoPy](https://github.com/ZNClub-PA-ML-AI/OctoPy-Predictor)
-- [DataVisuals](https://github.com/ZNClub-PA-ML-AI/DataVisuals)
+- [OctoPy](https://github.com/ZNClub-PA-ML-AI/OctoPy-Predictor) , [DataVisuals](https://github.com/ZNClub-PA-ML-AI/DataVisuals)
 
 ### Enhancements
 
-- [Scrapy Spiders](https://github.com/ZNClub-PA-ML-AI/Scrapy-Spiders)
-- [NLTK Tutorials](https://github.com/ZNClub-PA-ML-AI/NLTK-tutorials)
-- [DataFrames](https://github.com/ZNClub-PA-ML-AI/DataFrames)
-- [BE Project](https://znevzz.github.io/stock/)
+- [Scrapy Spiders](https://github.com/ZNClub-PA-ML-AI/Scrapy-Spiders) , [NLTK Tutorials](https://github.com/ZNClub-PA-ML-AI/NLTK-tutorials) , [DataFrames](https://github.com/ZNClub-PA-ML-AI/DataFrames) , [BE Project](https://znevzz.github.io/stock/)
 
 ### Parked
 
-- [ZNevzz Portfolio](https://znevzz.github.io/me/)
-- [ASA](https://znevzz.github.io/asa/)
-- [Supermarket](https://znevzz.github.io/churchway-demo/)
-- Demystify-Buzzwords - Machine Learning: [slides](https://znevzz.github.io/series/demystify-buzzwords/machine-learning/) , [examples](https://nbviewer.jupyter.org/github/ZNevzz/ZNevzz.github.io/blob/master/series/demystify-buzzwords/machine-learning/ml_snippets.ipynb)
-- Widgets: [Chat Widget](https://znevzz.github.io/widgets/chat/example-2.html) ,
+- [ZNevzz Portfolio](https://znevzz.github.io/me/) , [ASA](https://znevzz.github.io/asa/) , [Supermarket](https://znevzz.github.io/churchway-demo/) , Widgets: [Chat Widget](https://znevzz.github.io/widgets/chat/example-2.html) ,
+- Demystify-Buzzwords - Machine Learning: [slides](https://znevzz.github.io/series/demystify-buzzwords/machine-learning/) , [examples](https://nbviewer.jupyter.org/github/ZNevzz/ZNevzz.github.io/blob/master/series/demystify-buzzwords/machine-learning/ml_snippets.ipynb) 
 
 ## N o t e s
 
@@ -122,7 +115,7 @@
 - [DS cheatsheets](https://github.com/kailashahirwar/cheatsheets-ai/blob/master/All%20Cheat%20Sheets.pdf)
 
 #### CI/CD
-- [Git Workflow](https://nvie.com/posts/a-successful-git-branching-model/)
+- [Git Workflow](https://nvie.com/posts/a-successful-git-branching-model/) , [code=review](https://trishagee.com/presentations/code_review_best_practice/)
 
 #### CLOUD
 - AWS: [Cheatsheets](https://tutorialsdojo.com/aws-cheat-sheets/) , [Examples](https://github.com/aws-samples/) , [AWS Courses](https://www.aws.training/LearningLibrary?&search=&tab=digital_courses) , [Architectures](https://aws.amazon.com/architecture/?awsf.quickstart-architecture-page-filter=highlight%23new) , [Best Practices](https://d1.awsstatic.com/whitepapers/AWS_Cloud_Best_Practices.pdf), [Blog](https://aws.amazon.com/blogs/) , [Knowledge Center](https://aws.amazon.com/premiumsupport/knowledge-center/) , [Docs](https://docs.aws.amazon.com/index.html)
