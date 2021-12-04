@@ -73,6 +73,7 @@
 - [Josh Long](https://joshlong.com/index.html)
 - [Paul](https://paulvanderlaken.com)
 - [John Lerk](https://johnlekberg.com)
+- [Julia Silge](https://juliasilge.com/blog/page/13/)
 
 ### Playgrounds
 
