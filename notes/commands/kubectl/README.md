@@ -1,6 +1,8 @@
 # KUBE CTL Commands
 
 - [Official Cheatsheet](https://kubernetes.io/docs/reference/kubectl/cheatsheet/)
+- [Deployment Strategies](https://auth0.com/blog/deployment-strategies-in-kubernetes/)
+- [d2IQ Resources](https://d2iq.com/resources/topic/kubernetes)
 
 ## CLUSTER, NODE, INFO
 
