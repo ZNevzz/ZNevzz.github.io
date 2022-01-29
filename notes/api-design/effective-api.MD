@@ -1,4 +1,7 @@
-https://www.youtube.com/watch?v=SqcXvc3ZmRU&list=PLMCXHnjXnTnvo6alSjVkgxV-VH6EPyvoX&index=2
+- [accumulating-feedback-api-providers](https://nordicapis.com/accumulating-feedback-4-questions-api-providers-need-to-ask-their-users/)
+
+
+- [System Design Primer ⭐️: How to start with distributed systems?](https://www.youtube.com/watch?v=SqcXvc3ZmRU&list=PLMCXHnjXnTnvo6alSjVkgxV-VH6EPyvoX&index=2)
 
 00:00 Intro
 
