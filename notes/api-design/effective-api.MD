@@ -1,5 +1,6 @@
 - [accumulating-feedback-api-providers](https://nordicapis.com/accumulating-feedback-4-questions-api-providers-need-to-ask-their-users/)
-
+- Microservices Smart Endpoints Dumb Pipes [1](https://medium.com/@nathankpeck/microservice-principles-smart-endpoints-and-dumb-pipes-5691d410700f) , 
+[2](https://nordicapis.com/what-does-smart-endpoints-and-dumb-pipes-mean/)
 
 - [System Design Primer ⭐️: How to start with distributed systems?](https://www.youtube.com/watch?v=SqcXvc3ZmRU&list=PLMCXHnjXnTnvo6alSjVkgxV-VH6EPyvoX&index=2)
 
