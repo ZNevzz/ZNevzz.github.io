@@ -179,6 +179,7 @@
 
 - Python [magic methods](https://micropyramid.com/blog/python-special-class-methods-or-magic-methods/)
 - Java [Object Builder](https://github.com/google/CallBuilder)
+- Scaler [OOPs - A Complete Guide](https://www.scaler.com/topics/what-is-object-oriented-programming-oop/)
 
 ### GARBAGE COLLECTION
 
