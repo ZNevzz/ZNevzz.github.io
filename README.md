@@ -107,6 +107,7 @@
 
 #### PYTHON
 - charlax Resources:[Programming](https://github.com/charlax/professional-programming) , [Management](https://github.com/charlax/engineering-management) , [Python](https://github.com/charlax/python-education)
+- [Python Cheat Sheet](https://www.interviewbit.com/python-cheat-sheet)
 
 #### MISCENLLANEOUS
 - [PluralSight Guides](https://www.pluralsight.com/guides) , [DataCamp Community](https://www.datacamp.com/community) , [Toptal](https://www.toptal.com/blog)
@@ -136,6 +137,7 @@
 - [Tensorflow Models](https://github.com/tensorflow/models)
 - Splunk ML Toolkit: [cheatsheet](https://docs.splunk.com/images/2/20/Machine-learning-quick-ref-guide.pdf) , [tutorials](https://www.youtube.com/playlist?list=PLxkFdMSHYh3Q1jwpgJJ0ZSnRzZIx2c_KM) , [blog](https://www.splunk.com/blog/category/machine-learning.html)
 - Concepts [Bias Variance Tradeoff](https://towardsdatascience.com/the-bias-variance-trade-off-explanation-and-demo-8f462f8d6326)
+- [Types of Machine Learning](https://www.interviewbit.com/blog/types-of-machine-learning)
 
 ### DATA VISUALIZATION
 
@@ -179,6 +181,7 @@
 
 - Python [magic methods](https://micropyramid.com/blog/python-special-class-methods-or-magic-methods/)
 - Java [Object Builder](https://github.com/google/CallBuilder)
+- [Features of OOPS](https://www.interviewbit.com/blog/features-of-oops)
 
 ### GARBAGE COLLECTION
 
